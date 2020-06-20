@@ -1,10 +1,13 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
+import logo from "../img/logo.png";
 function Navbar() {
   return (
     <nav className='navbar navbar-expand-lg'>
       <h2>
-        <a href='#'>CodeCops</a>
+        <Link to='/'>
+          <img src={logo} height='35px' width='40px'></img> CodeCops
+        </Link>
       </h2>
       <button
         className='navbar-toggler'
@@ -30,39 +33,39 @@ function Navbar() {
       >
         <ul className='navbar-nav'>
           <li className='nav-item active'>
-            <a className='nav-link' href='#'>
+            <Link className='nav-link' to='/'>
               Home <span className='sr-only'>(current)</span>
-            </a>
+            </Link>
           </li>
           <li className='nav-item'>
-            <a className='nav-link' href='#'>
+            <Link className='nav-link' to='/about'>
               About
-            </a>
+            </Link>
           </li>
           <li className='nav-item'>
-            <a className='nav-link' href='#'>
+            <Link className='nav-link' to='#'>
               Features
-            </a>
+            </Link>
           </li>
           <li className='nav-item'>
-            <a className='nav-link' href='#'>
+            <Link className='nav-link' to='#'>
               Events
-            </a>
+            </Link>
           </li>
           <li className='nav-item'>
-            <a className='nav-link' href='#'>
+            <Link className='nav-link' to='#'>
               Blog
-            </a>
+            </Link>
           </li>
           <li className='nav-item'>
-            <a className='nav-link' href='#'>
+            <Link className='nav-link' to='#'>
               Team
-            </a>
+            </Link>
           </li>
           <li className='nav-item'>
-            <a className='nav-link' href='#'>
+            <Link className='nav-link' to='#'>
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
