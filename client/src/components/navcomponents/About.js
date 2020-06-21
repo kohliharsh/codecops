@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "./logo.png";
+import web from "../../img/webd.png";
 
 const About = () => {
   return (
@@ -69,9 +70,9 @@ const About = () => {
           <div class='col-md-6 col-lg-4'>
             <div className='feature-block'>
               <img
-                src={logo}
+                src={web}
                 className='img-fluid'
-                height='100px'
+                height='120px'
                 width='100px'
               ></img>
               <h4>Web Development</h4>
