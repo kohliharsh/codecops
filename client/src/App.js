@@ -7,6 +7,8 @@ import About from "../src/components/navcomponents/About";
 import Contact from "../src/components/navcomponents/Contact";
 import Footer from "../src/components/Footer";
 import Blog from "../src/components/navcomponents/Blog";
+import Register from "../src/components/auth/Register";
+import Login from "../src/components/auth/Login";
 import "./App.css";
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
               <Route exact path='/about' component={About} />
               <Route exact path='/contact' component={Contact} />
               <Route exact path='/blog' component={Blog} />
+              <Route exact path='/register' component={Register} />
+              <Route exact path='/login' component={Login} />
             </Switch>
           </section>
           <Footer />

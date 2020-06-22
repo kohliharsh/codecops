@@ -42,11 +42,7 @@ function Navbar() {
               About
             </Link>
           </li>
-          <li className='nav-item'>
-            <Link className='nav-link' to='#'>
-              Features
-            </Link>
-          </li>
+
           <li className='nav-item'>
             <Link className='nav-link' to='#'>
               Events
@@ -60,6 +56,11 @@ function Navbar() {
           <li className='nav-item'>
             <Link className='nav-link' to='#'>
               Team
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link className='nav-link' to='/register'>
+              SignUp
             </Link>
           </li>
           <li className='nav-item'>
