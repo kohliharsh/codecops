@@ -13,7 +13,7 @@ const Contact = () => {
         <div>
           <p style={{ color: "white" }}>
             <span>
-              <img src={address} height='30px' width='30px'></img>
+              <img src={address} height='30px' width='30px' alt='#'></img>
             </span>
             <span style={{ marginLeft: "20px" }}>
               Transit Campus-II, IIIT Una Vill. Chandpur, Teh. Haroli, Distt.
@@ -24,7 +24,7 @@ const Contact = () => {
         <div>
           <p style={{ color: "white" }}>
             <span>
-              <img src={email} height='50px' width='80px'></img>
+              <img src={email} height='50px' width='80px' alt='#'></img>
             </span>
             <span>codecops@iiitu.ac.in</span>
           </p>
@@ -32,7 +32,7 @@ const Contact = () => {
         <div>
           <p style={{ color: "white" }}>
             <span>
-              <img src={phone} height='50px' width='50px'></img>
+              <img src={phone} height='50px' width='50px' alt='#'></img>
             </span>
             <span style={{ marginLeft: "20px" }}>+91 9518139757</span>
           </p>
@@ -49,6 +49,7 @@ const Contact = () => {
               style={{ borderRadius: "50%" }}
               height='50px'
               width='50px'
+              alt='#'
             ></img>
           </a>
           <a href='https://www.instagram.com/codecops.iiitu/' class='github'>
@@ -57,6 +58,7 @@ const Contact = () => {
               style={{ borderRadius: "50%" }}
               height='50px'
               width='50px'
+              alt='#'
             ></img>
           </a>
           <a href='https://www.instagram.com/codecops.iiitu/' class='github'>
@@ -65,6 +67,7 @@ const Contact = () => {
               style={{ borderRadius: "50%" }}
               height='50px'
               width='50px'
+              alt='#'
             ></img>
           </a>
         </div>

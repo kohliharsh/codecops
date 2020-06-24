@@ -2,12 +2,12 @@ const express = require("express");
 const router = express.Router();
 var bcrypt = require("bcryptjs"); //for the encrption of password
 const jwt = require("jsonwebtoken");
-const config = require("../config/default");
+const config = require("../../config/default");
 const passport = require("passport");
 const { check, validationResult } = require("express-validator");
 
 //Loading User model
-const User = require("../models/users");
+const User = require("../../models/users");
 
 //@route  Post /register
 //@desc   Registering new user
@@ -54,6 +54,61 @@ router.post(
         if (err) throw err;
         res.json({ token });
       });
+    } catch (err) {
+      console.error(err.message);
+      res.status(500).send("Server error");
+    }
+  }
+);
+
+//@route  Post /login
+//@desc   login existing user
+//@access Public
+
+router.post(
+  "/login",
+  [
+    check("email", "Please include a valid email").isEmail(),
+    check("password", "Password is required").exists(),
+  ],
+  async (req, res) => {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+      return res.status(400).json({ errors: errors.array() });
+    }
+    const { email, password } = req.body;
+    try {
+      let user = await User.findOne({ email });
+
+      if (!user) {
+        return res
+          .status(400)
+          .json({ errors: [{ msg: "Invalid Credentials" }] });
+      }
+
+      const isMatch = await bcrypt.compare(password, user.password);
+
+      if (!isMatch) {
+        return res
+          .status(400)
+          .json({ errors: [{ msg: "Password Incorrect" }] });
+      }
+
+      const payload = {
+        user: {
+          id: user.id,
+        },
+      };
+
+      jwt.sign(
+        payload,
+        config.jwtSecret,
+        { expiresIn: "5 days" },
+        (err, token) => {
+          if (err) throw err;
+          res.json({ token });
+        }
+      );
     } catch (err) {
       console.error(err.message);
       res.status(500).send("Server error");

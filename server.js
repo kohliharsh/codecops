@@ -5,7 +5,7 @@ const passport = require("passport");
 const passportjwt = require("passport-jwt");
 const cors = require("cors");
 
-const users = require("./routes/user");
+const user = require("./routes/api/user");
 
 const app = express();
 
@@ -27,8 +27,13 @@ mongoose
   .then(() => console.log("connected"))
   .catch((err) => console.log(err));
 
+//passport middleware
+app.use(passport.initialize());
+
+require("./config/passport")(passport);
+
 //using Routes
-app.use("/login", users);
+app.use("/api/user", user);
 
 app.listen(process.env.PORT || 5000, () => {
   console.log("server started");

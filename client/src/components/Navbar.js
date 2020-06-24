@@ -6,7 +6,7 @@ function Navbar() {
     <nav className='navbar navbar-expand-lg'>
       <h2>
         <Link to='/'>
-          <img src={logo} height='35px' width='40px'></img> CodeCops
+          <img src={logo} height='35px' width='40px' alt='#'></img> CodeCops
         </Link>
       </h2>
       <button

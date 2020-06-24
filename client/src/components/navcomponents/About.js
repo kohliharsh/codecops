@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.png";
 import web from "../../img/webd.png";
 
 const About = () => {
@@ -26,6 +25,7 @@ const About = () => {
                 className='img-fluid'
                 height='100px'
                 width='100px'
+                alt='#'
               ></img>
               <h4>Machine Learning </h4>
               <p>
@@ -42,6 +42,7 @@ const About = () => {
                 className='img-fluid'
                 height='200px'
                 width='100px'
+                alt='#'
               ></img>
               <h4>Mobile App Development</h4>
               <p>
@@ -58,6 +59,7 @@ const About = () => {
                 className='img-fluid'
                 height='100px'
                 width='100px'
+                alt='#'
               ></img>
               <h4>Game Development</h4>
               <p>
@@ -74,6 +76,7 @@ const About = () => {
                 className='img-fluid'
                 height='120px'
                 width='100px'
+                alt='#'
               ></img>
               <h4>Web Development</h4>
               <p>

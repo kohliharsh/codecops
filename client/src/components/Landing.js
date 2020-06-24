@@ -7,12 +7,13 @@ const Landing = () => {
         <div className='landing-inner'>
           <div className='landinghead'>
             <p>
-              <img src={logo} height='150px' width='150px'></img>
+              <img src={logo} height='150px' width='150px' alt='#'></img>
               Welcome to CodeCops
               <img
                 src='https://upload.wikimedia.org/wikipedia/en/c/cf/Iiit-una-logo.png'
                 height='150px'
                 width='150px'
+                alt='#'
               ></img>
             </p>
           </div>
