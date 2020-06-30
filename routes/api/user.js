@@ -4,6 +4,10 @@ var bcrypt = require("bcryptjs"); //for the encrption of password
 const jwt = require("jsonwebtoken");
 const config = require("../../config/default");
 const passport = require("passport");
+const session = require("express-session");
+const passportlocalmongoose = require("passport-local-mongoose");
+const GoogleStrategy = require("passport-google-oauth20").Strategy;
+const findOrCreate = require("mongoose-findorcreate");
 const { check, validationResult } = require("express-validator");
 
 //Loading User model

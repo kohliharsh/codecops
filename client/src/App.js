@@ -9,27 +9,33 @@ import Footer from "../src/components/Footer";
 import Blog from "../src/components/navcomponents/Blog";
 import Register from "../src/components/auth/Register";
 import Login from "../src/components/auth/Login";
+//redux
+import { Provider } from "react-redux";
+import store from "./store";
+
 import "./App.css";
 
 function App() {
   return (
     <div className='App'>
-      <Router>
-        <Fragment>
-          <Navbar />
-          <Route exact path='/' component={Landing} />
-          <section>
-            <Switch>
-              <Route exact path='/about' component={About} />
-              <Route exact path='/contact' component={Contact} />
-              <Route exact path='/blog' component={Blog} />
-              <Route exact path='/register' component={Register} />
-              <Route exact path='/login' component={Login} />
-            </Switch>
-          </section>
-          <Footer />
-        </Fragment>
-      </Router>
+      <Provider store={store}>
+        <Router>
+          <Fragment>
+            <Navbar />
+            <Route exact path='/' component={Landing} />
+            <section>
+              <Switch>
+                <Route exact path='/about' component={About} />
+                <Route exact path='/contact' component={Contact} />
+                <Route exact path='/blog' component={Blog} />
+                <Route exact path='/register' component={Register} />
+                <Route exact path='/login' component={Login} />
+              </Switch>
+            </section>
+            <Footer />
+          </Fragment>
+        </Router>
+      </Provider>
     </div>
   );
 }
