@@ -51,10 +51,22 @@ nav a:hover {
 
 /* Landing Body */
 .landinghead {
-  margin-top: 120px;
+  margin-top: 90px;
   font-family: "Bitter", serif;
   font-weight: 600;
   color: #2ecc71;
+}
+.short {
+  display: none;
+}
+
+@media screen and (max-width: 750px) {
+  .short {
+    display: inline-block;
+  }
+  .long {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 601px) {
@@ -69,6 +81,7 @@ nav a:hover {
 }
 .subhead {
   font-size: 30px;
+  margin-top: 0;
 }
 @media screen and (max-width: 600px) {
   div.subhead {
@@ -81,6 +94,127 @@ nav a:hover {
   }
 }
 
+.landinghead img {
+  height: 150px;
+  width: 150px;
+}
+
+@media screen and (max-width: 1200px) {
+  img.img1 {
+    height: 100px;
+    width: 100px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  img.img2 {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+.shortevent {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .shortevent {
+    display: inline-block;
+  }
+  .longevent {
+    display: none;
+  }
+}
+.upcoming h1 {
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.upcoming h1:before,
+.upcoming h1:after {
+  background-color: white;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.upcoming h1:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.upcoming h1:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-auto-rows: minmax(150px, auto);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.grid-1 img {
+  width: 100%;
+  height: auto;
+}
+
+#readmore {
+  color: #2ecc71;
+}
+
+.grid-2 #readmore:hover {
+  color: #00b894;
+}
+
+.workshop h1 {
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+
+.workshop h1:before,
+.workshop h1:after {
+  background-color: white;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.workshop h1:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.workshop h1:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.workevent {
+  transition: all 0.1s ease-in-out 0s;
+}
+
+.workevent:hover {
+  box-shadow: 0 50px 70px rgba(0, 0, 0, 0.5);
+  transition: all 0.1s ease-in-out 0s;
+}
+
+@media (max-width: 768px) {
+  .topic {
+    height: 80px;
+    width: 80px;
+  }
+}
 /* About us */
 .abouthead p:nth-child(1) {
   font-size: 50px;
@@ -211,7 +345,6 @@ input[type="email"]:focus,
 /* footer */
 .footer {
   background: #151515;
-  margin-top: 0;
   text-align: center;
   padding: 20px;
   font-weight: bold;
@@ -228,3 +361,123 @@ input[type="email"]:focus,
 }
 
 /* Image slider */
+/* #slider {
+  overflow: hidden;
+}
+#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+#slider figure img {
+  width: 20%;
+  float: left;
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+} */
+header {
+  border: 1px solid white;
+  background: #000;
+}
+
+header,
+#slider img {
+  width: 1200px;
+  height: 675px;
+}
+
+header {
+  overflow: hidden;
+}
+#slider {
+  transform: translateX(-1200px);
+  -webkit-transform: translate(-1200px);
+  -moz-transform: translate(-1200px);
+  -o-transform: translate(-1200px);
+  animation-name: slider;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes slider {
+  0% {
+    transform: translateX(0px);
+  }
+  20% {
+    transform: translateX(0px);
+  }
+  25% {
+    transform: translateX(1200px);
+  }
+  45% {
+    transform: translateX(1200px);
+  }
+  50% {
+    transform: translateX(2400px);
+  }
+  70% {
+    transform: translateX(2400px);
+  }
+  75% {
+    transform: translateX(3600px);
+  }
+  95% {
+    transform: translateX(3600px);
+  }
+  100% {
+    transform: translateX(4800px);
+  }
+}
+
+/* Events Section */
+
+.events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.banner img {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  max-height: 400px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.grid-events {
+}

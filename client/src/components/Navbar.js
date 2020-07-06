@@ -44,25 +44,27 @@ function Navbar() {
           </li>
 
           <li className='nav-item'>
-            <Link className='nav-link' to='#'>
+            <Link className='nav-link' to='/events'>
               Events
             </Link>
           </li>
-          <li className='nav-item'>
+          {/* Future Blog link */}
+          {/* <li className='nav-item'>
             <Link className='nav-link' to='/blog'>
               Blog
             </Link>
-          </li>
+          </li> */}
           <li className='nav-item'>
             <Link className='nav-link' to='#'>
               Team
             </Link>
           </li>
-          <li className='nav-item'>
+          {/* Future Signup/signin */}
+          {/* <li className='nav-item'>
             <Link className='nav-link' to='/register'>
               SignUp
             </Link>
-          </li>
+          </li> */}
           <li className='nav-item'>
             <Link className='nav-link' to='/contact'>
               Contact

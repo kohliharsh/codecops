@@ -9,6 +9,7 @@ import Footer from "../src/components/Footer";
 import Blog from "../src/components/navcomponents/Blog";
 import Register from "../src/components/auth/Register";
 import Login from "../src/components/auth/Login";
+import Events from "../src/components/navcomponents/Events";
 //redux
 import { Provider } from "react-redux";
 import store from "./store";
@@ -30,6 +31,7 @@ function App() {
                 <Route exact path='/blog' component={Blog} />
                 <Route exact path='/register' component={Register} />
                 <Route exact path='/login' component={Login} />
+                <Route exact path='/events' component={Events} />
               </Switch>
             </section>
             <Footer />

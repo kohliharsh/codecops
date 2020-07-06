@@ -27,7 +27,7 @@ export const register = ({ name, email, password, password2 }) => async (
 };
 
 //Login User
-export const login = (email, password) => async (dispatch) => {
+export const login = ({ email, password }) => async (dispatch) => {
   const body = { email, password };
 
   try {
