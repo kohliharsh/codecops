@@ -11,6 +11,7 @@ import Register from "../src/components/auth/Register";
 import Login from "../src/components/auth/Login";
 import Events from "../src/components/navcomponents/Events";
 import Eventregister from "../src/components/navcomponents/Eventregister";
+import Team from "../src/components/navcomponents/team";
 //redux
 import { Provider } from "react-redux";
 import store from "./store";
@@ -45,6 +46,7 @@ function App() {
                   path='/eventregistration'
                   component={Eventregister}
                 />
+                <Route exact path='/team' component={Team} />
               </Switch>
             </section>
             <Footer />

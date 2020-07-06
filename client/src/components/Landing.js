@@ -24,10 +24,20 @@ const Landing = () => {
         <div className='landing-inner'>
           <div className='landinghead'>
             <p>
-              <img className='img1' src={logo} alt='#'></img>
-              <span className='long'>Welcome to CodeCops</span>
+              <img
+                data-aos='fade-up-right'
+                data-aos-duration='1800'
+                className='img1'
+                src={logo}
+                alt='#'
+              ></img>
+              <span data-aos='zoom-in-right' className='long'>
+                Welcome to CodeCops
+              </span>
               <span className='short'>CodeCops</span>
               <img
+                data-aos='fade-up-left'
+                data-aos-duration='1800'
                 src='https://upload.wikimedia.org/wikipedia/en/c/cf/Iiit-una-logo.png'
                 alt='#'
                 className='img2'
@@ -35,14 +45,18 @@ const Landing = () => {
             </p>
           </div>
           <div className='subhead'>
-            <p data-aos='fade-left'>Code Community of IIIT Una</p>
+            <p data-aos='fade-left' data-aos-duration='2000'>
+              Code Community of IIIT Una
+            </p>
           </div>
         </div>
       </div>
       <div className='container' style={{ border: "3px white solid" }}></div>
       <br />
       <div className='upcoming container'>
-        <h1>Upcoming Events</h1>
+        <h1 data-aos='fade-up' data-aos-duration='2800'>
+          Upcoming Events
+        </h1>
       </div>
       <div className='grid-container container' style={{ color: "white" }}>
         <div class='grid-1'>
@@ -63,7 +77,7 @@ const Landing = () => {
         </div>
       </div>
       <div className='workshop container'>
-        <h1>
+        <h1 data-aos='fade-up' data-aos-duration='1000'>
           <span>Work Shops</span>
         </h1>
       </div>
@@ -81,6 +95,8 @@ const Landing = () => {
         scrambled it to make a type specimen book."
       </p>
       <h4
+        data-aos='fade-up'
+        data-aos-duration='3000'
         className='container'
         style={{
           textAlign: "center",
@@ -101,7 +117,13 @@ const Landing = () => {
                 width='120px'
                 className='topic'
               ></img>
-              <p style={{ color: "white", textAlign: "center" }}>Linux</p>
+              <p
+                data-aos='fade-up'
+                data-aos-duration='800'
+                style={{ color: "white", textAlign: "center" }}
+              >
+                Linux
+              </p>
             </div>
           </div>
           <div className='col-sm-6 col-md-4 col-lg-3'>
@@ -112,7 +134,13 @@ const Landing = () => {
                 width='120px'
                 className='topic'
               ></img>
-              <p style={{ color: "white", textAlign: "center" }}>Git</p>
+              <p
+                data-aos='fade-up'
+                data-aos-duration='1000'
+                style={{ color: "white", textAlign: "center" }}
+              >
+                Git
+              </p>
             </div>
           </div>
           <div className='col-sm-6 col-md-4 col-lg-3'>
@@ -123,7 +151,13 @@ const Landing = () => {
                 height='120px'
                 width='120px'
               ></img>
-              <p style={{ color: "white", textAlign: "center" }}>Github</p>
+              <p
+                data-aos='fade-up'
+                data-aos-duration='1200'
+                style={{ color: "white", textAlign: "center" }}
+              >
+                Github
+              </p>
             </div>
           </div>
           <div className='col-sm-6 col-md-4 col-lg-3'>
@@ -134,7 +168,11 @@ const Landing = () => {
                 height='120px'
                 width='120px'
               ></img>
-              <p style={{ color: "white", textAlign: "center" }}>
+              <p
+                data-aos='fade-up'
+                data-aos-duration='1400'
+                style={{ color: "white", textAlign: "center" }}
+              >
                 Selenium Automation Testing
               </p>
             </div>
@@ -157,7 +195,13 @@ const Landing = () => {
                 height='120px'
                 width='120px'
               ></img>
-              <p style={{ color: "white", textAlign: "center" }}>Kotlin</p>
+              <p
+                data-aos='fade-up'
+                data-aos-duration='1600'
+                style={{ color: "white", textAlign: "center" }}
+              >
+                Kotlin
+              </p>
             </div>
           </div>
           <div className='col-sm-6 col-md-4 col-lg-3'>
@@ -168,7 +212,11 @@ const Landing = () => {
                 height='120px'
                 width='220px'
               ></img>
-              <p style={{ color: "white", textAlign: "center" }}>
+              <p
+                data-aos='fade-up'
+                data-aos-duration='1800'
+                style={{ color: "white", textAlign: "center" }}
+              >
                 Android App Development
               </p>
             </div>
@@ -181,7 +229,13 @@ const Landing = () => {
                 height='120px'
                 width='120px'
               ></img>
-              <p style={{ color: "white", textAlign: "center" }}>Chatbot</p>
+              <p
+                data-aos='fade-up'
+                data-aos-duration='2000'
+                style={{ color: "white", textAlign: "center" }}
+              >
+                Chatbot
+              </p>
             </div>
           </div>
           <div className='col-sm-6 col-md-4 col-lg-3'>
@@ -198,6 +252,8 @@ const Landing = () => {
         </div>
       </div>
       <p
+        data-aos='fade-up'
+        data-aos-duration='2900'
         className='container'
         style={{
           color: "white",

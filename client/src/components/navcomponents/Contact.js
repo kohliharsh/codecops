@@ -13,7 +13,11 @@ const Contact = () => {
       </p>
       <div className='contact'>
         <div>
-          <p style={{ color: "white" }}>
+          <p
+            data-aos='zoom-in-right'
+            data-aos-duration='1800'
+            style={{ color: "white" }}
+          >
             <span>
               <img src={address} height='30px' width='30px'></img>
             </span>
@@ -24,7 +28,11 @@ const Contact = () => {
           </p>
         </div>
         <div>
-          <p style={{ color: "white" }}>
+          <p
+            data-aos='zoom-in-down'
+            data-aos-duration='2700'
+            style={{ color: "white" }}
+          >
             <span>
               <img src={email} height='50px' width='80px'></img>
             </span>
@@ -32,7 +40,11 @@ const Contact = () => {
           </p>
         </div>
         <div>
-          <p style={{ color: "white" }}>
+          <p
+            data-aos='zoom-in-down'
+            data-aos-duration='2700'
+            style={{ color: "white" }}
+          >
             <span>
               <img src={phone} height='50px' width='50px'></img>
             </span>
@@ -55,7 +67,7 @@ const Contact = () => {
             <img
               data-aos='flip-right'
               src={github}
-              style={{ borderRadius: "50%" }}
+              style={{ borderRadius: "50%", padding: "5px" }}
               height='50px'
               width='50px'
             ></img>
@@ -64,7 +76,7 @@ const Contact = () => {
             <img
               data-aos='flip-right'
               src={instagram}
-              style={{ borderRadius: "50%" }}
+              style={{ borderRadius: "50%", padding: "5px" }}
               height='50px'
               width='50px'
             ></img>
@@ -73,7 +85,7 @@ const Contact = () => {
             <img
               data-aos='flip-right'
               src={linkedin}
-              style={{ borderRadius: "50%" }}
+              style={{ borderRadius: "50%", padding: "5px" }}
               height='50px'
               width='50px'
             ></img>
