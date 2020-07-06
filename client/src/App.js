@@ -7,35 +7,34 @@ import About from "../src/components/navcomponents/About";
 import Contact from "../src/components/navcomponents/Contact";
 import Footer from "../src/components/Footer";
 import Blog from "../src/components/navcomponents/Blog";
-import Register from "../src/components/auth/Register";
-import Login from "../src/components/auth/Login";
-//redux
-import { Provider } from "react-redux";
-import store from "./store";
-
 import "./App.css";
+import AOS from 'aos';
 
 function App() {
+
+ 
+    // or simply just AOS.init();
+    AOS.init({
+      // initialise with other settings
+      duration : 2000
+    });
+
   return (
     <div className='App'>
-      <Provider store={store}>
-        <Router>
-          <Fragment>
-            <Navbar />
-            <Route exact path='/' component={Landing} />
-            <section>
-              <Switch>
-                <Route exact path='/about' component={About} />
-                <Route exact path='/contact' component={Contact} />
-                <Route exact path='/blog' component={Blog} />
-                <Route exact path='/register' component={Register} />
-                <Route exact path='/login' component={Login} />
-              </Switch>
-            </section>
-            <Footer />
-          </Fragment>
-        </Router>
-      </Provider>
+      <Router>
+        <Fragment>
+          <Navbar />
+          <Route exact path='/' component={Landing} />
+          <section>
+            <Switch>
+              <Route exact path='/about' component={About} />
+              <Route exact path='/contact' component={Contact} />
+              <Route exact path='/blog' component={Blog} />
+            </Switch>
+          </section>
+          <Footer />
+        </Fragment>
+      </Router>
     </div>
   );
 }
