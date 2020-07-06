@@ -8,14 +8,14 @@ import linkedin from "../../img/linkedin.png";
 const Contact = () => {
   return (
     <div className='container'>
-      <p className='contacthead'>Contact Us</p>
+      <p data-aos="zoom-in-right" className='contacthead'>Contact Us</p>
       <div className='contact'>
         <div>
           <p style={{ color: "white" }}>
             <span>
-              <img src={address} height='30px' width='30px' alt='#'></img>
+              <img src={address} height='30px' width='30px'></img>
             </span>
-            <span style={{ marginLeft: "20px" }}>
+            <span data-aos="fade-up" style={{ marginLeft: "20px" }}>
               Transit Campus-II, IIIT Una Vill. Chandpur, Teh. Haroli, Distt.
               Una Himachal Pradesh 177220
             </span>
@@ -24,50 +24,47 @@ const Contact = () => {
         <div>
           <p style={{ color: "white" }}>
             <span>
-              <img src={email} height='50px' width='80px' alt='#'></img>
+              <img src={email} height='50px' width='80px'></img>
             </span>
-            <span>codecops@iiitu.ac.in</span>
+            <span data-aos="zoom-in-down">codecops@iiitu.ac.in</span>
           </p>
         </div>
         <div>
           <p style={{ color: "white" }}>
             <span>
-              <img src={phone} height='50px' width='50px' alt='#'></img>
+              <img src={phone} height='50px' width='50px'></img>
             </span>
-            <span style={{ marginLeft: "20px" }}>+91 9518139757</span>
+            <span data-aos="zoom-in-down" style={{ marginLeft: "20px" }}>+91 9518139757</span>
           </p>
         </div>
         <div>
-          <p style={{ color: "white", fontSize: "30px" }}>
+          <p data-aos="zoom-in-up" style={{ color: "white", fontSize: "30px" }}>
             Our Social and Other Handles
           </p>
         </div>
         <div style={{ marginBottom: "50px" }}>
           <a href='https://github.com/codecopsiiitu' class='github'>
-            <img
+            <img data-aos="flip-right"
               src={github}
               style={{ borderRadius: "50%" }}
               height='50px'
               width='50px'
-              alt='#'
             ></img>
           </a>
           <a href='https://www.instagram.com/codecops.iiitu/' class='github'>
-            <img
+            <img data-aos="flip-right"
               src={instagram}
               style={{ borderRadius: "50%" }}
               height='50px'
               width='50px'
-              alt='#'
             ></img>
           </a>
           <a href='https://www.instagram.com/codecops.iiitu/' class='github'>
-            <img
+            <img data-aos="flip-right"
               src={linkedin}
               style={{ borderRadius: "50%" }}
               height='50px'
               width='50px'
-              alt='#'
             ></img>
           </a>
         </div>
