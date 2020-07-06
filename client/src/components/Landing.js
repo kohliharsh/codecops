@@ -24,7 +24,6 @@ const Landing = () => {
         <div className='landing-inner'>
           <div className='landinghead'>
             <p>
-<<<<<<< HEAD
               <img className='img1' src={logo} alt='#'></img>
               <span className='long'>Welcome to CodeCops</span>
               <span className='short'>CodeCops</span>
@@ -32,19 +31,11 @@ const Landing = () => {
                 src='https://upload.wikimedia.org/wikipedia/en/c/cf/Iiit-una-logo.png'
                 alt='#'
                 className='img2'
-=======
-              <img data-aos="fade-up-right" src={logo} height='150px' width='150px'></img>
-              Welcome to CodeCops
-              <img data-aos="fade-up-left"
-                src='https://upload.wikimedia.org/wikipedia/en/c/cf/Iiit-una-logo.png'
-                height='150px'
-                width='150px'
->>>>>>> e48e61dae8322c854677a08292640f058a24f5c5
               ></img>
             </p>
           </div>
           <div className='subhead'>
-            <p data-aos ="fade-left">Code Community of IIIT Una</p>
+            <p data-aos='fade-left'>Code Community of IIIT Una</p>
           </div>
         </div>
       </div>
