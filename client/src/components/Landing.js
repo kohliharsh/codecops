@@ -54,15 +54,15 @@ const Landing = () => {
       <div className='container' style={{ border: "3px white solid" }}></div>
       <br />
       <div className='upcoming container'>
-        <h1 data-aos='fade-up' data-aos-duration='2800'>
+        <h1 data-aos='fade-right' data-aos-duration='2800'>
           Upcoming Events
         </h1>
       </div>
       <div className='grid-container container' style={{ color: "white" }}>
-        <div class='grid-1'>
+        <div class='grid-1' data-aos='zoom-out'>
           <img alt='' src={one}></img>
         </div>
-        <div class='grid-2'>
+        <div class='grid-2' data-aos='zoom-in'>
           <span className='longevent'>{str1}</span>
           <span className='shortevent'>{str2}</span>
           <Link id='readmore' to='/events'>
@@ -83,6 +83,7 @@ const Landing = () => {
       </div>
 
       <p
+        data-aos='fade-right'
         className='workshop-para'
         className='container'
         style={{ color: "white", wordSpacing: "5px", fontSize: "20px" }}
