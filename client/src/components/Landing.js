@@ -67,6 +67,7 @@ const Landing = () => {
           <span>Work Shops</span>
         </h1>
       </div>
+
       <p
         className='workshop-para'
         className='container'

@@ -1,6 +1,7 @@
 import React from "react";
 import one from "../../img/1.jpg";
 import CountdownTimer from "../Timer";
+import { Link } from "react-router-dom";
 
 const Events = () => {
   return (
@@ -80,6 +81,11 @@ const Events = () => {
           </ul>
         </p>
       </div>
+      <h4>
+        <Link to='/eventregistration' id='readmore'>
+          Click Here to Register!!
+        </Link>
+      </h4>
       <div className='container grid-events'></div>
     </div>
   );

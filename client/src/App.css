@@ -168,8 +168,8 @@ nav a:hover {
   color: #2ecc71;
 }
 
-.grid-2 #readmore:hover {
-  color: #00b894;
+#readmore:hover {
+  color: darkgreen;
 }
 
 .workshop h1 {
@@ -478,6 +478,13 @@ header {
   position: relative;
   margin-bottom: 20px;
 }
+/* Event Registration */
 
-.grid-events {
+.eventregistration {
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+.eventregistration h1 {
+  color: #2ecc71;
+  margin-bottom: 40px;
 }

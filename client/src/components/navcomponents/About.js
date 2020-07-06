@@ -6,21 +6,21 @@ const About = () => {
   return (
     <div>
       <div className='abouthead'>
-        <p data-aos="fade-left">About Us</p>
-        <p data-aos="zoom-in-down" className='container'>
+        <p data-aos='fade-left'>About Us</p>
+        <p data-aos='zoom-in-down' className='container'>
           Code Cops is one of the biggest clubs of IIIT Una in Transit
           Campus-II. We conduct events and workshops, hold lectures and talks,
           and even host coding competitions and hackathons. We organize
           activities related to Development (Web Development, Open Source,
           Game/App Development), programming contests, hackathons, etc..
         </p>
-        <p data-aos="fade-left">Domains We Offer</p>
+        <p data-aos='fade-left'>Domains We Offer</p>
       </div>
 
       <div className='container' id='domains'>
         <div className='row'>
           <div class='col-md-6 col-lg-4'>
-            <div data-aos="zoom-out-left" className='feature-block'>
+            <div data-aos='zoom-out-left' className='feature-block'>
               <img
                 src='https://cdn.iconscout.com/icon/premium/png-256-thumb/machine-learning-13-902561.png'
                 className='img-fluid'
@@ -36,7 +36,7 @@ const About = () => {
             </div>
           </div>
           <div class='col-md-6 col-lg-4'>
-            <div data-aos="zoom-out-left" className='feature-block'>
+            <div data-aos='zoom-out-left' className='feature-block'>
               <img
                 src='https://www.virtualintelligenceonline.com/img/app-development-icon-png-1.png'
                 className='img-fluid'
@@ -52,7 +52,7 @@ const About = () => {
             </div>
           </div>
           <div class='col-md-6 col-lg-4'>
-            <div data-aos="zoom-out-left" className='feature-block'>
+            <div data-aos='zoom-out-left' className='feature-block'>
               <img
                 src='https://www.pinclipart.com/picdir/big/54-544830_svg-library-stock-clipart-game-controller-game-developer.png'
                 className='img-fluid'
@@ -68,7 +68,7 @@ const About = () => {
             </div>
           </div>
           <div class='col-md-6 col-lg-4'>
-            <div  data-aos="zoom-out-left" className='feature-block'>
+            <div data-aos='zoom-out-left' className='feature-block'>
               <img
                 src={web}
                 className='img-fluid'
