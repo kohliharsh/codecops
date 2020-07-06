@@ -8,29 +8,29 @@ import linkedin from "../../img/linkedin.png";
 const Contact = () => {
   return (
     <div className='container'>
-      <p data-aos="zoom-in-right" className='contacthead'>Contact Us</p>
+      <p data-aos="zoom-in-right" data-aos-duration="900" className='contacthead'>Contact Us</p>
       <div className='contact'>
         <div>
-          <p style={{ color: "white" }}>
+          <p data-aos="zoom-in-right" data-aos-duration="1800" style={{ color: "white" }}>
             <span>
               <img src={address} height='30px' width='30px'></img>
             </span>
-            <span data-aos="fade-up" style={{ marginLeft: "20px" }}>
+            <span  style={{ marginLeft: "20px" }}>
               Transit Campus-II, IIIT Una Vill. Chandpur, Teh. Haroli, Distt.
               Una Himachal Pradesh 177220
             </span>
           </p>
         </div>
         <div>
-          <p style={{ color: "white" }}>
+          <p data-aos="zoom-in-down" data-aos-duration="2700"style={{ color: "white" }}>
             <span>
               <img src={email} height='50px' width='80px'></img>
             </span>
-            <span data-aos="zoom-in-down">codecops@iiitu.ac.in</span>
+            <span d>codecops@iiitu.ac.in</span>
           </p>
         </div>
         <div>
-          <p style={{ color: "white" }}>
+          <p data-aos="zoom-in-down" data-aos-duration="2700" style={{ color: "white" }}>
             <span>
               <img src={phone} height='50px' width='50px'></img>
             </span>
@@ -38,7 +38,7 @@ const Contact = () => {
           </p>
         </div>
         <div>
-          <p data-aos="zoom-in-up" style={{ color: "white", fontSize: "30px" }}>
+          <p data-aos="zoom-in" data-aos-duration="2700"  style={{ color: "white", fontSize: "30px" }}>
             Our Social and Other Handles
           </p>
         </div>
@@ -46,7 +46,7 @@ const Contact = () => {
           <a href='https://github.com/codecopsiiitu' class='github'>
             <img data-aos="flip-right"
               src={github}
-              style={{ borderRadius: "50%" }}
+              style={{ borderRadius: "50%" ,padding:"5px"}}
               height='50px'
               width='50px'
             ></img>
@@ -54,7 +54,7 @@ const Contact = () => {
           <a href='https://www.instagram.com/codecops.iiitu/' class='github'>
             <img data-aos="flip-right"
               src={instagram}
-              style={{ borderRadius: "50%" }}
+              style={{ borderRadius: "50%",padding:"5px" }}
               height='50px'
               width='50px'
             ></img>
@@ -62,7 +62,7 @@ const Contact = () => {
           <a href='https://www.instagram.com/codecops.iiitu/' class='github'>
             <img data-aos="flip-right"
               src={linkedin}
-              style={{ borderRadius: "50%" }}
+              style={{ borderRadius: "50%" ,padding:"5px"}}
               height='50px'
               width='50px'
             ></img>
