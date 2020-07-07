@@ -489,7 +489,234 @@ header {
   margin-bottom: 40px;
 }
 
-/* Team Page */
+/*================================ Team Page *=======================================*/
 .team {
   margin-top: 120px;
 }
+.box{
+  background-color: #2d3436;
+  box-shadow: 12px 12px 12px 12px rgb(182, 180, 180);
+  border-radius: 20px;
+  margin-left:10%;
+  width: 30%;
+  height:80%;
+}
+.box .dp  {
+  display: inline-block;
+  height: 30px;
+  width: 110px;
+  margin-bottom: 1px;
+  z-index: 1;
+  position: relative;
+  margin-left: 160px;
+  margin-top: 30px;
+}
+
+.box .dp ::before {
+  content: "";
+  width: 100%;
+  height: 0;
+  border-radius: 50%;
+  background-color: crimson;
+  position: absolute;
+  bottom: 135%;
+  right: 0;
+  left: 0;
+  opacity: 0.9;
+  transform: scale(3);
+  transition: all 0.3s linear 0s;
+}
+
+.box:hover .dp ::before {
+  height: 100%;
+}
+
+.box .dp ::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: crimson;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.box .dp  img {
+  width: 100%;     
+  height: auto;
+  border-radius: 50%;
+  transform: scale(1);
+  transition: all 0.9s ease 0s;
+  border: 10px solid crimson;
+}
+
+.box:hover .dp  img {
+  box-shadow: 0 0 0 14px #2d3436;
+  transform: scale(0.7);
+  border-color: rgb(174, 175, 175);
+}
+.box .dp{
+  /* background-color: crimson; 
+  border-radius: 1200px 500px 550px 750px; */
+  background-color: crimson;
+border-radius: 350px 300px 350px 350px;
+  
+
+}
+
+.box:hover .bg{
+    background-color:crimson;
+    border-radius: 0px 0px 300px 300px;
+    border-bottom-color: #2d3436;
+    border-bottom: 0px;
+ 
+}
+
+.name h2{
+  margin-left: 20%;
+  margin-top: 10%;
+  font-size: 36px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+}
+.name h5{
+  margin-left: 5%;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+
+}
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.i{
+   padding-right: 3%;
+   padding-left: 3%;
+   font-size: 26px;   
+   padding-top: 3%;
+   padding-bottom: 3%;
+   color: #2d3436;
+}
+
+a:link{
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+}
+a:visited{
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+}
+
+.bluebox{
+   background-color: #2d3436;
+   
+}
+.box:hover .bluebox{
+  color: #2d3436;
+  background-color:crimson;
+  text-decoration: none;
+  transition: all 0.5s ease 0s;
+} 
+
+.box .bluebox .icons .i a:hover {
+  color: crimson;
+  background-color: #2d3436;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+/* h5:hover {
+  background-color: crimson;
+  border-radius: 30px;
+  width: 90px;
+  padding:6px;
+ opacity: 0.6;
+ font-weight: bold;
+} */
+
+.skills{
+  width:400px;
+  margin: 5px  0;
+  padding:5px; 
+}
+li{
+  position: relative;
+  list-style: none;
+  margin:40px 0;
+  font-weight: 500;
+  color: white;
+}
+li:before{
+  content: "";
+  position: absolute;
+  top:calc(100% + 10px);
+  left:0;
+  width:100%;
+  height: 15px;
+  background-color: rgba(220,20,60,0.5);
+  border-radius: 1000px;
+ 
+}
+li:after{
+  content: "";
+  position: absolute;
+  top:calc(100% + 10px);
+  left:0;
+  width:0;
+  height: 15px;
+  background-color: rgba(220,20,60,1);
+  border-radius: 1000px;
+  animation-duration: 0.7s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;    
+  
+}
+li.html:after{
+  animation-name: html;
+}
+@keyframes html{
+  to{
+      width: 70%;
+  }
+}
+li.css:after{
+  animation-name: css;
+}
+@keyframes css{
+  to{
+      width: 80%;
+  }
+}
+li.javascript:after{
+  animation-name: javascript;
+}
+@keyframes javascript{
+  to{
+      width: 90%;
+  }
+}
+li.react:after{
+  animation-name: react;
+}
+@keyframes react{
+  to{
+      width: 60%;
+  }
+}
+
+.move{
+  padding-top: 20px;
+}
+.name h5{
+  display: flex;
+}
+hr.mlline{
+  width: 18%;
+  height: 0%;
+  color: crimson;
+}
+
+
+
