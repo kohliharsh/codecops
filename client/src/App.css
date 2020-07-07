@@ -495,21 +495,23 @@ header {
 }
 .box{
   background-color: #2d3436;
-  box-shadow: 12px 12px 12px 12px rgb(182, 180, 180);
+  box-shadow: 8px 8px 8px 8px rgb(15, 0, 0);
   border-radius: 20px;
   margin-left:10%;
-  width: 30%;
-  height:80%;
+  width: 80%;
+  height:100%;
+  
+  
 }
 .box .dp  {
   display: inline-block;
-  height: 30px;
-  width: 110px;
+  height: 60px;
+  width: 150px;
   margin-bottom: 1px;
   z-index: 1;
   position: relative;
-  margin-left: 160px;
-  margin-top: 30px;
+  margin-left: 210px;
+  margin-top: 100px;
 }
 
 .box .dp ::before {
@@ -557,14 +559,14 @@ header {
   transform: scale(0.7);
   border-color: rgb(174, 175, 175);
 }
-.box .dp{
+/* .box .dp{ */
   /* background-color: crimson; 
-  border-radius: 1200px 500px 550px 750px; */
-  background-color: crimson;
-border-radius: 350px 300px 350px 350px;
-  
+  /* border-radius: 1200px 500px 550px 750px; */
+  /* background-color: crimson;
+border-radius: 350px 300px 350px 350px; */
+   
 
-}
+
 
 .box:hover .bg{
     background-color:crimson;
@@ -612,6 +614,7 @@ a:visited{
 
 .bluebox{
    background-color: #2d3436;
+   margin-bottom: 0px;
    
 }
 .box:hover .bluebox{
@@ -627,14 +630,6 @@ a:visited{
   text-decoration: none;
   transition: all 0.3s ease 0s;
 }
-/* h5:hover {
-  background-color: crimson;
-  border-radius: 30px;
-  width: 90px;
-  padding:6px;
- opacity: 0.6;
- font-weight: bold;
-} */
 
 .skills{
   width:400px;
@@ -717,6 +712,11 @@ hr.mlline{
   height: 0%;
   color: crimson;
 }
-
+.coreteam{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
 
 
