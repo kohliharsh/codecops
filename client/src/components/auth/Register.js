@@ -29,6 +29,11 @@ const Register = ({ register, isAuthenticated }) => {
       register({ name, email, password, password2 });
     }
   };
+
+  if (isAuthenticated) {
+    return <Redirect to='/eventregistration' />;
+  }
+
   return (
     <Fragment>
       <div className='container register'>
@@ -45,6 +50,7 @@ const Register = ({ register, isAuthenticated }) => {
               name='name'
               autoComplete='off'
               value={name}
+              required='true'
             />
           </div>
           <div className='form-group'>
@@ -55,6 +61,7 @@ const Register = ({ register, isAuthenticated }) => {
               name='email'
               autoComplete='off'
               value={email}
+              required='true'
             />
           </div>
           <div className='form-group'>
@@ -64,6 +71,7 @@ const Register = ({ register, isAuthenticated }) => {
               placeholder='Password'
               name='password'
               value={password}
+              required='true'
             />
           </div>
           <div className='form-group'>
@@ -73,6 +81,7 @@ const Register = ({ register, isAuthenticated }) => {
               placeholder='Confirm Password'
               name='password2'
               value={password2}
+              required='true'
             />
           </div>
           <input
@@ -87,7 +96,10 @@ const Register = ({ register, isAuthenticated }) => {
           />
         </form>
         <p style={{ color: "white", marginBottom: "30px" }}>
-          Already have an account? <Link to='/login'>Sign In</Link>
+          Already have an account?{" "}
+          <Link to='/login' style={{ color: "green" }}>
+            Sign In
+          </Link>
         </p>
       </div>
     </Fragment>
@@ -103,4 +115,4 @@ const mapStateToProps = (state) => ({
   isAuthenticated: state.auth.isAuthenticated,
 });
 
-export default connect(null, { register })(Register);
+export default connect(mapStateToProps, { register })(Register);

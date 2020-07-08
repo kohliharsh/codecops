@@ -7,21 +7,27 @@ const Events = () => {
   return (
     <div className='events' style={{ marginBottom: "20px" }}>
       <div className='banner'>
-        <img  data-aos="zoom-out" data-aos-duration="500"src={one} />
+        <img data-aos='zoom-out' data-aos-duration='500' src={one} />
       </div>
-      <div  data-aos="fade-left" data-aos-duration="1000" id='timer'>
+      <div data-aos='fade-left' data-aos-duration='1000' id='timer'>
         <CountdownTimer />
       </div>
       <div className='workshop container'>
-        <h1 data-aos="fade-right" data-aos-duration="2000">
+        <h1 data-aos='fade-right' data-aos-duration='2000'>
           <span>About Events</span>
         </h1>
       </div>
       <div>
-        <h2 data-aos ="fade-left" data-aos-duration="2000" style={{ color: "#2ecc71", textAlign: "left", marginLeft: "10px" }}>
+        <h2
+          data-aos='fade-left'
+          data-aos-duration='2000'
+          style={{ color: "#2ecc71", textAlign: "left", marginLeft: "10px" }}
+        >
           1. Game Of Codes
         </h2>
-        <p data-aos="zoom-in-down" data-aos-duration="3000"
+        <p
+          data-aos='zoom-in-down'
+          data-aos-duration='3000'
           className='workshop-para'
           className='container'
           style={{
@@ -51,10 +57,16 @@ const Events = () => {
           will be chosen per field of interest. They will further be examined
           and cross questioned by our judges for the final evaluation.
         </p>
-        <h2 data-aos ="fade-left" data-aos-duration="2000" style={{ color: "white", textAlign: "left", marginLeft: "10px" }}>
+        <h2
+          data-aos='fade-left'
+          data-aos-duration='2000'
+          style={{ color: "white", textAlign: "left", marginLeft: "10px" }}
+        >
           Schedule:
         </h2>
-        <p data-aos="zoom-in-down" data-aos-duration="3000"
+        <p
+          data-aos='zoom-in-down'
+          data-aos-duration='3000'
           className='container'
           style={{
             color: "white",
@@ -82,7 +94,7 @@ const Events = () => {
         </p>
       </div>
       <h4>
-        <Link to='/eventregistration' id='readmore'>
+        <Link to='/register' id='readmore'>
           Click Here to Register!!
         </Link>
       </h4>
