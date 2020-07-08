@@ -489,22 +489,22 @@ header {
   margin-bottom: 40px;
 }
 
-.eventform {
-}
-
 /*================================ Team Page *=======================================*/
 .team {
   margin-top: 120px;
   margin-left: 0.5%;
+
 }
 .box {
   background-color: #2d3436;
   box-shadow: 8px 8px 8px 8px rgb(15, 0, 0);
   border-radius: 20px;
-  margin-left: 90px;
+  margin-left:90px;
   width: 65%;
-  height: 100%;
+  /* height:100%; */
   margin-right: 0px;
+  padding-bottom: 0px;
+  
 }
 .box .dp {
   display: inline-block;
@@ -568,25 +568,34 @@ header {
 /* background-color: crimson;
 border-radius: 350px 300px 350px 350px; */
 
-.box:hover .bg {
-  background-color: crimson;
-  border-radius: 0px 0px 250px 250px;
-  border-bottom-color: #2d3436;
-  border-bottom: 0px;
+
+.box:hover .bg{
+    background-color:crimson;
+    border-radius: 0px 0px 250px 250px;
+    border-bottom-color: #2d3436;
+    border-bottom: 0px;
+ 
 }
 
-.name h2 {
-  margin-left: 18%;
+.name h2{
+   /* margin-left: 24%;  */
   margin-top: 10%;
   font-size: 30px;
-  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  font-family: 'Josefin Sans', sans-serif;
   color: white;
+  justify-content: center;
+  align-items: center;
 }
-.name h5 {
-  margin-left: 10%;
-  font-family: "Poppins", sans-serif;
+.name h5{
+  /* margin-left: 10%; */
+  font-family: 'Poppins', sans-serif;
   color: white;
   font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 .icons {
   display: flex;
@@ -611,10 +620,11 @@ a:visited {
   text-decoration: none;
 }
 
-.bluebox {
-  background-color: #2d3436;
-  margin-bottom: 0px;
-  margin-top: 0px;
+.bluebox{
+   background-color: #2d3436;
+   margin-bottom: 0px;
+   margin-top: 0px;
+   
 }
 .box:hover .bluebox {
   color: #2d3436;
@@ -630,17 +640,17 @@ a:visited {
   transition: all 0.3s ease 0s;
 }
 
-.skills {
-  width: 310px;
+ .skills {
+  width:310px;
   /* margin: 5px  0; */
-  padding: 10px;
+  padding:10px 10px 60px 10px; 
   margin-top: 0px;
-  margin-right: 120px;
+  margin-right:120px ;
 }
-.team li {
+ li{
   position: relative;
   list-style: none;
-  margin: 25px 0;
+  margin:25px 0;
   font-weight: 500;
   color: white;
   padding-right: 30px;
@@ -648,83 +658,142 @@ a:visited {
 .team li:before {
   content: "";
   position: absolute;
-  top: calc(100% + 10px);
-  left: 0;
-  width: 100%;
+  top:calc(100% + 10px);
+  left:0;
+  width:100%;
   height: 10px;
-  background-color: rgba(220, 20, 60, 0.5);
+  background-color: rgba(220,20,60,0.5);
   border-radius: 1000px;
 }
 .team li:after {
   content: "";
   position: absolute;
-  top: calc(100% + 10px);
-  left: 0;
-  width: 0;
+  top:calc(100% + 10px);
+  left:0;
+  width:0;
   height: 10px;
-  background-color: rgba(220, 20, 60, 1);
+  background-color: rgba(220,20,60,1);
   border-radius: 1000px;
   animation-duration: 2s;
   animation-timing-function: ease;
   animation-fill-mode: forwards;
 }
-.html:after {
-  animation-name: html;
+.s1:after {
+  animation-name: s1;
 }
-@keyframes html {
+@keyframes s1 {
   to {
     width: 70%;
   }
 }
-.css:after {
-  animation-name: css;
+.s2:after {
+  animation-name: s2;
 }
-@keyframes css {
+@keyframes s2 {
   to {
     width: 80%;
   }
 }
-.javascript:after {
-  animation-name: javascript;
+.s3:after {
+  animation-name: s3;
 }
-@keyframes javascript {
+@keyframes s3 {
   to {
     width: 90%;
   }
 }
-.react:after {
-  animation-name: react;
+.s4:after {
+  animation-name: s4;
 }
-@keyframes react {
+@keyframes s4 {
+  to {
+    width: 60%;
+  }
+}
+.s5:after {
+  animation-name: s5;
+}
+@keyframes s5 {
+  to {
+    width: 60%;
+  }
+}
+.s6:after {
+  animation-name: s6;
+}
+@keyframes s6 {
+  to {
+    width: 60%;
+  }
+}
+.s7:after {
+  animation-name: s7;
+}
+@keyframes s7 {
+  to {
+    width: 60%;
+  }
+}
+.s8:after {
+  animation-name: s8;
+}
+@keyframes s8 {
+  to {
+    width: 60%;
+  }
+}
+.s9:after {
+  animation-name: s8;
+}
+@keyframes s9 {
   to {
     width: 60%;
   }
 }
 
-.move {
-  padding-top: 20px;
-}
+
 .name h5 {
   display: flex;
   font-size: 16px;
-  margin-left: 35%;
+  /* margin-left: 35%; */
+  justify-content: center;
+  align-items: center;
+
+ 
 }
 hr.mlline {
   width: 18%;
   height: 0%;
   color: rgb(220, 20, 60);
+ 
 }
 .coreteam {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 70px;
-  padding-bottom: 100px;
+  padding-bottom: 160px;
   margin-right: 5%;
 }
 
-.space {
-  padding-bottom: 60px;
-  padding-right: 0px;
-  padding-left: 0px;
+.teamhead{
+  margin-left: 30%;
+  padding-bottom: 50px;
+
 }
+.teamhead span{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+ .p{
+  padding-bottom: 60px;
+ }
+
+ /* .sarvesh .skills{
+   padding-bottom: 300px;
+ } */
+ .sarvesh .skills{
+   margin-bottom: 10%;
+ }
+
