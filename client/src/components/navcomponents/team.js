@@ -41,10 +41,12 @@ const Team = () => {
               <hr class='mlline'></hr>
               <div className='skills'>
                 <ul>
-                  <li className='html'>HTML 70%</li>
-                  <li className='css'>CSS 80%</li>
-                  <li className='javascript'>JAVASCRIPT 90%</li>
-                  <li className='react'>REACT 60%</li>
+                  <li className='s1'>Android Development 90%</li>
+                  <li className='s2'>Java 80%</li>
+                  <li className='s3'>Python 70%</li>
+                  <li className='s5'>Firebase 70%</li>
+                  <li className='s8'>Javascript 60%</li>
+                  <li className='s9'>MySQL 60%</li>
                 </ul>
               </div>
               <div className='move'>
@@ -99,10 +101,12 @@ const Team = () => {
               <hr class='mlline'></hr>
               <div className='skills'>
                 <ul>
-                  <li className='html'>HTML 70%</li>
-                  <li className='css'>CSS 80%</li>
-                  <li className='javascript'>JAVASCRIPT 90%</li>
-                  <li className='react'>REACT 60%</li>
+                  <li className='s1'>HTML 90%</li>
+                  <li className='s2'>CSS 60%</li>
+                  <li className='s3'>NodeJs 70%</li>
+                  <li className='s4'>React 80%</li>
+                  <li className='s5'>C 80%</li>
+                  <li className='s6 '>JavaScript 85%</li>
                 </ul>
               </div>
               <div className='move'>
@@ -157,10 +161,10 @@ const Team = () => {
               <hr class='mlline'></hr>
               <div className='skills'>
                 <ul>
-                  <li className='html'>HTML 70%</li>
-                  <li className='css'>CSS 80%</li>
-                  <li className='javascript'>JAVASCRIPT 90%</li>
-                  <li className='react'>REACT 60%</li>
+                  <li className='s1'>C 95%</li>
+                  <li className='s2'>C++ 85%</li>
+                  <li className='s3'>Python 75%</li>
+                  <li className='s4'>ML 37%</li>
                 </ul>
               </div>
               <div className='move'>
@@ -215,10 +219,12 @@ const Team = () => {
               <hr class='mlline'></hr>
               <div className='skills'>
                 <ul>
-                  <li className='html'>HTML 70%</li>
-                  <li className='css'>CSS 80%</li>
-                  <li className='javascript'>JAVASCRIPT 90%</li>
-                  <li className='react'>REACT 60%</li>
+                  <li className='s1'>C++ 70%</li>
+                  <li className='s2'>C 80%</li>
+                  <li className='s3'>Python 90%</li>
+                  <li className='s4'>Android Studio 60%</li>
+                  <li className='s5'>HTML 90%</li>
+                  <li className='s6'>CSS 90%</li>
                 </ul>
               </div>
               <div className='move'>
