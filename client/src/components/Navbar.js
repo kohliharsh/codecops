@@ -60,11 +60,11 @@ function Navbar() {
             </Link>
           </li>
           {/* Future Signup/signin */}
-          {/* <li className='nav-item'>
+          <li className='nav-item'>
             <Link className='nav-link' to='/register'>
-              SignUp
+              SignUp/SignIn
             </Link>
-          </li> */}
+          </li>
           <li className='nav-item'>
             <Link className='nav-link' to='/contact'>
               Contact
