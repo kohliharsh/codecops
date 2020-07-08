@@ -29,62 +29,53 @@ const Register = ({ register, isAuthenticated }) => {
       register({ name, email, password, password2 });
     }
   };
-
-  if (isAuthenticated) {
-    return <Redirect to='/eventregistration' />;
-  }
-
   return (
     <Fragment>
       <div className='container register'>
-        <h1 className='large'>Sign Up</h1>
-        <p className='lead' style={{ color: "white" }}>
+        <h1 data-aos="zoom-in-right" data-aos-duration="1000" className='large'>Sign Up</h1>
+        <p className='lead'  data-aos="zoom-in-right" data-aos-duration="2000" style={{ color: "white" }}>
           <i className='fas fa-user'></i> Create Your Account
         </p>
         <form className='form' onSubmit={submit}>
           <div className='form-group'>
-            <input
+            <input className='lead'  data-aos="zoom-in-right" data-aos-duration="2200"
               onChange={handleChange}
               type='text'
               placeholder='Name'
               name='name'
               autoComplete='off'
               value={name}
-              required='true'
             />
           </div>
           <div className='form-group'>
-            <input
+            <input className='lead'  data-aos="zoom-in-right" data-aos-duration="2200"
               onChange={handleChange}
               type='email'
               placeholder='Email Address'
               name='email'
               autoComplete='off'
               value={email}
-              required='true'
             />
           </div>
           <div className='form-group'>
-            <input
+            <input className='lead'  data-aos="zoom-in-right" data-aos-duration="2500"
               onChange={handleChange}
               type='password'
               placeholder='Password'
               name='password'
               value={password}
-              required='true'
             />
           </div>
           <div className='form-group'>
-            <input
+            <input className='lead'  data-aos="zoom-in-right" data-aos-duration="2800"
               onChange={handleChange}
               type='password'
               placeholder='Confirm Password'
               name='password2'
               value={password2}
-              required='true'
             />
           </div>
-          <input
+          <input className='lead'  data-aos="fade-left" data-aos-duration="3000"
             type='submit'
             className='btn'
             value='register'
@@ -95,11 +86,8 @@ const Register = ({ register, isAuthenticated }) => {
             }}
           />
         </form>
-        <p style={{ color: "white", marginBottom: "30px" }}>
-          Already have an account?{" "}
-          <Link to='/login' style={{ color: "green" }}>
-            Sign In
-          </Link>
+        <p className='lead' style={{ color: "white", marginBottom: "30px" }}>
+          Already have an account? <Link to='/login'>Sign In</Link>
         </p>
       </div>
     </Fragment>
@@ -115,4 +103,4 @@ const mapStateToProps = (state) => ({
   isAuthenticated: state.auth.isAuthenticated,
 });
 
-export default connect(mapStateToProps, { register })(Register);
+export default connect(null, { register })(Register);
