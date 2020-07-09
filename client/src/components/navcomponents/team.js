@@ -1,35 +1,88 @@
 import React from "react";
 import logo from "../../img/logo.png";
-//   import one from "../img/1.jpg";
+import paramjeet from "../../img/paramjeet.jpg";
+import abhimanyu from "../../img/abhimanyu.jpeg";
+import sarvesh from "../../img/sarvesh.jpeg";
+import piyush from "../../img/piyush.jpeg";
+import sarthak from "../../img/sarthak.jpeg";
 
 const Team = () => {
   return (
     <div className='team'>
       <div class='teamhead'>
         <div className='landinghead'>
-          <div className='ourteamlogo'>
-            <p>
-              <img
-                data-aos='fade-up-right'
-                data-aos-duration='1800'
-                className='img1'
-                src={logo}
-                alt='#'
-              ></img>
-              <span data-aos='zoom-in-right' className='longourteam'>
-                Our Team
-              </span>
-              <span data-aos='zoom-in-right' className='shortourteam'>
-                Our Team
-              </span>
-              <img
-                data-aos='fade-up-left'
-                data-aos-duration='1800'
-                src='https://upload.wikimedia.org/wikipedia/en/c/cf/Iiit-una-logo.png'
-                alt='#'
-                className='img2'
-              ></img>
-            </p>
+          <p className='ourteampara'>
+            <img
+              data-aos='fade-up-right'
+              data-aos-duration='1800'
+              className='img1'
+              src={logo}
+              alt='#'
+            ></img>
+            <span data-aos='zoom-in-right'>Our Team</span>
+            <img
+              data-aos='fade-up-left'
+              data-aos-duration='1800'
+              src='https://upload.wikimedia.org/wikipedia/en/c/cf/Iiit-una-logo.png'
+              alt='#'
+              className='img2'
+            ></img>
+          </p>
+        </div>
+      </div>
+      <div className='mentorcenter'>
+        <div
+          class='col-md-12 col-lg-12'
+          class='space'
+          className='mentor'
+          className='p'
+        >
+          <div
+            data-aos='zoom-out-right'
+            data-aos-duration='2000'
+            className='mentorbox'
+          >
+            <div className='bg'>
+              <div className='dp'>
+                <img
+                  src='client/src/components/navcomponents/logo.png'
+                  alt=''
+                />
+              </div>
+            </div>
+            <div class='name'>
+              <h2 data-aos='fade-left' data-aos-duration='1000'>
+                Minakshi Shastri
+              </h2>
+              <h3 data-aos='fade-left' data-aos-duration='2000'>
+                Mentor
+              </h3>
+            </div>
+            <hr class='mlline'></hr>
+            <div className='move'>
+              <div className='mentorbluebox'>
+                <div className='icons'>
+                  <div class='i'>
+                    <a href='#'>
+                      <i class='fa fa-linkedin-square'></i>
+                    </a>
+                  </div>
+                  <div className='i'>
+                    <a href='#'>
+                      <i class='fa fa-instagram'></i>
+                    </a>
+                  </div>
+                  <div className='i'>
+                    <a href='#'>
+                      <i class='fa fa-facebook-official'></i>
+                    </a>
+                  </div>
+                  <div className='i'>
+                    <a href='#' class='fa fa-github'></a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -49,16 +102,16 @@ const Team = () => {
             >
               <div className='bg'>
                 <div className='dp'>
-                  <img
-                    src='client/src/components/navcomponents/logo.png'
-                    alt=''
-                  />
+                  <img src='' alt='' />
                 </div>
               </div>
               <div class='name'>
                 <h2 data-aos='fade-left' data-aos-duration='1000'>
                   Paramjeet Singh
                 </h2>
+                <h3 data-aos='fade-left' data-aos-duration='2000'>
+                  President
+                </h3>
                 <h5 data-aos='fade-left' data-aos-duration='3000'>
                   Android Developer
                 </h5>
@@ -127,6 +180,9 @@ const Team = () => {
                 <h2 data-aos='fade-left' data-aos-duration='1000'>
                   Abhimanyu Deswal
                 </h2>
+                <h3 data-aos='fade-left' data-aos-duration='2000'>
+                  Manager
+                </h3>
                 <h5 data-aos='fade-left' data-aos-duration='3000'>
                   Android Developer
                 </h5>
@@ -156,7 +212,7 @@ const Team = () => {
                       </a>
                     </div>
                     <div className='i'>
-                      <a href='https://facebook.com/AbhimanyuDeswal'>
+                      <a href='https://facebook.com/DeswalAbhimanyu'>
                         <i class='fa fa-facebook-official'></i>
                       </a>
                     </div>
@@ -195,6 +251,9 @@ const Team = () => {
                 <h2 data-aos='fade-left' data-aos-duration='1000'>
                   Harsh Kohli
                 </h2>
+                <h3 data-aos='fade-left' data-aos-duration='2000'>
+                  Volunteer
+                </h3>
                 <h5 data-aos='fade-left' data-aos-duration='3000'>
                   Web Developer
                 </h5>
@@ -214,22 +273,25 @@ const Team = () => {
                 <div className='bluebox'>
                   <div className='icons'>
                     <div class='i'>
-                      <a href='#'>
+                      <a href='https://www.linkedin.com/in/harsh-kohli-bb1229191/'>
                         <i class='fa fa-linkedin-square'></i>
                       </a>
                     </div>
                     <div className='i'>
-                      <a href='#'>
+                      <a href='https://instagram.com/kohli_27'>
                         <i class='fa fa-instagram'></i>
                       </a>
                     </div>
                     <div className='i'>
-                      <a href='#'>
+                      <a href='https://facebook.com/kohliharsh033'>
                         <i class='fa fa-facebook-official'></i>
                       </a>
                     </div>
                     <div className='i'>
-                      <a href='#' class='fa fa-github'></a>
+                      <a
+                        href='https://github.com/kohliharsh'
+                        class='fa fa-github'
+                      ></a>
                     </div>
                   </div>
                 </div>
@@ -258,8 +320,11 @@ const Team = () => {
               </div>
               <div class='name'>
                 <h2 data-aos='fade-left' data-aos-duration='1000'>
-                  Sarvesh Srivastava
+                  Sarvesh Singh
                 </h2>
+                <h3 data-aos='fade-left' data-aos-duration='2000'>
+                  Volunteer
+                </h3>
                 <h5 data-aos='fade-left' data-aos-duration='3000'>
                   Game Developer
                 </h5>
@@ -284,15 +349,11 @@ const Team = () => {
                       </a>
                     </div>
                     <div className='i'>
-                      <a href='#'>
+                      <a href='https://instagram.com/_sarvesh_2420'>
                         <i class='fa fa-instagram'></i>
                       </a>
                     </div>
-                    <div className='i'>
-                      <a href='#'>
-                        <i class='fa fa-facebook-official'></i>
-                      </a>
-                    </div>
+
                     <div className='i'>
                       <a
                         href='https://github.com/Sarvesh326'
@@ -328,6 +389,9 @@ const Team = () => {
                 <h2 data-aos='fade-left' data-aos-duration='1000'>
                   Sarthak Mehta
                 </h2>
+                <h3 data-aos='fade-left' data-aos-duration='2000'>
+                  Volunteer
+                </h3>
                 <h5 data-aos='fade-left' data-aos-duration='3000'>
                   Game Developer
                 </h5>
@@ -350,15 +414,11 @@ const Team = () => {
                       </a>
                     </div>
                     <div className='i'>
-                      <a href='#'>
+                      <a href='https://www.instagram.com/sarthakmehta92'>
                         <i class='fa fa-instagram'></i>
                       </a>
                     </div>
-                    <div className='i'>
-                      <a href='#'>
-                        <i class='fa fa-facebook-official'></i>
-                      </a>
-                    </div>
+
                     <div className='i'>
                       <a
                         href='https://github.com/sarthakmehta9999'
@@ -394,6 +454,9 @@ const Team = () => {
                 <h2 data-aos='fade-left' data-aos-duration='1000'>
                   Avi Singh
                 </h2>
+                <h3 data-aos='fade-left' data-aos-duration='2000'>
+                  Volunteer
+                </h3>
                 <h5 data-aos='fade-left' data-aos-duration='3000'>
                   Android Developer
                 </h5>
@@ -411,22 +474,22 @@ const Team = () => {
                 <div className='bluebox'>
                   <div className='icons'>
                     <div class='i'>
-                      <a href='#'>
+                      <a href='https://www.linkedin.com/in/avi-singh-b56181191'>
                         <i class='fa fa-linkedin-square'></i>
                       </a>
                     </div>
                     <div className='i'>
-                      <a href='#'>
+                      <a href='https://www.instagram.com/avi.singh.3'>
                         <i class='fa fa-instagram'></i>
                       </a>
                     </div>
                     <div className='i'>
-                      <a href='#'>
+                      <a href='https://www.facebook.com/amkhil.singh.3'>
                         <i class='fa fa-facebook-official'></i>
                       </a>
                     </div>
                     <div className='i'>
-                      <a href='#' class='fa fa-github'></a>
+                      <a href='' class='fa fa-github'></a>
                     </div>
                   </div>
                 </div>
@@ -457,6 +520,9 @@ const Team = () => {
                 <h2 data-aos='fade-left' data-aos-duration='1000'>
                   Piyush Aggarwal
                 </h2>
+                <h3 data-aos='fade-left' data-aos-duration='2000'>
+                  Volunteer
+                </h3>
                 <h5 data-aos='fade-left' data-aos-duration='3000'>
                   ML Enthusiast
                 </h5>
