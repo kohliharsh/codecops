@@ -26,9 +26,70 @@ const Team = () => {
           </p>
         </div>
       </div>
+      <div className="mentorcenter">
+      <div
+            class='col-md-12 col-lg-12'
+            class='space'
+            className='mentor'
+            className='p'
+            
+          >
+            <div
+              data-aos='zoom-out-right'
+              data-aos-duration='2000'
+              className='mentorbox'
+              
+            >
+              <div className='bg'>
+                <div className='dp'>
+                  <img
+                    src='client/src/components/navcomponents/logo.png'
+                    alt=''
+                  />
+                </div>
+              </div>
+              <div class='name'>
+                <h2 data-aos='fade-left' data-aos-duration='1000'>
+                 Minakshi Shastri
+                </h2>
+                <h3 data-aos='fade-left' data-aos-duration='2000'>Mentor</h3>
+              
+              </div>
+              <hr class='mlline'></hr>
+              <div className='move'>
+                <div className='mentorbluebox'>
+                  <div className='icons'>
+                    <div class='i'>
+                      <a href='#'>
+                        <i class='fa fa-linkedin-square'></i>
+                      </a>
+                    </div>
+                    <div className='i'>
+                      <a href='#'>
+                        <i class='fa fa-instagram'></i>
+                      </a>
+                    </div>
+                    <div className='i'>
+                      <a href='#'>
+                        <i class='fa fa-facebook-official'></i>
+                      </a>
+                    </div>
+                    <div className='i'>
+                      <a
+                        href='#'
+                        class='fa fa-github'
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
       <div className='container'>
         <div class='row'>
+       
           <div
             class='col-md-4 col-lg-4'
             class='space'
@@ -52,6 +113,7 @@ const Team = () => {
                 <h2 data-aos='fade-left' data-aos-duration='1000'>
                   Paramjeet Singh
                 </h2>
+                <h3 data-aos='fade-left' data-aos-duration='2000'>President</h3>
                 <h5 data-aos='fade-left' data-aos-duration='3000'>
                   Android Developer
                 </h5>
@@ -120,6 +182,7 @@ const Team = () => {
                 <h2 data-aos='fade-left' data-aos-duration='1000'>
                   Abhimanyu Deswal
                 </h2>
+                <h3 data-aos='fade-left' data-aos-duration='2000'>Manager</h3>
                 <h5 data-aos='fade-left' data-aos-duration='3000'>
                   Android Developer
                 </h5>
@@ -149,7 +212,7 @@ const Team = () => {
                       </a>
                     </div>
                     <div className='i'>
-                      <a href='https://facebook.com/AbhimanyuDeswal'>
+                      <a href='https://facebook.com/DeswalAbhimanyu'>
                         <i class='fa fa-facebook-official'></i>
                       </a>
                     </div>
@@ -188,6 +251,7 @@ const Team = () => {
                 <h2 data-aos='fade-left' data-aos-duration='1000'>
                   Harsh Kohli
                 </h2>
+                <h3 data-aos='fade-left' data-aos-duration='2000'>Volunteer</h3>
                 <h5 data-aos='fade-left' data-aos-duration='3000'>
                   Web Developer
                 </h5>
@@ -253,6 +317,7 @@ const Team = () => {
                 <h2 data-aos='fade-left' data-aos-duration='1000'>
                   Sarvesh Srivastava
                 </h2>
+                <h3 data-aos='fade-left' data-aos-duration='2000'>Volunteer</h3>
                 <h5 data-aos='fade-left' data-aos-duration='3000'>
                   Game Developer
                 </h5>
@@ -321,6 +386,7 @@ const Team = () => {
                 <h2 data-aos='fade-left' data-aos-duration='1000'>
                   Sarthak Mehta
                 </h2>
+                <h3 data-aos='fade-left' data-aos-duration='2000'>Volunteer</h3>
                 <h5 data-aos='fade-left' data-aos-duration='3000'>
                   Game Developer
                 </h5>
@@ -387,6 +453,7 @@ const Team = () => {
                 <h2 data-aos='fade-left' data-aos-duration='1000'>
                   Avi Singh
                 </h2>
+                <h3 data-aos='fade-left' data-aos-duration='2000'>Volunteer</h3>
                 <h5 data-aos='fade-left' data-aos-duration='3000'>
                   Android Developer
                 </h5>
@@ -450,6 +517,7 @@ const Team = () => {
                 <h2 data-aos='fade-left' data-aos-duration='1000'>
                   Piyush Aggarwal
                 </h2>
+                <h3 data-aos='fade-left' data-aos-duration='2000'>Volunteer</h3>
                 <h5 data-aos='fade-left' data-aos-duration='3000'>
                   ML Enthusiast
                 </h5>
