@@ -17,7 +17,6 @@ const Team = () => {
               ></img>
               <span data-aos='zoom-in-right' className='long'>
                Our Team</span>
-              {/* <span className='short'>CodeCops</span> */}
               <img
                 data-aos='fade-up-left'
                 data-aos-duration='1800'
@@ -28,7 +27,7 @@ const Team = () => {
             </p>
           </div>
         </div>
-      {/* <h1 data-aos="zoom-right" data-aos-duration = "2000" className ="coreteam"style={{ color: "white"  }}>Our Team</h1> */}
+     
 
     <div className ="container">
           <div class="row">
@@ -49,9 +48,9 @@ const Team = () => {
                   <li className='s1'>Android Development 90%</li>
                   <li className='s2'>Java 80%</li>
                   <li className='s3'>Python 70%</li>
-                  <li className='s5'>Firebase 70%</li>
-                  <li className='s8'>Javascript 60%</li>
-                  <li className='s9'>MySQL 60%</li> 
+                  <li className='s4'>Firebase 70%</li>
+                  <li className='s5'>Javascript 60%</li>
+                  <li className='s6'>MySQL 60%</li> 
 
                 </ul>
             </div>
@@ -91,12 +90,12 @@ const Team = () => {
             <hr class="mlline"></hr>
             <div className="skills">
                 <ul>
-                  <li className='s1'>C++  90%</li>
-                  <li className='s2'>C  70%</li>
-                  <li className='s3'>Python  80%</li>
-                  <li className='s4'>Android Studio  80%</li>
-                  <li className='s5'>HTML  70%</li>
-                  <li className='s6'>CSS  70%</li>
+                  <li className='s7'>C++  90%</li>
+                  <li className='s8'>Python 80%</li>
+                  <li className='s9'>Android Studio  80%</li>
+                  <li className='s10'>C 70%</li>
+                  <li className='s11'>HTML  70%</li>
+                  <li className='s12'>CSS  70%</li>
                 
                 </ul>
             </div>
@@ -138,12 +137,12 @@ const Team = () => {
             <hr class="mlline"></hr>
             <div className="skills">
                 <ul>
-                  <li className='s1'>HTML 90%</li>
-                  <li className='s2'>CSS 60%</li>
-                  <li className='s3'>NodeJs 70%</li>
-                  <li className='s4'>React 80%</li>
-                  <li className='s5'>C 80%</li>
-                  <li className='s6 '>JavaScript 85%</li>
+                  <li className='s13'>HTML 90%</li>
+                  <li className='s14 '>JavaScript 85%</li>
+                  <li className='s15'>C 80%</li>
+                  <li className='s16'>React 80%</li>
+                  <li className='s17'>NodeJs 70%</li>
+                  <li className='s18'>CSS 60%</li>
                   
                 </ul>
             </div>
@@ -184,12 +183,12 @@ const Team = () => {
             <hr class="mlline"></hr>
             <div className="skills">
                 <ul>
-                  <li className='s1'>C 95%</li>
-                  <li className='s2'>C++ 85%</li>
-                  <li className='s3'>Python 75%</li>
-                  <li className='s4'>ML 37%</li>
-                  <li className='s5'>Game Development 50%</li>
-                  <li className='s6'>Computer Networks 45%</li>
+                  <li className='s19'>C 95%</li>
+                  <li className='s20'>C++ 85%</li>
+                  <li className='s21'>Python 75%</li>
+                  <li className='s22'>Game Development 50%</li>
+                  <li className='s23'>Computer Networks 45%</li>
+                  <li className='s24'>ML 37%</li>
                 </ul>
             </div>
             <div className="move">
@@ -229,10 +228,10 @@ const Team = () => {
             <hr class="mlline"></hr>
             <div className="skills">
                 <ul>
-                  <li className='s1'>C++ 70%</li>
-                  <li className='s2'>Open gl 50%</li>
-                  <li className='s3'>Blender 50%</li>
-                  <li className='s4'>C 80%</li>
+                  <li className='s25'>C 80%</li>
+                  <li className='s26'>C++ 70%</li>
+                  <li className='s27'>Open gl 50%</li>
+                  <li className='s28'>Blender 50%</li>
                 </ul>
             </div>
             <div className="move">
@@ -270,10 +269,10 @@ const Team = () => {
             <hr class="mlline"></hr>
             <div className="skills">
                 <ul>
-                  <li className='html'>HTML 70%</li>
-                  <li className='css'>CSS 80%</li>
-                  <li className='javascript'>JAVASCRIPT 90%</li>
-                  <li className='react'>REACT 60%</li>
+                  <li className='s29'>Java 90%</li>
+                  <li className='s30'>C 90%</li>
+                  <li className='s31'>Android Studio 80%</li>
+                  <li className='s32'>JavaScript 70%</li>
                 
                 </ul>
             </div>
@@ -313,10 +312,10 @@ const Team = () => {
             <hr class="mlline"></hr>
             <div className="skills">
                 <ul>
-                  <li className='html'>HTML 70%</li>
-                  <li className='css'>CSS 80%</li>
-                  <li className='javascript'>JAVASCRIPT 90%</li>
-                  <li className='react'>REACT 60%</li>
+                  <li className='s33'>C++ 80%</li>
+                  <li className='s34'>Python 60%</li>
+                  <li className='s35'>Data Structures 40%</li>
+                  
                   
                 </ul>
             </div>
