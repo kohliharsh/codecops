@@ -5,11 +5,15 @@ import { Link } from "react-router-dom";
 import teaser from "../../img/teaser.mp4";
 import "../../../node_modules/video-react/dist/video-react.css";
 import { Player } from "video-react";
+import banner from "../../img/banner.png";
+import codingninja from "../../img/codingninja.svg";
+import ReactPlayer from "react-player";
+
 const Events = () => {
   return (
     <div className='events' style={{ marginBottom: "20px" }}>
       <div className='banner'>
-        <img data-aos='zoom-out' data-aos-duration='500' src={one} />
+        <img data-aos='zoom-out' data-aos-duration='500' src={banner} />
       </div>
       <div data-aos='fade-left' data-aos-duration='1000' id='timer'>
         <CountdownTimer />
@@ -27,15 +31,16 @@ const Events = () => {
         >
           1. Game Of Codes
         </h2>
-        <div className='video'>
-          <Player
-            playsInline
-            src={teaser}
-            fluid={false}
-            width={480}
-            height={272}
-          ></Player>
-        </div>
+        {/* <div
+          className='video'
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+            textAlign: "center",
+          }}
+        ></div> */}
         <p
           data-aos='zoom-in-down'
           data-aos-duration='2000'
@@ -46,6 +51,7 @@ const Events = () => {
             wordSpacing: "5px",
             fontSize: "20px",
             textAlign: "left",
+            width: "fit-content",
           }}
         >
           In an effort to preserve this spirit, we, the volunteers of CODE COPS,
@@ -103,6 +109,17 @@ const Events = () => {
             </li>
           </ul>
         </p>
+      </div>
+      <div className='sponsers container' style={{ textAlign: "left" }}>
+        <h4 style={{ color: "#2ecc71", margin: "0" }}>Sponsered By-</h4>
+        <a href='https://www.codingninjas.com/'>
+          <img
+            data-aos='zoom-in'
+            src={codingninja}
+            height='200px'
+            width='300px'
+          ></img>
+        </a>
       </div>
       <h4>
         <a href='https://forms.gle/PkhLsDNwYSWzDjj76' id='readmore'>

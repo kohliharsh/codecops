@@ -517,7 +517,7 @@ header {
   width: 100%;
   max-width: 1000px;
   height: auto;
-  max-height: 400px;
+  max-height: 500px;
   position: relative;
   margin-bottom: 20px;
 }
@@ -526,8 +526,14 @@ header {
   margin-top: 40px;
   margin-bottom: 30px;
 }
-/* Event Registration */
 
+@media screen and (max-width: 380px) {
+  .video {
+    overflow: hidden;
+  }
+}
+
+/* Event Registration */
 .eventregistration {
   margin-top: 120px;
   margin-bottom: 40px;
@@ -1043,4 +1049,8 @@ hr.mlline {
 
 .sarvesh .skills {
   margin-bottom: 10%;
+}
+
+.shortourteam {
+  display: none;
 }

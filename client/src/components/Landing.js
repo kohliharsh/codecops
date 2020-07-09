@@ -12,6 +12,8 @@ import kotlin from "../img/kotlin.png";
 import android from "../img/android.png";
 import chatbot from "../img/chatbot.png";
 import opencv from "../img/opencv.png";
+import banner from "../img/banner.png";
+
 //import se from "../img/se.png";
 const Landing = () => {
   const str1 =
@@ -60,7 +62,9 @@ const Landing = () => {
       </div>
       <div className='grid-container container' style={{ color: "white" }}>
         <div class='grid-1' data-aos='zoom-out'>
-          <img alt='' src={one}></img>
+          <Link to='/events'>
+            <img alt='' src={banner}></img>
+          </Link>
         </div>
         <div class='grid-2' data-aos='zoom-in'>
           <span className='longevent'>{str1}</span>

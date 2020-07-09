@@ -7,23 +7,30 @@ const Team = () => {
     <div className='team'>
       <div class='teamhead'>
         <div className='landinghead'>
-          <p>
-            <img
-              data-aos='fade-up-right'
-              data-aos-duration='1800'
-              className='img1'
-              src={logo}
-              alt='#'
-            ></img>
-            <span data-aos='zoom-in-right'>Our Team</span>
-            <img
-              data-aos='fade-up-left'
-              data-aos-duration='1800'
-              src='https://upload.wikimedia.org/wikipedia/en/c/cf/Iiit-una-logo.png'
-              alt='#'
-              className='img2'
-            ></img>
-          </p>
+          <div className='ourteamlogo'>
+            <p>
+              <img
+                data-aos='fade-up-right'
+                data-aos-duration='1800'
+                className='img1'
+                src={logo}
+                alt='#'
+              ></img>
+              <span data-aos='zoom-in-right' className='longourteam'>
+                Our Team
+              </span>
+              <span data-aos='zoom-in-right' className='shortourteam'>
+                Our Team
+              </span>
+              <img
+                data-aos='fade-up-left'
+                data-aos-duration='1800'
+                src='https://upload.wikimedia.org/wikipedia/en/c/cf/Iiit-una-logo.png'
+                alt='#'
+                className='img2'
+              ></img>
+            </p>
+          </div>
         </div>
       </div>
 
