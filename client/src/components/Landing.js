@@ -19,7 +19,7 @@ const Landing = () => {
   const str2 =
     "In an effort to preserve this spirit, we, the volunteers of CODE COPS";
   return (
-    <section className='landing' style={{ marginBottom: "1050px" }}>
+    <section className='landing'>
       <div className='dark-overlay'>
         <div className='landing-inner'>
           <div className='landinghead'>
@@ -108,7 +108,7 @@ const Landing = () => {
       >
         <u>Topics Covered So Far</u>
       </h4>
-      <div className='container' style={{ textAlign: "center" }}>
+      <div className='container bigcards' style={{ textAlign: "center" }}>
         <div className='row'>
           <div className='col-sm-6 col-md-4 col-lg-3'>
             <div className='workevent'>
@@ -252,8 +252,117 @@ const Landing = () => {
           </div>
         </div>
       </div>
+      <div className='container smallcards grid-cards'>
+        <div className='smallcarddiv grid-cards-item'>
+          <img
+            src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png'
+            height='120px'
+            width='120px'
+            className='topic'
+          ></img>
+          <p
+            data-aos='fade-up'
+            data-aos-duration='800'
+            style={{ color: "white", textAlign: "center" }}
+          >
+            Linux
+          </p>
+        </div>
+        <div className='smallcarddiv grid-cards-item'>
+          <img src={git} height='120px' width='120px' className='topic'></img>
+          <p
+            data-aos='fade-up'
+            data-aos-duration='1000'
+            style={{ color: "white" }}
+          >
+            Git
+          </p>
+        </div>
+        <div className='smallcarddiv grid-cards-item'>
+          <img
+            className='topic'
+            src={github}
+            height='120px'
+            width='120px'
+          ></img>
+          <p
+            data-aos='fade-up'
+            data-aos-duration='1200'
+            style={{ color: "white", textAlign: "center" }}
+          >
+            Github
+          </p>
+        </div>
+        <div className='smallcarddiv grid-cards-item'>
+          <img className='topic' src={se} height='120px' width='120px'></img>
+          <p
+            data-aos='fade-up'
+            data-aos-duration='1400'
+            style={{ color: "white", textAlign: "center" }}
+          >
+            Selenium Automation Testing
+          </p>
+        </div>
+        <div className='smallcarddiv grid-cards-item'>
+          <img className='topic' src={java} height='120px' width='120px'></img>
+        </div>
+        <div className='smallcarddiv grid-cards-item'>
+          <img
+            className='topic'
+            src={kotlin}
+            height='120px'
+            width='120px'
+          ></img>
+          <p
+            data-aos='fade-up'
+            data-aos-duration='1600'
+            style={{ color: "white", textAlign: "center" }}
+          >
+            Kotlin
+          </p>
+        </div>
+        <div className='smallcarddiv grid-cards-item'>
+          <img
+            className='topic'
+            src={android}
+            height='100px'
+            width='180px'
+          ></img>
+          <p
+            data-aos='fade-up'
+            data-aos-duration='1800'
+            style={{ color: "white", textAlign: "center" }}
+          >
+            Android App Development
+          </p>
+        </div>
+        <div className='smallcarddiv grid-cards-item'>
+          <img
+            className='topic'
+            src={chatbot}
+            height='120px'
+            width='120px'
+          ></img>
+          <p
+            data-aos='fade-up'
+            data-aos-duration='2000'
+            style={{ color: "white", textAlign: "center" }}
+          >
+            Chatbot
+          </p>
+        </div>
+        <div className='smallcarddiv grid-cards-item'>
+          <img
+            className='topic'
+            src={opencv}
+            height='140px'
+            width='120px'
+          ></img>
+        </div>
+      </div>
+
       <p
-        data-aos='fade-up'
+        className='future'
         data-aos-duration='2900'
         className='container'
         style={{

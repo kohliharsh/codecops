@@ -5,6 +5,7 @@ import phone from "../../img/phone.png";
 import github from "../../img/github.png";
 import instagram from "../../img/instagram.png";
 import linkedin from "../../img/linkedin.png";
+import facebook from "../../img/facebook.png";
 const Contact = () => {
   return (
     <div className='container'>
@@ -81,10 +82,22 @@ const Contact = () => {
               width='50px'
             ></img>
           </a>
-          <a href='https://www.instagram.com/codecops.iiitu/' class='github'>
+          <a
+            href='https://www.linkedin.com/company/codecopsiiitu/'
+            class='github'
+          >
             <img
               data-aos='flip-right'
               src={linkedin}
+              style={{ borderRadius: "50%", padding: "5px" }}
+              height='50px'
+              width='50px'
+            ></img>
+          </a>
+          <a href='https://www.facebook.com/codecops.iiitu/' class='github'>
+            <img
+              data-aos='flip-right'
+              src={facebook}
               style={{ borderRadius: "50%", padding: "5px" }}
               height='50px'
               width='50px'

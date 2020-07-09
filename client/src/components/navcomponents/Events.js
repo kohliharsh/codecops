@@ -2,7 +2,9 @@ import React from "react";
 import one from "../../img/1.jpg";
 import CountdownTimer from "../Timer";
 import { Link } from "react-router-dom";
-
+import teaser from "../../img/teaser.mp4";
+import "../../../node_modules/video-react/dist/video-react.css";
+import { Player } from "video-react";
 const Events = () => {
   return (
     <div className='events' style={{ marginBottom: "20px" }}>
@@ -20,14 +22,23 @@ const Events = () => {
       <div>
         <h2
           data-aos='fade-left'
-          data-aos-duration='2000'
+          data-aos-duration='1300'
           style={{ color: "#2ecc71", textAlign: "left", marginLeft: "10px" }}
         >
           1. Game Of Codes
         </h2>
+        <div className='video'>
+          <Player
+            playsInline
+            src={teaser}
+            fluid={false}
+            width={480}
+            height={272}
+          ></Player>
+        </div>
         <p
           data-aos='zoom-in-down'
-          data-aos-duration='3000'
+          data-aos-duration='2000'
           className='workshop-para'
           className='container'
           style={{
@@ -59,14 +70,14 @@ const Events = () => {
         </p>
         <h2
           data-aos='fade-left'
-          data-aos-duration='2000'
+          data-aos-duration='1500'
           style={{ color: "white", textAlign: "left", marginLeft: "10px" }}
         >
           Schedule:
         </h2>
         <p
           data-aos='zoom-in-down'
-          data-aos-duration='3000'
+          data-aos-duration='2000'
           className='container'
           style={{
             color: "white",
@@ -94,11 +105,10 @@ const Events = () => {
         </p>
       </div>
       <h4>
-        <Link to='/register' id='readmore'>
+        <a href='https://forms.gle/PkhLsDNwYSWzDjj76' id='readmore'>
           Click Here to Register!!
-        </Link>
+        </a>
       </h4>
-      <div className='container grid-events'></div>
     </div>
   );
 };

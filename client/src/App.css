@@ -1,3 +1,10 @@
+html,
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
 /* navbar css */
 nav {
   background-color: #111111;
@@ -32,6 +39,20 @@ nav a:hover {
   background: #292929;
   height: 100vh;
   opacity: 0.9;
+}
+
+@media screen and (max-width: 590px) {
+  .landing {
+    margin-bottom: 1600px;
+  }
+  .landing .future {
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 590px) {
+  .landing {
+    margin-bottom: 900px;
+  }
 }
 
 .landing-inner {
@@ -215,6 +236,27 @@ nav a:hover {
     width: 80px;
   }
 }
+
+.smallcards {
+  display: none;
+}
+
+@media screen and (max-width: 590px) {
+  .smallcards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 0px;
+  }
+  .bigcards {
+    display: none;
+  }
+}
+
+.grid-cards-item {
+  text-align: center;
+}
+
 /* About us */
 .abouthead p:nth-child(1) {
   font-size: 50px;
@@ -349,6 +391,7 @@ input[type="email"]:focus,
   padding: 20px;
   font-weight: bold;
   color: #71c55d;
+  width: 100%;
 }
 
 .footer .copyrights p,
@@ -478,6 +521,11 @@ header {
   position: relative;
   margin-bottom: 20px;
 }
+
+.video {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
 /* Event Registration */
 
 .eventregistration {
@@ -494,6 +542,10 @@ header {
   margin-top: 120px;
   margin-left: 0.5%;
 }
+
+.team .container {
+}
+
 .box {
   background-color: #2d3436;
   box-shadow: 8px 8px 8px 8px rgb(15, 0, 0);

@@ -3,15 +3,6 @@ import React from "react";
 const Eventregister = () => {
   return (
     <div className='eventregistration container'>
-      <p
-        style={{
-          color: "White",
-          fontWeight: "700",
-          fontSize: "40px",
-        }}
-      >
-        You have Successfully registered on CodeCops!
-      </p>
       <h1 className='large' style={{ color: "" }}>
         Register Yourself for "GAME OF CODE"
       </h1>

@@ -12,6 +12,7 @@ import Login from "../src/components/auth/Login";
 import Events from "../src/components/navcomponents/Events";
 import Eventregister from "../src/components/navcomponents/Eventregister";
 import Team from "../src/components/navcomponents/team";
+
 //redux
 import { Provider } from "react-redux";
 import store from "./store";
@@ -38,8 +39,8 @@ function App() {
                 <Route exact path='/about' component={About} />
                 <Route exact path='/contact' component={Contact} />
                 <Route exact path='/blog' component={Blog} />
-                <Route exact path='/register' component={Register} />
-                <Route exact path='/login' component={Login} />
+                {/* <Route exact path='/register' component={Register} /> */}
+                {/* <Route exact path='/login' component={Login} /> */}
                 <Route exact path='/events' component={Events} />
                 <Route
                   exact
