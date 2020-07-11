@@ -5,6 +5,8 @@ import abhimanyu from "../../img/abhimanyu.jpeg";
 import sarvesh from "../../img/sarvesh.jpeg";
 import piyush from "../../img/piyush.jpeg";
 import sarthak from "../../img/sarthak.jpeg";
+import harsh from "../../img/harsh.jpeg";
+import avi from "../../img/avi.jpeg";
 
 const Team = () => {
   return (
@@ -13,554 +15,346 @@ const Team = () => {
         <div className='landinghead'>
           <p className='ourteampara'>
             <img
-              data-aos='fade-up-right'
-              data-aos-duration='1800'
-              className='img1'
-              src={logo}
-              alt='#'
-            ></img>
-            <span data-aos='zoom-in-right'>Our Team</span>
-            <img
               data-aos='fade-up-left'
               data-aos-duration='1800'
               src='https://upload.wikimedia.org/wikipedia/en/c/cf/Iiit-una-logo.png'
               alt='#'
               className='img2'
             ></img>
+            <span data-aos='zoom-in-right'>Our Team</span>
+            <img
+              data-aos='fade-up-right'
+              data-aos-duration='1800'
+              className='img1'
+              src={logo}
+              alt='#'
+            ></img>
           </p>
         </div>
       </div>
-      <div className='mentorcenter'>
-        <div
-          class='col-md-12 col-lg-12'
-          class='space'
-          className='mentor'
-          className='p'
-        >
-          <div
-            data-aos='zoom-out-right'
-            data-aos-duration='2000'
-            className='mentorbox'
-          >
-            <div className='bg'>
-              <div className='dp'>
-                <img
-                  src='client/src/components/navcomponents/logo.png'
-                  alt=''
-                />
-              </div>
-            </div>
-            <div class='name'>
-              <h2 data-aos='fade-left' data-aos-duration='1000'>
-                Minakshi Shastri
-              </h2>
-              <h3 data-aos='fade-left' data-aos-duration='2000'>
-                Mentor
-              </h3>
-            </div>
-            <hr class='mlline'></hr>
-            <div className='move'>
-              <div className='mentorbluebox'>
-                <div className='icons'>
-                  <div class='i'>
-                    <a href='#'>
-                      <i class='fa fa-linkedin-square'></i>
-                    </a>
-                  </div>
-                  <div className='i'>
-                    <a href='#'>
-                      <i class='fa fa-instagram'></i>
-                    </a>
-                  </div>
-                  <div className='i'>
-                    <a href='#'>
-                      <i class='fa fa-facebook-official'></i>
-                    </a>
-                  </div>
-                  <div className='i'>
-                    <a href='#' class='fa fa-github'></a>
-                  </div>
-                </div>
-              </div>
-            </div>
+      <div class='container'>
+        <div class='our-team' data-aos='zoom-out'>
+          <div class='picture'>
+            <img class='img-fluid' src={paramjeet} />
           </div>
+          <div class='team-content'>
+            <h2 class='name'>Paramjeet Singh</h2>
+            <p
+              style={{
+                fontSize: "20px",
+                marginBottom: "5px",
+                fontWeight: "bold",
+                color: "#2ecc71",
+              }}
+            >
+              Student President
+            </p>
+            <h4 class='title'>Android Development</h4>
+          </div>
+          <ul class='social'>
+            <li>
+              <a
+                href='https://facebook.com/iampjeetsingh'
+                class='fa fa-facebook'
+                aria-hidden='true'
+              ></a>
+            </li>
+            <li>
+              <a
+                href='https://github.com/iampjeetsingh'
+                class='fa fa-github'
+                aria-hidden='true'
+              ></a>
+            </li>
+            <li>
+              <a
+                href='https://instagram.com/param.git'
+                class='fa fa-instagram'
+                aria-hidden='true'
+              ></a>
+            </li>
+            <li>
+              <a
+                href='https://www.linkedin.com/in/iampjeetsingh'
+                class='fa fa-linkedin'
+                aria-hidden='true'
+              ></a>
+            </li>
+          </ul>
         </div>
-      </div>
-
-      <div className='container'>
-        <div class='row'>
-          <div
-            class='col-md-4 col-lg-4'
-            class='space'
-            className='param'
-            className='p'
-          >
-            <div
-              data-aos='zoom-out-right'
-              data-aos-duration='2000'
-              className='box'
-            >
-              <div className='bg'>
-                <div className='dp'>
-                  <img src='' alt='' />
-                </div>
-              </div>
-              <div class='name'>
-                <h2 data-aos='fade-left' data-aos-duration='1000'>
-                  Paramjeet Singh
-                </h2>
-                <h3 data-aos='fade-left' data-aos-duration='2000'>
-                  President
-                </h3>
-                <h5 data-aos='fade-left' data-aos-duration='3000'>
-                  Android Developer
-                </h5>
-              </div>
-              <hr class='mlline'></hr>
-              <div className='skills'>
-                <ul>
-                  <li className='s1'>Android Development 90%</li>
-                  <li className='s2'>Java 80%</li>
-                  <li className='s3'>Python 70%</li>
-                  <li className='s4'>Firebase 70%</li>
-                  <li className='s5'>Javascript 60%</li>
-                  <li className='s6'>MySQL 60%</li>
-                </ul>
-              </div>
-              <div className='move'>
-                <div className='bluebox'>
-                  <div className='icons'>
-                    <div class='i'>
-                      <a href='https://www.linkedin.com/in/iampjeetsingh'>
-                        <i class='fa fa-linkedin-square'></i>
-                      </a>
-                    </div>
-                    <div className='i'>
-                      <a href='https://instagram.com/param.git'>
-                        <i class='fa fa-instagram'></i>
-                      </a>
-                    </div>
-                    <div className='i'>
-                      <a href='https://facebook.com/iampjeetsingh'>
-                        <i class='fa fa-facebook-official'></i>
-                      </a>
-                    </div>
-                    <div className='i'>
-                      <a
-                        href='https://github.com/iampjeetsingh'
-                        class='fa fa-github'
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div class='our-team' data-aos='zoom-out'>
+          <div class='picture'>
+            <img class='img-fluid' src={abhimanyu} />
           </div>
-
-          <div
-            class='col-md-4 col-lg-4'
-            class='space'
-            className='deswal'
-            className='p'
-          >
-            <div
-              data-aos='zoom-out-right'
-              data-aos-duration='2000'
-              className='box'
+          <div class='team-content'>
+            <h2 class='name'>Abhimanyu Deswal</h2>
+            <p
+              style={{
+                fontSize: "20px",
+                marginBottom: "5px",
+                fontWeight: "bold",
+                color: "#2ecc71",
+              }}
             >
-              <div className='bg'>
-                <div className='dp'>
-                  <img
-                    src='client/src/components/navcomponents/logo.png'
-                    alt=''
-                  />
-                </div>
-              </div>
-              <div class='name'>
-                <h2 data-aos='fade-left' data-aos-duration='1000'>
-                  Abhimanyu Deswal
-                </h2>
-                <h3 data-aos='fade-left' data-aos-duration='2000'>
-                  Manager
-                </h3>
-                <h5 data-aos='fade-left' data-aos-duration='3000'>
-                  Android Developer
-                </h5>
-              </div>
-              <hr class='mlline'></hr>
-              <div className='skills'>
-                <ul>
-                  <li className='s7'>C++ 90%</li>
-                  <li className='s8'>Python 80%</li>
-                  <li className='s9'>Android Studio 80%</li>
-                  <li className='s10'>C 70%</li>
-                  <li className='s11'>HTML 70%</li>
-                  <li className='s12'>CSS 70%</li>
-                </ul>
-              </div>
-              <div className='move'>
-                <div className='bluebox'>
-                  <div className='icons'>
-                    <div class='i'>
-                      <a href='https://instagram.com/_.abhiimanyu.'>
-                        <i class='fa fa-linkedin-square'></i>
-                      </a>
-                    </div>
-                    <div className='i'>
-                      <a href='https://www.linkedin.com/in/abhimanyu-deswal'>
-                        <i class='fa fa-instagram'></i>
-                      </a>
-                    </div>
-                    <div className='i'>
-                      <a href='https://facebook.com/DeswalAbhimanyu'>
-                        <i class='fa fa-facebook-official'></i>
-                      </a>
-                    </div>
-                    <div className='i'>
-                      <a
-                        href='https://github.com/AbhimanyuDeswal'
-                        class='fa fa-github'
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+              Student Manager
+            </p>
+            <h4 class='title'>Android Development</h4>
           </div>
-
-          <div
-            class='col-md-4 col-lg-4'
-            class='space'
-            className='kohli'
-            className='p'
-          >
-            <div
-              data-aos='zoom-out-right'
-              data-aos-duration='2000'
-              className='box'
+          <ul class='social'>
+            <li>
+              <a
+                href='https://facebook.com/DeswalAbhimanyu'
+                class='fa fa-facebook'
+                aria-hidden='true'
+              ></a>
+            </li>
+            <li>
+              <a
+                href='https://github.com/AbhimanyuDeswal'
+                class='fa fa-github'
+                aria-hidden='true'
+              ></a>
+            </li>
+            <li>
+              <a
+                href='https://instagram.com/_.abhiimanyu._'
+                class='fa fa-instagram'
+                aria-hidden='true'
+              ></a>
+            </li>
+            <li>
+              <a
+                href='https://www.linkedin.com/in/abhimanyu-deswal'
+                class='fa fa-linkedin'
+                aria-hidden='true'
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class='our-team' data-aos='zoom-out'>
+          <div class='picture'>
+            <img class='img-fluid' src={harsh} />
+          </div>
+          <div class='team-content'>
+            <h2 class='name'>Harsh Kohli</h2>
+            <p
+              style={{
+                fontSize: "20px",
+                marginBottom: "5px",
+                fontWeight: "bold",
+                color: "#2ecc71",
+              }}
             >
-              <div className='bg'>
-                <div className='dp'>
-                  <img
-                    src='client/src/components/navcomponents/logo.png'
-                    alt=''
-                  />
-                </div>
-              </div>
-              <div class='name'>
-                <h2 data-aos='fade-left' data-aos-duration='1000'>
-                  Harsh Kohli
-                </h2>
-                <h3 data-aos='fade-left' data-aos-duration='2000'>
-                  Volunteer
-                </h3>
-                <h5 data-aos='fade-left' data-aos-duration='3000'>
-                  Web Developer
-                </h5>
-              </div>
-              <hr class='mlline'></hr>
-              <div className='skills'>
-                <ul>
-                  <li className='s13'>HTML 90%</li>
-                  <li className='s14 '>JavaScript 85%</li>
-                  <li className='s15'>C 80%</li>
-                  <li className='s16'>React 80%</li>
-                  <li className='s17'>NodeJs 70%</li>
-                  <li className='s18'>CSS 60%</li>
-                </ul>
-              </div>
-              <div className='move'>
-                <div className='bluebox'>
-                  <div className='icons'>
-                    <div class='i'>
-                      <a href='https://www.linkedin.com/in/harsh-kohli-bb1229191/'>
-                        <i class='fa fa-linkedin-square'></i>
-                      </a>
-                    </div>
-                    <div className='i'>
-                      <a href='https://instagram.com/kohli_27'>
-                        <i class='fa fa-instagram'></i>
-                      </a>
-                    </div>
-                    <div className='i'>
-                      <a href='https://facebook.com/kohliharsh033'>
-                        <i class='fa fa-facebook-official'></i>
-                      </a>
-                    </div>
-                    <div className='i'>
-                      <a
-                        href='https://github.com/kohliharsh'
-                        class='fa fa-github'
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+              Volunteer
+            </p>
+            <h4 class='title'>Web Development</h4>
           </div>
-
-          <div
-            class='col-md-4 col-lg-4'
-            class='space'
-            className='sarvesh'
-            className='p'
-          >
-            <div
-              data-aos='zoom-out-right'
-              data-aos-duration='2000'
-              className='box'
+          <ul class='social'>
+            <li>
+              <a
+                href='https://facebook.com/kohliharsh033'
+                class='fa fa-facebook'
+                aria-hidden='true'
+              ></a>
+            </li>
+            <li>
+              <a
+                href='https://github.com/kohliharsh'
+                class='fa fa-github'
+                aria-hidden='true'
+              ></a>
+            </li>
+            <li>
+              <a
+                href='https://instagram.com/kohli_27'
+                class='fa fa-instagram'
+                aria-hidden='true'
+              ></a>
+            </li>
+            <li>
+              <a
+                href='https://www.linkedin.com/in/harsh-kohli-bb1229191/'
+                class='fa fa-linkedin'
+                aria-hidden='true'
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class='our-team' data-aos='zoom-out'>
+          <div class='picture'>
+            <img class='img-fluid' src={sarvesh} />
+          </div>
+          <div class='team-content'>
+            <h2 class='name'>Sarvesh Singh</h2>
+            <p
+              style={{
+                fontSize: "20px",
+                marginBottom: "5px",
+                fontWeight: "bold",
+                color: "#2ecc71",
+              }}
             >
-              <div className='bg'>
-                <div className='dp'>
-                  <img
-                    src='client/src/components/navcomponents/logo.png'
-                    alt=''
-                  />
-                </div>
-              </div>
-              <div class='name'>
-                <h2 data-aos='fade-left' data-aos-duration='1000'>
-                  Sarvesh Singh
-                </h2>
-                <h3 data-aos='fade-left' data-aos-duration='2000'>
-                  Volunteer
-                </h3>
-                <h5 data-aos='fade-left' data-aos-duration='3000'>
-                  Game Developer
-                </h5>
-              </div>
-              <hr class='mlline'></hr>
-              <div className='skills'>
-                <ul>
-                  <li className='s19'>C 95%</li>
-                  <li className='s20'>C++ 85%</li>
-                  <li className='s21'>Python 75%</li>
-                  <li className='s22'>Game Development 50%</li>
-                  <li className='s23'>Computer Networks 45%</li>
-                  <li className='s24'>ML 37%</li>
-                </ul>
-              </div>
-              <div className='move'>
-                <div className='bluebox'>
-                  <div className='icons'>
-                    <div class='i'>
-                      <a href='https://www.linkedin.com/in/sarvesh-singh-310a4718b'>
-                        <i class='fa fa-linkedin-square'></i>
-                      </a>
-                    </div>
-                    <div className='i'>
-                      <a href='https://instagram.com/_sarvesh_2420'>
-                        <i class='fa fa-instagram'></i>
-                      </a>
-                    </div>
-
-                    <div className='i'>
-                      <a
-                        href='https://github.com/Sarvesh326'
-                        class='fa fa-github'
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+              Volunteer
+            </p>
+            <h4 class='title'>Game Developement & Machine Learning </h4>
           </div>
+          <ul class='social'>
+            <li>
+              <a
+                href='https://github.com/Sarvesh326'
+                class='fa fa-github'
+                aria-hidden='true'
+              ></a>
+            </li>
+            <li>
+              <a
+                href='https://instagram.com/_sarvesh_2420'
+                class='fa fa-instagram'
+                aria-hidden='true'
+              ></a>
+            </li>
+            <li>
+              <a
+                href='https://www.linkedin.com/in/sarvesh-singh-310a4718b'
+                class='fa fa-linkedin'
+                aria-hidden='true'
+              ></a>
+            </li>
+          </ul>
+        </div>
 
-          <div
-            class='col-md-4 col-lg-4'
-            class='space'
-            className='sarthak'
-            className='p'
-          >
-            <div
-              data-aos='zoom-out-right'
-              data-aos-duration='2000'
-              className='box'
+        <div class='our-team' data-aos='zoom-out'>
+          <div class='picture'>
+            <img class='img-fluid' src={sarthak} />
+          </div>
+          <div class='team-content'>
+            <h2 class='name'>Sarthak Mehta</h2>
+            <p
+              style={{
+                fontSize: "20px",
+                marginBottom: "5px",
+                fontWeight: "bold",
+                color: "#2ecc71",
+              }}
             >
-              <div className='bg'>
-                <div className='dp'>
-                  <img
-                    src='client/src/components/navcomponents/logo.png'
-                    alt=''
-                  />
-                </div>
-              </div>
-              <div class='name'>
-                <h2 data-aos='fade-left' data-aos-duration='1000'>
-                  Sarthak Mehta
-                </h2>
-                <h3 data-aos='fade-left' data-aos-duration='2000'>
-                  Volunteer
-                </h3>
-                <h5 data-aos='fade-left' data-aos-duration='3000'>
-                  Game Developer
-                </h5>
-              </div>
-              <hr class='mlline'></hr>
-              <div className='skills'>
-                <ul>
-                  <li className='s25'>C 80%</li>
-                  <li className='s26'>C++ 70%</li>
-                  <li className='s27'>Open gl 50%</li>
-                  <li className='s28'>Blender 50%</li>
-                </ul>
-              </div>
-              <div className='move'>
-                <div className='bluebox'>
-                  <div className='icons'>
-                    <div class='i'>
-                      <a href='https://www.linkedin.com/in/sarthak-mehta-a42183191'>
-                        <i class='fa fa-linkedin-square'></i>
-                      </a>
-                    </div>
-                    <div className='i'>
-                      <a href='https://www.instagram.com/sarthakmehta92'>
-                        <i class='fa fa-instagram'></i>
-                      </a>
-                    </div>
-
-                    <div className='i'>
-                      <a
-                        href='https://github.com/sarthakmehta9999'
-                        class='fa fa-github'
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+              Volunteer
+            </p>
+            <h4 class='title'>Game Developement</h4>
           </div>
-
-          <div
-            class='col-md-4 col-lg-4'
-            class='space'
-            className='avi'
-            className='p'
-          >
-            <div
-              data-aos='zoom-out-right'
-              data-aos-duration='2000'
-              className='box'
+          <ul class='social'>
+            <li>
+              <a
+                href='https://github.com/sarthakmehta9999'
+                class='fa fa-github'
+                aria-hidden='true'
+              ></a>
+            </li>
+            <li>
+              <a
+                href='https://www.instagram.com/sarthakmehta92'
+                class='fa fa-instagram'
+                aria-hidden='true'
+              ></a>
+            </li>
+            <li>
+              <a
+                href='https://www.linkedin.com/in/sarthak-mehta-a42183191'
+                class='fa fa-linkedin'
+                aria-hidden='true'
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class='our-team' data-aos='zoom-out'>
+          <div class='picture'>
+            <img class='img-fluid' src={avi} />
+          </div>
+          <div class='team-content'>
+            <h2 class='name'>Avi Singh</h2>
+            <p
+              style={{
+                fontSize: "20px",
+                marginBottom: "5px",
+                fontWeight: "bold",
+                color: "#2ecc71",
+              }}
             >
-              <div className='bg'>
-                <div className='dp'>
-                  <img
-                    src='client/src/components/navcomponents/logo.png'
-                    alt=''
-                  />
-                </div>
-              </div>
-              <div class='name'>
-                <h2 data-aos='fade-left' data-aos-duration='1000'>
-                  Avi Singh
-                </h2>
-                <h3 data-aos='fade-left' data-aos-duration='2000'>
-                  Volunteer
-                </h3>
-                <h5 data-aos='fade-left' data-aos-duration='3000'>
-                  Android Developer
-                </h5>
-              </div>
-              <hr class='mlline'></hr>
-              <div className='skills'>
-                <ul>
-                  <li className='s29'>Java 90%</li>
-                  <li className='s30'>C 90%</li>
-                  <li className='s31'>Android Studio 80%</li>
-                  <li className='s32'>JavaScript 70%</li>
-                </ul>
-              </div>
-              <div className='move'>
-                <div className='bluebox'>
-                  <div className='icons'>
-                    <div class='i'>
-                      <a href='https://www.linkedin.com/in/avi-singh-b56181191'>
-                        <i class='fa fa-linkedin-square'></i>
-                      </a>
-                    </div>
-                    <div className='i'>
-                      <a href='https://www.instagram.com/avi.singh.3'>
-                        <i class='fa fa-instagram'></i>
-                      </a>
-                    </div>
-                    <div className='i'>
-                      <a href='https://www.facebook.com/amkhil.singh.3'>
-                        <i class='fa fa-facebook-official'></i>
-                      </a>
-                    </div>
-                    <div className='i'>
-                      <a href='' class='fa fa-github'></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+              Volunteer
+            </p>
+            <h4 class='title'>Android Development</h4>
           </div>
-
-          <div
-            class='col-md-4 col-lg-4'
-            class='space'
-            className='piyush'
-            className='p'
-          >
-            <div
-              data-aos='zoom-out-right'
-              data-aos-duration='2000'
-              className='box'
+          <ul class='social'>
+            <li>
+              <a
+                href='https://github.com/DarksterTwilight'
+                class='fa fa-github'
+                aria-hidden='true'
+              ></a>
+            </li>
+            <li>
+              <a
+                href='https://www.instagram.com/avi.singh.3'
+                class='fa fa-instagram'
+                aria-hidden='true'
+              ></a>
+            </li>
+            <li>
+              <a
+                href='https://www.linkedin.com/in/avi-singh-b56181191'
+                class='fa fa-linkedin'
+                aria-hidden='true'
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class='our-team' data-aos='zoom-out'>
+          <div class='picture'>
+            <img class='img-fluid' src={piyush} />
+          </div>
+          <div class='team-content'>
+            <h2 class='name'>Piyush Agarwal</h2>
+            <p
+              style={{
+                fontSize: "20px",
+                marginBottom: "5px",
+                fontWeight: "bold",
+                color: "#2ecc71",
+              }}
             >
-              <div className='bg'>
-                <div className='dp'>
-                  <img
-                    src='client/src/components/navcomponents/logo.png'
-                    alt=''
-                  />
-                </div>
-              </div>
-              <div class='name'>
-                <h2 data-aos='fade-left' data-aos-duration='1000'>
-                  Piyush Aggarwal
-                </h2>
-                <h3 data-aos='fade-left' data-aos-duration='2000'>
-                  Volunteer
-                </h3>
-                <h5 data-aos='fade-left' data-aos-duration='3000'>
-                  ML Enthusiast
-                </h5>
-              </div>
-              <hr class='mlline'></hr>
-              <div className='skills'>
-                <ul>
-                  <li className='s33'>C++ 80%</li>
-                  <li className='s34'>Python 60%</li>
-                  <li className='s35'>Data Structures 40%</li>
-                </ul>
-              </div>
-              <div className='move'>
-                <div className='bluebox'>
-                  <div className='icons'>
-                    <div class='i'>
-                      <a href='#'>
-                        <i class='fa fa-linkedin-square'></i>
-                      </a>
-                    </div>
-                    <div className='i'>
-                      <a href='#'>
-                        <i class='fa fa-instagram'></i>
-                      </a>
-                    </div>
-                    <div className='i'>
-                      <a href='#'>
-                        <i class='fa fa-facebook-official'></i>
-                      </a>
-                    </div>
-                    <div className='i'>
-                      <a href='#' class='fa fa-github'></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+              Volunteer
+            </p>
+            <h4 class='title'>Machine Learning & Competetive Coding</h4>
           </div>
+          <ul class='social'>
+            <li>
+              <a
+                href='https://www.facebook.com/profile.php?id=100040415340962'
+                class='fa fa-facebook'
+                aria-hidden='true'
+              ></a>
+            </li>
+            <li>
+              <a
+                href='https://github.com/piyushag21'
+                class='fa fa-github'
+                aria-hidden='true'
+              ></a>
+            </li>
+            <li>
+              <a
+                href='https://instagram.com/piyush__bansal21?igshid=11x561728hmba'
+                class='fa fa-instagram'
+                aria-hidden='true'
+              ></a>
+            </li>
+            <li>
+              <a
+                href='https://www.linkedin.com/in/piyush-agarwal-a77182191'
+                class='fa fa-linkedin'
+                aria-hidden='true'
+              ></a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

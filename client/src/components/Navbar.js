@@ -4,15 +4,15 @@ import logo from "../img/logo.png";
 function Navbar() {
   return (
     <nav className='navbar navbar-expand-lg'>
-      <h2>
+      <h3>
         <Link to='/'>
-          <img src={logo} height='35px' width='40px' alt='#'></img> CodeCops
+          <img src={logo} height='30px' width='35px' alt='#'></img> CodeCops
         </Link>
-      </h2>
+      </h3>
       <button
         className='navbar-toggler'
         type='button'
-        data-toggle='collapse'
+        data-toggle='dropdown'
         data-target='#navbarNavDropdown'
         aria-controls='navbarNavDropdown'
         aria-expanded='false'
@@ -44,8 +44,8 @@ function Navbar() {
           </li>
 
           <li className='nav-item'>
-            <Link className='nav-link' to='/events'>
-              Events
+            <Link className='nav-link' to='/goc'>
+              Game Of Codes
             </Link>
           </li>
           {/* Future Blog link */}

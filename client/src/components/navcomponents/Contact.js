@@ -50,7 +50,7 @@ const Contact = () => {
               <img src={phone} height='50px' width='50px'></img>
             </span>
             <span data-aos='zoom-in-down' style={{ marginLeft: "20px" }}>
-              +91 9518139757
+              +91 9518139757, +91 9315700798
             </span>
           </p>
         </div>

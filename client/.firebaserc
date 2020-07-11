@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "code-cops"
+  },
+  "targets": {
+    "code-cops": {
+      "hosting": {
+        "codecops": [
+          "codecops"
+        ]
+      }
+    }
+  }
+}

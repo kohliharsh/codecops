@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 function ShortCountdownTimer() {
   const calculateTimeLeft = () => {
-    const difference = +new Date("2020-07-10") - +new Date();
+    const difference = +new Date("2020-07-10 19:00") - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
@@ -42,9 +42,17 @@ function ShortCountdownTimer() {
   return (
     <div>
       <h4 style={{ color: "#2ecc71" }}>
-        Registration Starts in:
+        Registration Started:
         <h4 style={{ color: "white" }}>
-          {timerComponents.length ? timerComponents : <span>Time's up!</span>}
+          {timerComponents.length ? (
+            timerComponents
+          ) : (
+            <span>
+              <a href='https://forms.gle/PkhLsDNwYSWzDjj76'>
+                Click Here to Register!
+              </a>
+            </span>
+          )}
         </h4>
       </h4>
     </div>

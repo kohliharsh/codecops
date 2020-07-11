@@ -14,11 +14,11 @@ const About = () => {
           data-aos-duration='1900'
           className='container'
         >
-          Code Cops is one of the biggest clubs of IIIT Una in Transit
-          Campus-II. We conduct events and workshops, hold lectures and talks,
-          and even host coding competitions and hackathons. We organize
-          activities related to Development (Web Development, Open Source,
-          Game/App Development), programming contests, hackathons, etc..
+          Code Cops is one of the clubs of IIIT Una in Transit Campus-II. We
+          conduct events and workshops, hold lectures and talks, and even host
+          coding competitions and hackathons. We organize activities related to
+          Development (Web Development, Open Source, Game/App Development,
+          Machine Learning), programming contests, hackathons, etc..
         </p>
         <p data-aos='fade-left' data-aos-duration='2600'>
           Domains We Offer

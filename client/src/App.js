@@ -41,7 +41,7 @@ function App() {
                 <Route exact path='/blog' component={Blog} />
                 {/* <Route exact path='/register' component={Register} /> */}
                 {/* <Route exact path='/login' component={Login} /> */}
-                <Route exact path='/events' component={Events} />
+                <Route exact path='/goc' component={Events} />
                 <Route
                   exact
                   path='/eventregistration'

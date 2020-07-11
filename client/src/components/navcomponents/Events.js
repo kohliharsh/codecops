@@ -11,7 +11,10 @@ import ReactPlayer from "react-player";
 
 const Events = () => {
   return (
-    <div className='events' style={{ marginBottom: "20px" }}>
+    <div
+      className='events'
+      style={{ marginBottom: "20px", marginTop: "130px" }}
+    >
       <div className='banner'>
         <img data-aos='zoom-out' data-aos-duration='500' src={banner} />
       </div>
@@ -19,8 +22,8 @@ const Events = () => {
         <CountdownTimer />
       </div>
       <div className='workshop container'>
-        <h1 data-aos='fade-right' data-aos-duration='2000'>
-          <span>About Events</span>
+        <h1 data-aos-duration='2000'>
+          <span>About Event</span>
         </h1>
       </div>
       <div>
@@ -94,24 +97,31 @@ const Events = () => {
         >
           <ul>
             <li>
-              Registration - <b>10th July’20 to 20th July'20</b>
+              Registration - <b>10th July’20 to 25th July'20</b>
             </li>
 
             <li>
-              Project Submission­ - <b>21st July’20 to 27th July'20</b>
+              Project Submission­ - <b>26th July’20 to 1st August’20</b>
             </li>
 
             <li>
-              Online Interaction - <b>30th July’20 & 31st July'20</b>
+              Source Code Submission­ - <b>1st August’20</b>
             </li>
             <li>
-              Result Declaration - <b>5th August’20</b>
+              Bug & Feature Testing - <b>2nd August’20 - 5th August’20</b>
+            </li>
+            <li>
+              Online Interaction - <b>6th August’20 - 10th August’20</b>
+            </li>
+
+            <li>
+              Result Declaration - <b>14th August’20</b>
             </li>
           </ul>
         </p>
       </div>
       <div className='sponsers container' style={{ textAlign: "left" }}>
-        <h4 style={{ color: "#2ecc71", margin: "0" }}>Sponsered By-</h4>
+        <h4 style={{ color: "#2ecc71", margin: "0" }}>Sponsored By-</h4>
         <a href='https://www.codingninjas.com/'>
           <img
             data-aos='zoom-in'

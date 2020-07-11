@@ -17,9 +17,9 @@ import banner from "../img/banner.png";
 //import se from "../img/se.png";
 const Landing = () => {
   const str1 =
-    "In an effort to preserve this spirit, we, the volunteers of CODE COPS, are organizing a coding event titled as, “GAME OF CODES”. In this event, we will ask students to use their coding skills to develop creative and innovative projects pertaining to their respective field of interest. These projects shall be developed in a period of one week. We have shortlisted some key areas of developments.";
+    "In an effort to preserve this spirit, we, the volunteers of CODE COPS, are organizing a coding event titled as, “GAME OF CODES”. In this event, we will ask students to use their coding skills to develop creative and innovative projects pertaining to their respective field of interest. These projects shall be developed in a period of one week. We have shortlisted some key areas of developments.  ";
   const str2 =
-    "In an effort to preserve this spirit, we, the volunteers of CODE COPS";
+    "In an effort to preserve this spirit, we, the volunteers of CODE COPS,are organizing a coding event titled as, “GAME OF CODES”.  ";
   return (
     <section className='landing'>
       <div className='dark-overlay'>
@@ -27,22 +27,22 @@ const Landing = () => {
           <div className='landinghead'>
             <p>
               <img
-                data-aos='fade-up-right'
+                data-aos='fade-up-left'
                 data-aos-duration='1800'
-                className='img1'
-                src={logo}
+                src='https://upload.wikimedia.org/wikipedia/en/c/cf/Iiit-una-logo.png'
                 alt='#'
+                className='img2'
               ></img>
               <span data-aos='zoom-in-right' className='long'>
                 Welcome to CodeCops
               </span>
               <span className='short'>CodeCops</span>
               <img
-                data-aos='fade-up-left'
+                data-aos='fade-up-right'
                 data-aos-duration='1800'
-                src='https://upload.wikimedia.org/wikipedia/en/c/cf/Iiit-una-logo.png'
+                className='img1'
+                src={logo}
                 alt='#'
-                className='img2'
               ></img>
             </p>
           </div>
@@ -60,16 +60,46 @@ const Landing = () => {
           Upcoming Events
         </h1>
       </div>
-      <div className='grid-container container' style={{ color: "white" }}>
+      <div className='container landingbannershort'>
+        <Link to='/goc'>
+          <img
+            alt=''
+            src={banner}
+            width='100%'
+            height='auto'
+            style={{ marginBottom: "10px" }}
+            data-aos='zoom-out'
+          ></img>
+        </Link>
+        <span className='shortevent' style={{ color: "white" }}>
+          {str2}
+        </span>
+        <Link id='readmore' to='/goc'>
+          ...Readmore
+        </Link>
+        <span className='long'>
+          <CountdownTimer />
+        </span>
+        <span className='short'>
+          <ShortCountdownTimer />
+        </span>
+      </div>
+      <div
+        className='grid-container container landingbannerlong'
+        style={{ color: "white" }}
+      >
         <div class='grid-1' data-aos='zoom-out'>
-          <Link to='/events'>
+          <Link to='/goc'>
             <img alt='' src={banner}></img>
           </Link>
         </div>
         <div class='grid-2' data-aos='zoom-in'>
-          <span className='longevent'>{str1}</span>
+          <span className='longevent'>
+            {str1}
+            {"\n"}
+          </span>
           <span className='shortevent'>{str2}</span>
-          <Link id='readmore' to='/events'>
+          <Link id='readmore' to='/goc'>
             ...Readmore
           </Link>
           <span className='long'>
@@ -81,7 +111,7 @@ const Landing = () => {
         </div>
       </div>
       <div className='workshop container'>
-        <h1 data-aos='fade-up' data-aos-duration='1000'>
+        <h1 data-aos-duration='1000'>
           <span>Work Shops</span>
         </h1>
       </div>
@@ -92,15 +122,16 @@ const Landing = () => {
         className='container'
         style={{ color: "white", wordSpacing: "5px", fontSize: "20px" }}
       >
-        "Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book."
+        "Workshops are the best way to learn and grasp concepts easily.We have
+        been organizing workshops on various topics to help club members gain
+        practical application in no time.The workshops include lectures and
+        practicals on all domains which are conducted by respective domain
+        leaders alongwith the doubt sessions.The main focus is to make the
+        members thorough in the concepts by making them practice things and
+        assesing them.The workshop is conducted twice or thrice in a month and
+        follows strict discipline in all aspects."
       </p>
       <h4
-        data-aos='fade-up'
         data-aos-duration='3000'
         className='container'
         style={{
@@ -190,6 +221,13 @@ const Landing = () => {
                 height='120px'
                 width='120px'
               ></img>
+              <p
+                data-aos='fade-up'
+                data-aos-duration='1600'
+                style={{ color: "white", textAlign: "center" }}
+              >
+                Java
+              </p>
             </div>
           </div>
           <div className='col-sm-6 col-md-4 col-lg-3'>
@@ -202,7 +240,7 @@ const Landing = () => {
               ></img>
               <p
                 data-aos='fade-up'
-                data-aos-duration='1600'
+                data-aos-duration='1800'
                 style={{ color: "white", textAlign: "center" }}
               >
                 Kotlin
@@ -219,7 +257,7 @@ const Landing = () => {
               ></img>
               <p
                 data-aos='fade-up'
-                data-aos-duration='1800'
+                data-aos-duration='2000'
                 style={{ color: "white", textAlign: "center" }}
               >
                 Android App Development
@@ -236,7 +274,7 @@ const Landing = () => {
               ></img>
               <p
                 data-aos='fade-up'
-                data-aos-duration='2000'
+                data-aos-duration='2200'
                 style={{ color: "white", textAlign: "center" }}
               >
                 Chatbot
@@ -362,10 +400,17 @@ const Landing = () => {
             height='140px'
             width='120px'
           ></img>
+          <p
+            data-aos='fade-up'
+            data-aos-duration='2200'
+            style={{ color: "white", textAlign: "center" }}
+          >
+            OpenCV
+          </p>
         </div>
       </div>
 
-      <p
+      {/* <p
         className='future'
         data-aos-duration='2900'
         className='container'
@@ -377,7 +422,7 @@ const Landing = () => {
         }}
       >
         For Future Topics and Discussions Stay Tuned...
-      </p>
+      </p> */}
     </section>
   );
 };
