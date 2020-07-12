@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.b17e8004.chunk.css",
-    "main.js": "/static/js/main.3793c485.chunk.js",
-    "main.js.map": "/static/js/main.3793c485.chunk.js.map",
+    "main.css": "/static/css/main.a5a7b9ae.chunk.css",
+    "main.js": "/static/js/main.b9a69f33.chunk.js",
+    "main.js.map": "/static/js/main.b9a69f33.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.09b85ec0.js",
     "runtime-main.js.map": "/static/js/runtime-main.09b85ec0.js.map",
     "static/css/2.a33d7f97.chunk.css": "/static/css/2.a33d7f97.chunk.css",
     "static/js/2.8c416e41.chunk.js": "/static/js/2.8c416e41.chunk.js",
     "static/js/2.8c416e41.chunk.js.map": "/static/js/2.8c416e41.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.996e7bcac5fd45f51a446a58d6a1ff3c.js": "/precache-manifest.996e7bcac5fd45f51a446a58d6a1ff3c.js",
+    "precache-manifest.bb6ab4e658a04d5343f2e024a3743b7d.js": "/precache-manifest.bb6ab4e658a04d5343f2e024a3743b7d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.a33d7f97.chunk.css.map": "/static/css/2.a33d7f97.chunk.css.map",
-    "static/css/main.b17e8004.chunk.css.map": "/static/css/main.b17e8004.chunk.css.map",
+    "static/css/main.a5a7b9ae.chunk.css.map": "/static/css/main.a5a7b9ae.chunk.css.map",
     "static/js/2.8c416e41.chunk.js.LICENSE.txt": "/static/js/2.8c416e41.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/static/media/1.9ac405f6.jpg",
     "static/media/2.jpg": "/static/media/2.d7049f0f.jpg",
@@ -22,7 +22,7 @@
     "static/media/avi.jpeg": "/static/media/avi.3393289b.jpeg",
     "static/media/banner.png": "/static/media/banner.6c130dff.png",
     "static/media/chatbot.png": "/static/media/chatbot.640c4e2b.png",
-    "static/media/codingninja.svg": "/static/media/codingninja.46900784.svg",
+    "static/media/codingninja.svg": "/static/media/codingninja.aaad12d3.svg",
     "static/media/email.png": "/static/media/email.7cb82b7b.png",
     "static/media/facebook.png": "/static/media/facebook.20287ad3.png",
     "static/media/git.png": "/static/media/git.b6b8736c.png",
@@ -48,7 +48,7 @@
     "static/js/runtime-main.09b85ec0.js",
     "static/css/2.a33d7f97.chunk.css",
     "static/js/2.8c416e41.chunk.js",
-    "static/css/main.b17e8004.chunk.css",
-    "static/js/main.3793c485.chunk.js"
+    "static/css/main.a5a7b9ae.chunk.css",
+    "static/js/main.b9a69f33.chunk.js"
   ]
 }

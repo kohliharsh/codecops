@@ -541,6 +541,78 @@ header {
   margin-top: 40px;
   margin-bottom: 30px;
 }
+.enviornment {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.envcard {
+  border: 1px solid white;
+  border-radius: 15px;
+  width: 300px;
+  height: 200px;
+  background: #30565c;
+  text-align: left;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.envcard h5 {
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+
+.judgement {
+  color: white;
+  text-align: left;
+  word-spacing: 5px;
+}
+
+.criteria {
+  text-align: left;
+  color: white;
+  word-spacing: 5px;
+}
+.criteria p {
+  font-size: 20px;
+}
+.criteriabox {
+  border: 1px solid white;
+  border-radius: 15px;
+  width: fit-content;
+  background: #30565c;
+  text-align: left;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.prizecard {
+  margin-top: 20px;
+  width: 350px;
+  height: 200px;
+  background: #086972;
+  text-align: left;
+  color: #fad390;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.prizecard h2 {
+  text-align: center;
+  padding-top: 15px;
+}
+.prizecard p {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  padding: auto;
+}
+
+/*  */
+
 /* Event Registration */
 
 .eventregistration {
