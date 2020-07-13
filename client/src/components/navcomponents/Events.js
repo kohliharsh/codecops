@@ -10,7 +10,6 @@ import ReactPlayer from "react-player";
 import Ideused from "../navcomponents/Ideused";
 import Judgebox from "../navcomponents/Judgebox";
 import Prize from "../navcomponents/Prize";
-import final from "../../img/final.mp4";
 const Events = () => {
   return (
     <div
