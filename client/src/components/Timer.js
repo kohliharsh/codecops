@@ -41,14 +41,17 @@ function CountdownTimer() {
 
   return (
     <div>
-      <h2 style={{ color: "#2ecc71" }}>
+      <h2 style={{ color: "white", marginTop: "20px" }}>
         Registration Started:
         <h2 style={{ color: "white" }}>
           {timerComponents.length ? (
             timerComponents
           ) : (
-            <span>
-              <a href='https://forms.gle/PkhLsDNwYSWzDjj76'>
+            <span style={{ marginTop: "20px" }}>
+              <a
+                href="https://forms.gle/PkhLsDNwYSWzDjj76"
+                style={{ color: "#29a19c" }}
+              >
                 Click Here to Register!
               </a>
             </span>

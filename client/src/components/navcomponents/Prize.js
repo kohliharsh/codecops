@@ -25,7 +25,7 @@ const Prize = () => {
           <div className="prizecard workevent">
             <h2>Discount Coupons!!</h2>
             <p style={{ fontSize: "18px", marginTop: "20px" }}>
-              Special Discount coupons worth ₹ 2000 on the premium couses of
+              Special Discount coupons worth ₹ 2000 on the premium courses of
               CODING NINJAS to all the participants!
             </p>
           </div>

@@ -4,14 +4,13 @@ import CountdownTimer from "../Timer";
 import { Link } from "react-router-dom";
 import teaser from "../../img/teaser.mp4";
 import "../../../node_modules/video-react/dist/video-react.css";
-import { Player } from "video-react";
 import banner from "../../img/banner.png";
 import codingninja from "../../img/codingninja.svg";
 import ReactPlayer from "react-player";
 import Ideused from "../navcomponents/Ideused";
 import Judgebox from "../navcomponents/Judgebox";
 import Prize from "../navcomponents/Prize";
-
+import final from "../../img/final.mp4";
 const Events = () => {
   return (
     <div
@@ -25,7 +24,7 @@ const Events = () => {
         <CountdownTimer />
       </div>
       <div className="workshop container">
-        <h1 data-aos-duration="2000">
+        <h1 data-aos-duration="2000" style={{ marginTop: "20px" }}>
           <span>About Event</span>
         </h1>
       </div>
@@ -33,20 +32,20 @@ const Events = () => {
         <h2
           data-aos="fade-left"
           data-aos-duration="1300"
-          style={{ color: "#2ecc71", textAlign: "left", marginLeft: "10px" }}
+          style={{
+            color: "#2ecc71",
+            textAlign: "left",
+            marginLeft: "10px",
+            marginTop: "20px",
+            marginBottom: "20px",
+          }}
         >
           1. Game Of Codes
         </h2>
-        {/* <div
-          className='video'
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            justifyContent: "center",
-            textAlign: "center",
-          }}
-        ></div> */}
+        {/* <div className="conatiner video">
+          <ReactPlayer height={272} width={480} url={teaser} controls={true} />
+          <ReactPlayer height={272} width={480} url={final} controls={true} />
+        </div> */}
         <p
           data-aos="zoom-in-down"
           data-aos-duration="2000"
@@ -69,7 +68,7 @@ const Events = () => {
           and innovative projects pertaining to their respective field of
           interest. These projects shall be developed in a period of one week.
           We have shortlisted some key areas of developments.
-          <ul>
+          <ul style={{ marginTop: "15px" }} className="schedule">
             <li>Android Development</li>
             <li>Web Development</li>
             <li>Game Development</li>
@@ -84,23 +83,34 @@ const Events = () => {
           and cross questioned by our judges for the final evaluation.
         </p>
         <div>
-          <h3 style={{ color: "white" }}>Enviornments to be Used</h3>
+          <h3 style={{ color: "white", marginTop: "30px" }}>
+            Enviornments to be Used
+          </h3>
           <div className="enviornment container">
             <Ideused />
           </div>
         </div>
         <div className="judgement container">
-          <h2 style={{ color: "white", textAlign: "center" }}>
-            Judgement Process
+          <h2
+            style={{
+              color: "white",
+              textAlign: "center",
+              marginTop: "15px",
+              marginBottom: "20px",
+            }}
+          >
+            JUDGEMENT PROCESS
           </h2>
-          <h4 style={{ textAlign: "left" }}>
+          <h4 style={{ textAlign: "left", marginBottom: "30px" }}>
             There are two phases for Judgement:
           </h4>
           <ul>
             <li>
               <h5>
-                <u>Feature/bug Testing Phase : </u>
-                <p>
+                <u style={{ marginBottom: "30px" }}>
+                  Feature/bug Testing Phase:{" "}
+                </u>
+                <p style={{ marginBottom: "30px " }}>
                   In this phase the participants will submit there projects and
                   those projects will be tested by the experts for checking out
                   different features of that project as well as to check out if
@@ -109,7 +119,7 @@ const Events = () => {
               </h5>
               <li>
                 <h5>
-                  <u>Online Interaction Phase :</u>
+                  <u>Online Interaction Phase:</u>
                   <p>
                     In this phase the participant will be connected to Judging
                     Panel through a google meeting, where he/she will be asked
@@ -125,8 +135,16 @@ const Events = () => {
           </ul>
         </div>
         <div className="criteria container">
-          <h2 style={{ textAlign: "center" }}>Judging Criteria</h2>
-          <p>
+          <h2
+            style={{
+              textAlign: "center",
+              marginTop: "35px",
+              marginBottom: "30px",
+            }}
+          >
+            JUDGING CRITERIA
+          </h2>
+          <p style={{ marginBottom: "30px" }}>
             We have laid down 4-5 pillars per development on the basis of which
             the contestants will be ranked. Each pillar consists of specified
             points which adds up to 100 points. They are listed below: -
@@ -140,7 +158,8 @@ const Events = () => {
             color: "white",
             textAlign: "left",
             marginLeft: "10px",
-            marginTop: "20px",
+            marginTop: "40px",
+            marginBottom: "30px",
           }}
         >
           Schedule:
@@ -156,7 +175,7 @@ const Events = () => {
             textAlign: "left",
           }}
         >
-          <ul>
+          <ul style={{ marginBottom: "30px" }} className="schedule">
             <li>
               Registration - <b>10th July’20 to 25th July'20</b>
             </li>
