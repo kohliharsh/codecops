@@ -553,6 +553,37 @@ header {
   margin-bottom: 20px;
 }
 
+#timer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.timer {
+  text-align: left;
+}
+
+.timerstops {
+  text-align: left;
+}
+
+.shorttimerevent {
+  display: none;
+}
+
+@media (max-width: 580px) {
+  .shorttimerevent {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #timer {
+    display: none;
+  }
+}
+
 .video {
   margin-top: 40px;
   margin-bottom: 30px;

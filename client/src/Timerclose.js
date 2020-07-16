@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 
-function CountdownTimer() {
+function CountdownTimerStops() {
   const calculateTimeLeft = () => {
-    const difference = +new Date("2020-07-10 19:00") - +new Date();
+    const difference = +new Date("2020-07-25 12:00") - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
@@ -42,24 +42,17 @@ function CountdownTimer() {
   return (
     <div>
       <h2 style={{ color: "white", marginTop: "20px" }}>
-        Registration Started:
-        <h2 style={{ color: "white" }}>
+        Registration closes in:
+        <h3 style={{ color: "#29a19c" }}>
           {timerComponents.length ? (
             timerComponents
           ) : (
-            <span style={{ marginTop: "20px" }}>
-              <a
-                href='https://forms.gle/PkhLsDNwYSWzDjj76'
-                style={{ color: "#29a19c" }}
-              >
-                Click Here to Register!
-              </a>
-            </span>
+            <span>Registration Closed!</span>
           )}
-        </h2>
+        </h3>
       </h2>
     </div>
   );
 }
 
-export default CountdownTimer;
+export default CountdownTimerStops;

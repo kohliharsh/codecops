@@ -10,27 +10,52 @@ import ReactPlayer from "react-player";
 import Ideused from "../navcomponents/Ideused";
 import Judgebox from "../navcomponents/Judgebox";
 import Prize from "../navcomponents/Prize";
+import ShortCountdownTimerClose from "../../ShortTimerClose";
+import CountdownTimerStops from "../../Timerclose";
+
 const Events = () => {
   return (
     <div
-      className="events"
+      className='events'
       style={{ marginBottom: "20px", marginTop: "130px" }}
     >
-      <div className="banner">
-        <img data-aos="zoom-out" data-aos-duration="500" src={banner} />
+      <div className='banner'>
+        <img data-aos='zoom-out' data-aos-duration='500' src={banner} />
       </div>
-      <div data-aos="fade-left" data-aos-duration="1000" id="timer">
+      <div
+        className='container timer'
+        data-aos='fade-left'
+        data-aos-duration='1000'
+        id='timer'
+        className='longtimerevent'
+      >
+        <div className='timer'>
+          <CountdownTimer />
+        </div>
+        <div className='timerstops'>
+          <CountdownTimerStops />
+        </div>
+      </div>
+      <div
+        className='container timer'
+        data-aos='fade-left'
+        data-aos-duration='1000'
+        className='shorttimerevent'
+      >
         <CountdownTimer />
+        <div>
+          <ShortCountdownTimerClose />
+        </div>
       </div>
-      <div className="workshop container">
-        <h1 data-aos-duration="2000" style={{ marginTop: "20px" }}>
+      <div className='workshop container'>
+        <h1 data-aos-duration='2000' style={{ marginTop: "20px" }}>
           <span>About Event</span>
         </h1>
       </div>
       <div>
         <h2
-          data-aos="fade-left"
-          data-aos-duration="1300"
+          data-aos='fade-left'
+          data-aos-duration='1300'
           style={{
             color: "#2ecc71",
             textAlign: "left",
@@ -46,10 +71,10 @@ const Events = () => {
           <ReactPlayer height={272} width={480} url={final} controls={true} />
         </div> */}
         <p
-          data-aos="zoom-in-down"
-          data-aos-duration="2000"
-          className="workshop-para"
-          className="container"
+          data-aos='zoom-in-down'
+          data-aos-duration='2000'
+          className='workshop-para'
+          className='container'
           style={{
             color: "white",
             wordSpacing: "5px",
@@ -67,7 +92,7 @@ const Events = () => {
           and innovative projects pertaining to their respective field of
           interest. These projects shall be developed in a period of one week.
           We have shortlisted some key areas of developments.
-          <ul style={{ marginTop: "15px" }} className="schedule">
+          <ul style={{ marginTop: "15px" }} className='schedule'>
             <li>Android Development</li>
             <li>Web Development</li>
             <li>Game Development</li>
@@ -85,11 +110,11 @@ const Events = () => {
           <h3 style={{ color: "white", marginTop: "30px" }}>
             Enviornments to be Used
           </h3>
-          <div className="enviornment container">
+          <div className='enviornment container'>
             <Ideused />
           </div>
         </div>
-        <div className="judgement container">
+        <div className='judgement container'>
           <h2
             style={{
               color: "white",
@@ -133,7 +158,7 @@ const Events = () => {
             </li>
           </ul>
         </div>
-        <div className="criteria container">
+        <div className='criteria container'>
           <h2
             style={{
               textAlign: "center",
@@ -151,8 +176,8 @@ const Events = () => {
           <Judgebox />
         </div>
         <h2
-          data-aos="fade-left"
-          data-aos-duration="1500"
+          data-aos='fade-left'
+          data-aos-duration='1500'
           style={{
             color: "white",
             textAlign: "left",
@@ -164,9 +189,9 @@ const Events = () => {
           Schedule:
         </h2>
         <p
-          data-aos="zoom-in-down"
-          data-aos-duration="2000"
-          className="container"
+          data-aos='zoom-in-down'
+          data-aos-duration='2000'
+          className='container'
           style={{
             color: "white",
             wordSpacing: "5px",
@@ -174,7 +199,7 @@ const Events = () => {
             textAlign: "left",
           }}
         >
-          <ul style={{ marginBottom: "30px" }} className="schedule">
+          <ul style={{ marginBottom: "30px" }} className='schedule'>
             <li>
               Registration - <b>10th July’20 to 25th July'20</b>
             </li>
@@ -202,19 +227,19 @@ const Events = () => {
       <div>
         <Prize />
       </div>
-      <div className="sponsers container" style={{ textAlign: "left" }}>
+      <div className='sponsers container' style={{ textAlign: "left" }}>
         <h4 style={{ color: "#2ecc71", margin: "0" }}>Sponsored By-</h4>
-        <a href="https://www.codingninjas.com/">
+        <a href='https://www.codingninjas.com/'>
           <img
-            data-aos="zoom-in"
+            data-aos='zoom-in'
             src={codingninja}
-            height="200px"
-            width="300px"
+            height='200px'
+            width='300px'
           ></img>
         </a>
       </div>
       <h4>
-        <a href="https://forms.gle/PkhLsDNwYSWzDjj76" id="readmore">
+        <a href='https://forms.gle/PkhLsDNwYSWzDjj76' id='readmore'>
           Click Here to Register!!
         </a>
       </h4>
