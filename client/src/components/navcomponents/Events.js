@@ -12,6 +12,10 @@ import Judgebox from "../navcomponents/Judgebox";
 import Prize from "../navcomponents/Prize";
 import ShortCountdownTimerClose from "../../ShortTimerClose";
 import CountdownTimerStops from "../../Timerclose";
+import github from "../../img/github.png";
+import instagram from "../../img/instagram.png";
+import linkedin from "../../img/linkedin.png";
+import facebook from "../../img/facebook.png";
 
 const Events = () => {
   return (
@@ -235,6 +239,45 @@ const Events = () => {
             src={codingninja}
             height='200px'
             width='300px'
+          ></img>
+        </a>
+      </div>
+      <div
+        style={{
+          marginBottom: "50px",
+        }}
+      >
+        <h3 style={{ color: "white" }}>
+          For more information stay connected to our social handles!
+        </h3>
+        <a href='https://www.instagram.com/codecops.iiitu/' class='github'>
+          <img
+            data-aos='flip-right'
+            src={instagram}
+            style={{ borderRadius: "50%", padding: "5px" }}
+            height='70px'
+            width='70px'
+          ></img>
+        </a>
+        <a
+          href='https://www.linkedin.com/company/codecopsiiitu/'
+          class='github'
+        >
+          <img
+            data-aos='flip-right'
+            src={linkedin}
+            style={{ borderRadius: "50%", padding: "5px" }}
+            height='70px'
+            width='70px'
+          ></img>
+        </a>
+        <a href='https://www.facebook.com/codecops.iiitu/' class='github'>
+          <img
+            data-aos='flip-right'
+            src={facebook}
+            style={{ borderRadius: "50%", padding: "5px" }}
+            height='70px'
+            width='70px'
           ></img>
         </a>
       </div>
