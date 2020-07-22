@@ -2,16 +2,16 @@ import React from "react";
 
 const Ideused = (props) => {
   return (
-    <div className="container enviornment">
-      <div className="row">
-        <div className="col-sm-12 col-md-6 col-lg-4">
-          <div className="envcard workevent">
+    <div className='container enviornment'>
+      <div className='row'>
+        <div className='col-sm-12 col-md-6 col-lg-4'>
+          <div className='envcard workevent'>
             <h5>Android Develpment</h5>
             <ul>
               <li>
                 Frontend :
                 <ul>
-                  <li>Android Studio(Java/Kotlin)</li>
+                  <li>Android Studio(Java/Kotlin/Flutter)</li>
                 </ul>
               </li>
               <li>
@@ -23,8 +23,8 @@ const Ideused = (props) => {
             </ul>
           </div>
         </div>
-        <div className="col-sm-12 col-md-6 col-lg-4">
-          <div className="envcard workevent">
+        <div className='col-sm-12 col-md-6 col-lg-4'>
+          <div className='envcard workevent'>
             <h5>Web Develpment</h5>
             <ul>
               <li>
@@ -42,8 +42,8 @@ const Ideused = (props) => {
             </ul>
           </div>
         </div>
-        <div className="col-sm-12 col-md-6 col-lg-4">
-          <div className="envcard workevent">
+        <div className='col-sm-12 col-md-6 col-lg-4'>
+          <div className='envcard workevent'>
             <h5>Game Develpment</h5>
             <ul>
               <li>Unreal Engine</li>
@@ -53,8 +53,8 @@ const Ideused = (props) => {
             </ul>
           </div>
         </div>
-        <div className="col-sm-12 col-md-6 col-lg-4">
-          <div className="envcard workevent">
+        <div className='col-sm-12 col-md-6 col-lg-4'>
+          <div className='envcard workevent'>
             <h5>Console Based Programs</h5>
             <h6 style={{ textAlign: "center" }}>
               (Programing Language to be used)
@@ -67,8 +67,8 @@ const Ideused = (props) => {
             </ul>
           </div>
         </div>
-        <div className="col-sm-12 col-md-6 col-lg-4">
-          <div className="envcard workevent">
+        <div className='col-sm-12 col-md-6 col-lg-4'>
+          <div className='envcard workevent'>
             <h5>Machine Learning</h5>
             <ul>
               <li>Tensor Flow Model</li>
