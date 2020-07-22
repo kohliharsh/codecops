@@ -21,7 +21,7 @@ const Events = () => {
   return (
     <div
       className='events'
-      style={{ marginBottom: "20px", marginTop: "130px" }}
+      style={{ marginBottom: "20px", marginTop: "130px", overflow: "hidden" }}
     >
       <div className='banner'>
         <img data-aos='zoom-out' data-aos-duration='500' src={banner} />
@@ -205,25 +205,25 @@ const Events = () => {
         >
           <ul style={{ marginBottom: "30px" }} className='schedule'>
             <li>
-              Registration - <b>10th July’20 to 25th July'20</b>
+              Registration - <b>10th July’20 to 31st July'20</b>
             </li>
 
             <li>
-              Project Submission­ - <b>26th July’20 to 1st August’20</b>
+              Project Submission­ - <b>1st August’20 to 7th August’20</b>
             </li>
 
             <li>
-              Source Code Submission­ - <b>1st August’20</b>
+              Source Code Submission­ - <b>8th August’20</b>
             </li>
             <li>
-              Bug & Feature Testing - <b>2nd August’20 - 5th August’20</b>
+              Bug & Feature Testing - <b>9th August’20 - 13th August’20</b>
             </li>
             <li>
-              Online Interaction - <b>6th August’20 - 10th August’20</b>
+              Online Interaction - <b>14th August’20 - 20th August’20</b>
             </li>
 
             <li>
-              Result Declaration - <b>14th August’20</b>
+              Result Declaration - <b>25th August’20</b>
             </li>
           </ul>
         </p>
