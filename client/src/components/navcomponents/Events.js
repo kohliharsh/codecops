@@ -16,6 +16,7 @@ import github from "../../img/github.png";
 import instagram from "../../img/instagram.png";
 import linkedin from "../../img/linkedin.png";
 import facebook from "../../img/facebook.png";
+import gstatic from "../../img/gstatic.png";
 
 const Events = () => {
   return (
@@ -231,16 +232,31 @@ const Events = () => {
       <div>
         <Prize />
       </div>
-      <div className='sponsers container' style={{ textAlign: "left" }}>
-        <h4 style={{ color: "#2ecc71", margin: "0" }}>Sponsored By-</h4>
-        <a href='https://www.codingninjas.com/'>
-          <img
-            data-aos='zoom-in'
-            src={codingninja}
-            height='200px'
-            width='300px'
-          ></img>
-        </a>
+      <div className='sponsers container'>
+        <div style={{ textAlign: "left" }}>
+          <h4 style={{ color: "#2ecc71", margin: "0" }}>Sponsored By-</h4>
+          <a href='https://www.codingninjas.com/'>
+            <img
+              data-aos='zoom-in'
+              src={codingninja}
+              height='200px'
+              width='300px'
+            ></img>
+          </a>
+        </div>
+        <div style={{ textAlign: "left" }}>
+          <h4 style={{ color: "#2ecc71", margin: "0" }}>
+            Web Hosting Sponser-
+          </h4>
+          <a href='http://www.gstatic.tech/'>
+            <img
+              data-aos='zoom-in'
+              src={gstatic}
+              height='200px'
+              width='300px'
+            ></img>
+          </a>
+        </div>
       </div>
       <div
         style={{

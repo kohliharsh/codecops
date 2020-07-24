@@ -670,6 +670,12 @@ header {
   margin: 20px 0;
 }
 
+@media (min-width: 700px) {
+  .sponsers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
 /*  */
 
 /* Event Registration */
