@@ -35,6 +35,55 @@ const Team = () => {
       <div class='container'>
         <div class='our-team' data-aos='zoom-out'>
           <div class='picture'>
+            <img class='img-fluid' src='' />
+          </div>
+          <div class='team-content'>
+            <h2 class='name'>Mrs. Minakshi Shashtri</h2>
+            <p
+              style={{
+                fontSize: "20px",
+                marginBottom: "5px",
+                fontWeight: "bold",
+                color: "#2ecc71",
+              }}
+            >
+              Faculty Mentor | School of Computing
+            </p>
+            <h2>@IIIT Una</h2>
+          </div>
+          <ul class='social'>
+            <li>
+              {/* <a
+                href='https://facebook.com/iampjeetsingh'
+                class='fa fa-facebook'
+                aria-hidden='true'
+              ></a> */}
+            </li>
+            <li>
+              {/* <a
+                href='https://github.com/iampjeetsingh'
+                class='fa fa-github'
+                aria-hidden='true'
+              ></a> */}
+            </li>
+            <li>
+              {/* <a
+                href='https://instagram.com/param.git'
+                class='fa fa-instagram'
+                aria-hidden='true'
+              ></a> */}
+            </li>
+            <li>
+              {/* <a
+                href='https://www.linkedin.com/in/iampjeetsingh'
+                class='fa fa-linkedin'
+                aria-hidden='true'
+              ></a> */}
+            </li>
+          </ul>
+        </div>
+        <div class='our-team' data-aos='zoom-out'>
+          <div class='picture'>
             <img class='img-fluid' src={paramjeet} />
           </div>
           <div class='team-content'>
