@@ -671,11 +671,17 @@ header {
 }
 
 @media (min-width: 700px) {
-  .sponsers {
+  /* .sponsers {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  } */
+  .sponsers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
+
 /*  */
 
 /* Event Registration */

@@ -229,12 +229,17 @@ const Events = () => {
           </ul>
         </p>
       </div>
+
+      <h1 style={{ color: "#2ecc71", marginBottom: "30px" }}>PRIZES</h1>
       <div>
         <Prize />
       </div>
+      <h2 style={{ color: "#2ecc71", marginBottom: "30px" }}>
+        Sponsered By -{" "}
+      </h2>
       <div className='sponsers container'>
-        <div style={{ textAlign: "left" }}>
-          <h4 style={{ color: "#2ecc71", margin: "0" }}>Sponsored By-</h4>
+        <div style={{ textAlign: "left", marginRight: "180px" }}>
+          <h4 style={{ color: "#2ecc71", margin: "0" }}>Event Sponsor-</h4>
           <a href='https://www.codingninjas.com/'>
             <img
               data-aos='zoom-in'
@@ -246,7 +251,7 @@ const Events = () => {
         </div>
         <div style={{ textAlign: "left" }}>
           <h4 style={{ color: "#2ecc71", margin: "0" }}>
-            Web Hosting Sponser-
+            Web Hosting Partner-
           </h4>
           <a href='http://www.gstatic.tech/'>
             <img
