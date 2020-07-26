@@ -7,6 +7,7 @@ import piyush from "../../img/piyush.jpeg";
 import sarthak from "../../img/sarthak.jpeg";
 import harsh from "../../img/harsh.jpeg";
 import avi from "../../img/avi.jpeg";
+import minakshimaam from "../../img/minakshimaam.jpg";
 
 const Team = () => {
   return (
@@ -35,7 +36,7 @@ const Team = () => {
       <div class='container'>
         <div class='our-team' data-aos='zoom-out'>
           <div class='picture'>
-            <img class='img-fluid' src='' />
+            <img class='img-fluid' src={minakshimaam} />
           </div>
           <div class='team-content'>
             <h2 class='name'>Mrs. Minakshi Shashtri</h2>

@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.e18c959a.chunk.css",
-    "main.js": "/static/js/main.ce3634a6.chunk.js",
-    "main.js.map": "/static/js/main.ce3634a6.chunk.js.map",
+    "main.js": "/static/js/main.4851f49c.chunk.js",
+    "main.js.map": "/static/js/main.4851f49c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.09b85ec0.js",
     "runtime-main.js.map": "/static/js/runtime-main.09b85ec0.js.map",
     "static/css/2.a33d7f97.chunk.css": "/static/css/2.a33d7f97.chunk.css",
-    "static/js/2.4191beb4.chunk.js": "/static/js/2.4191beb4.chunk.js",
-    "static/js/2.4191beb4.chunk.js.map": "/static/js/2.4191beb4.chunk.js.map",
+    "static/js/2.9e0294b1.chunk.js": "/static/js/2.9e0294b1.chunk.js",
+    "static/js/2.9e0294b1.chunk.js.map": "/static/js/2.9e0294b1.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d9ccbfe2b590ee3a57c3cd3b2158e11d.js": "/precache-manifest.d9ccbfe2b590ee3a57c3cd3b2158e11d.js",
+    "precache-manifest.0b4f35761a8119425b275eb769959ce7.js": "/precache-manifest.0b4f35761a8119425b275eb769959ce7.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.a33d7f97.chunk.css.map": "/static/css/2.a33d7f97.chunk.css.map",
     "static/css/main.e18c959a.chunk.css.map": "/static/css/main.e18c959a.chunk.css.map",
-    "static/js/2.4191beb4.chunk.js.LICENSE.txt": "/static/js/2.4191beb4.chunk.js.LICENSE.txt",
+    "static/js/2.9e0294b1.chunk.js.LICENSE.txt": "/static/js/2.9e0294b1.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/static/media/1.9ac405f6.jpg",
     "static/media/2.jpg": "/static/media/2.d7049f0f.jpg",
     "static/media/abhimanyu.jpeg": "/static/media/abhimanyu.91580a43.jpeg",
@@ -35,6 +35,7 @@
     "static/media/kotlin.png": "/static/media/kotlin.61ab98ab.png",
     "static/media/linkedin.png": "/static/media/linkedin.28c4a847.png",
     "static/media/logo.png": "/static/media/logo.94cd40dd.png",
+    "static/media/minakshimaam.jpg": "/static/media/minakshimaam.9a339f12.jpg",
     "static/media/opencv.png": "/static/media/opencv.18bc34e4.png",
     "static/media/paramjeet.jpg": "/static/media/paramjeet.d51fbfdf.jpg",
     "static/media/phone.png": "/static/media/phone.50b39911.png",
@@ -48,8 +49,8 @@
   "entrypoints": [
     "static/js/runtime-main.09b85ec0.js",
     "static/css/2.a33d7f97.chunk.css",
-    "static/js/2.4191beb4.chunk.js",
+    "static/js/2.9e0294b1.chunk.js",
     "static/css/main.e18c959a.chunk.css",
-    "static/js/main.ce3634a6.chunk.js"
+    "static/js/main.4851f49c.chunk.js"
   ]
 }
