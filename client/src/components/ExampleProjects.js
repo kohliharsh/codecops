@@ -29,7 +29,7 @@ const ExampleProjects = () => {
         id='timer'
         className='longtimerevent'
       ></div>
-      <div></div>
+
       <div className='upcoming container'>
         <h1 data-aos='fade-right' data-aos-duration='2800'>
           Example Projects
@@ -203,7 +203,7 @@ const ExampleProjects = () => {
             </div>
           </div>
         </div>
-        <h2>
+        <h2 style={{ marginTop: "30px", color: "#36626c" }}>
           <a href='https://forms.gle/PkhLsDNwYSWzDjj76' id='readmore'>
             Click Here to Register!!
           </a>
