@@ -41,7 +41,7 @@ function CountdownTimerStops() {
 
   return (
     <div>
-      <h2 style={{ color: "white", marginTop: "20px" }}>
+      <h2 style={{ color: "black", marginTop: "20px" }}>
         Registration closes in:
         <h3 style={{ color: "#29a19c" }}>
           {timerComponents.length ? (

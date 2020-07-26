@@ -22,7 +22,9 @@ const Team = () => {
               alt='#'
               className='img2'
             ></img>
-            <span data-aos='zoom-in-right'>Our Team</span>
+            <span data-aos='zoom-in-right' style={{ color: "#356D6C" }}>
+              Our Team
+            </span>
             <img
               data-aos='fade-up-right'
               data-aos-duration='1800'

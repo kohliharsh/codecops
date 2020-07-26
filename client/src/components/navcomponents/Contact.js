@@ -1,15 +1,19 @@
 import React from "react";
-import address from "../../img/address-removebg-preview.png";
+import address from "../../img/add.png";
 import email from "../../img/email.png";
 import phone from "../../img/phone.png";
-import github from "../../img/github.png";
-import instagram from "../../img/instagram.png";
-import linkedin from "../../img/linkedin.png";
-import facebook from "../../img/facebook.png";
+import github from "../../img/githib.png";
+import instagram from "../../img/instagram.svg";
+import linkedin from "../../img/linkedin.svg";
+import facebook from "../../img/facebook.svg";
 const Contact = () => {
   return (
     <div className='container'>
-      <p data-aos='zoom-in-right' className='contacthead'>
+      <p
+        data-aos='zoom-in-right'
+        className='contacthead'
+        style={{ color: "#356D6C" }}
+      >
         Contact Us
       </p>
       <div className='contact'>
@@ -17,7 +21,7 @@ const Contact = () => {
           <p
             data-aos='zoom-in-right'
             data-aos-duration='1800'
-            style={{ color: "white" }}
+            style={{ color: "black" }}
           >
             <span>
               <img src={address} height='30px' width='30px'></img>
@@ -32,10 +36,10 @@ const Contact = () => {
           <p
             data-aos='zoom-in-down'
             data-aos-duration='2700'
-            style={{ color: "white" }}
+            style={{ color: "black" }}
           >
             <span>
-              <img src={email} height='50px' width='80px'></img>
+              <img src={email} height='70px' width='80px'></img>
             </span>
             <span data-aos='zoom-in-down'>codecops@iiitu.ac.in</span>
           </p>
@@ -44,7 +48,7 @@ const Contact = () => {
           <p
             data-aos='zoom-in-down'
             data-aos-duration='2700'
-            style={{ color: "white" }}
+            style={{ color: "black" }}
           >
             <span>
               <img src={phone} height='50px' width='50px'></img>
@@ -55,7 +59,10 @@ const Contact = () => {
           </p>
         </div>
         <div>
-          <p data-aos='zoom-in-up' style={{ color: "white", fontSize: "30px" }}>
+          <p
+            data-aos='zoom-in-up'
+            style={{ color: "#36626C", fontSize: "30px" }}
+          >
             Our Social and Other Handles
           </p>
         </div>

@@ -41,7 +41,7 @@ function ShortCountdownTimerClose() {
 
   return (
     <div>
-      <h4 style={{ color: "white" }}>
+      <h4 style={{ color: "black" }}>
         Registration Closes in:
         <h4 style={{ color: "#29a19c" }}>
           {timerComponents.length ? timerComponents : <span>Time's up!</span>}

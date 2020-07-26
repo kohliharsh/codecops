@@ -6,7 +6,7 @@ const Prize = () => {
     <div className='container'>
       <h3
         style={{
-          color: "white",
+          color: "black",
           marginBottom: "30px",
           textAlign: "left",
           marginLeft: "10px",
@@ -28,7 +28,7 @@ const Prize = () => {
           <div className='prizecard workevent'>
             <h2>Win Exciting Goodies from Coding Ninjas!!</h2>
             <ul
-              style={{ color: "white", marginTop: "20px", marginBottom: "0px" }}
+              style={{ color: "black", marginTop: "20px", marginBottom: "0px" }}
             >
               <li>Coding Ninjas Laptop bags!</li>
               <li>Coding ninjas Branded t-shirts!</li>
@@ -50,7 +50,7 @@ const Prize = () => {
       </div>
       <h3
         style={{
-          color: "white",
+          color: "black",
           marginBottom: "30px",
           textAlign: "left",
           marginLeft: "10px",
@@ -83,7 +83,7 @@ const Prize = () => {
           <div className='prizecard workevent'>
             <h2>Appreciation</h2>
             <ul
-              style={{ color: "white", marginTop: "20px", marginBottom: "0px" }}
+              style={{ color: "black", marginTop: "20px", marginBottom: "0px" }}
             >
               <li>Web Hosting Service!</li>
               <li>Goodies and some appreciation prizes</li>

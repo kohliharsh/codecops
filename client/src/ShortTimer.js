@@ -41,7 +41,7 @@ function ShortCountdownTimer() {
 
   return (
     <div>
-      <h4 style={{ color: "#2ecc71" }}>
+      <h4 style={{ color: "black" }}>
         Registration Starts in:
         <h4 style={{ color: "white" }}>
           {timerComponents.length ? timerComponents : <span>Time's up!</span>}

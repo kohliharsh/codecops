@@ -4,10 +4,11 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: "Montserrat", sans-serif;
+  background: #f5f6f6;
 }
 /* navbar css */
 nav {
-  background-color: #111111;
+  background-color: #36626c;
 }
 nav a {
   color: white;
@@ -18,7 +19,7 @@ nav h2 {
 }
 
 nav a:hover {
-  color: teal;
+  color: black;
   text-decoration: none;
 }
 .navbar {
@@ -36,7 +37,7 @@ nav a:hover {
 
 /* Landing Page */
 .landing {
-  background: #292929;
+  background: #f5f6f6;
   height: 100vh;
   opacity: 0.9;
 }
@@ -149,13 +150,13 @@ nav a:hover {
 .upcoming h1 {
   overflow: hidden;
   text-align: center;
-  color: white;
+  color: black;
   margin-bottom: 30px;
 }
 
 .upcoming h1:before,
 .upcoming h1:after {
-  background-color: white;
+  background-color: black;
   content: "";
   display: inline-block;
   height: 1px;
@@ -212,13 +213,13 @@ nav a:hover {
 .workshop h1 {
   overflow: hidden;
   text-align: center;
-  color: white;
+  color: black;
   margin-top: 20px;
 }
 
 .workshop h1:before,
 .workshop h1:after {
-  background-color: white;
+  background-color: black;
   content: "";
   display: inline-block;
   height: 1px;
@@ -278,12 +279,12 @@ nav a:hover {
   font-size: 50px;
   text-align: center;
   margin-top: 80px;
-  color: #2ecc71;
+  color: #36626c;
   margin-bottom: 0;
 }
 
 .abouthead p:nth-child(2) {
-  color: white;
+  color: black;
   word-spacing: 10px;
   line-height: 35px;
   margin-bottom: 0;
@@ -293,14 +294,14 @@ nav a:hover {
 .abouthead p:nth-child(3) {
   font-size: 50px;
   text-align: center;
-  color: #2ecc71;
+  color: #36626c;
   margin-bottom: 50px;
 }
 
 /* about domains */
 #domains .feature-block {
   box-shadow: #00b894 2.5px 2.5px 2.5px;
-  background-color: #636e72;
+  background-color: #cbeaed;
   margin-bottom: 60px;
   border-radius: 20px;
   padding-bottom: 8px;
@@ -314,14 +315,14 @@ nav a:hover {
   margin-left: 120px;
 }
 #domains .feature-block h4 {
-  color: white;
+  color: black;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 15px;
 }
 
 #domains .feature-block p {
-  color: white;
+  color: black;
   margin-bottom: 25px;
   word-spacing: 8px;
   text-align: center;
@@ -406,11 +407,11 @@ input[type="email"]:focus,
 
 /* footer */
 .footer {
-  background: #151515;
+  background: #36626c;
   text-align: center;
   padding: 20px;
   font-weight: bold;
-  color: #71c55d;
+  color: white;
   width: 100%;
   position: relative;
   top: 100px;
@@ -470,7 +471,7 @@ input[type="email"]:focus,
   }
 } */
 header {
-  border: 1px solid white;
+  border: 1px solid black;
   background: #000;
 }
 
@@ -598,28 +599,28 @@ header {
   border-radius: 15px;
   width: 300px;
   height: 200px;
-  background: #222831;
+  background: #cbeaed;
   text-align: left;
-  color: white;
+  color: black;
   margin-bottom: 10px;
 }
 
 .envcard h5 {
   text-align: center;
-  color: #a3f7bf;
+  color: black;
   margin-top: 10px;
   padding-top: 10px;
 }
 
 .judgement {
-  color: white;
+  color: black;
   text-align: left;
   word-spacing: 8px;
 }
 
 .criteria {
   text-align: left;
-  color: white;
+  color: black;
   word-spacing: 8px;
 }
 .criteria p {
@@ -628,9 +629,9 @@ header {
 .criteriabox {
   border-radius: 15px;
   width: fit-content;
-  background: #222831;
+  background: #cbeaed;
   text-align: left;
-  color: white;
+  color: black;
   margin-bottom: 10px;
 }
 
@@ -641,16 +642,16 @@ header {
 
 .criteriabox h4 {
   margin-top: 15px;
-  color: #a3f7bf;
+  color: black;
 }
 
 .prizecard {
   margin-top: 20px;
   width: 350px;
   height: 200px;
-  background: #222831;
+  background: #cbeaed;
   text-align: left;
-  color: #fad390;
+  color: #218c74;
   margin-bottom: 30px;
   border-radius: 10px;
 }
@@ -662,7 +663,7 @@ header {
 .prizecard p {
   font-size: 20px;
   text-align: center;
-  color: white;
+  color: black;
   padding: auto;
 }
 
@@ -715,7 +716,7 @@ header {
   width: 27vw;
   padding: 30px 0 40px;
   margin: 30px;
-  background-color: #222831;
+  background-color: #48717a;
   text-align: center;
   overflow: hidden;
   position: relative;
@@ -809,7 +810,7 @@ header {
   display: block;
   padding: 10px;
   font-size: 17px;
-  color: white;
+  color: black;
   transition: all 0.3s ease 0s;
   text-decoration: none;
 }

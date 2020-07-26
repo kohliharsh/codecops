@@ -21,107 +21,111 @@ const Landing = () => {
   const str2 =
     "In an effort to preserve this spirit, we, the volunteers of CODE COPS,are organizing a coding event titled as, “GAME OF CODES”.  ";
   return (
-    <section className="landing">
-      <div className="dark-overlay">
-        <div className="landing-inner">
-          <div className="landinghead">
+    <section className='landing'>
+      <div className='dark-overlay'>
+        <div className='landing-inner'>
+          <div className='landinghead'>
             <p>
               <img
-                data-aos="fade-up-left"
-                data-aos-duration="1800"
-                src="https://upload.wikimedia.org/wikipedia/en/c/cf/Iiit-una-logo.png"
-                alt="#"
-                className="img2"
+                data-aos='fade-up-left'
+                data-aos-duration='1800'
+                src='https://upload.wikimedia.org/wikipedia/en/c/cf/Iiit-una-logo.png'
+                alt='#'
+                className='img2'
               ></img>
-              <span data-aos="zoom-in-right" className="long">
+              <span
+                data-aos='zoom-in-right'
+                className='long'
+                style={{ color: "#36626C" }}
+              >
                 Welcome to CodeCops
               </span>
-              <span className="short">CodeCops</span>
+              <span className='short'>CodeCops</span>
               <img
-                data-aos="fade-up-right"
-                data-aos-duration="1800"
-                className="img1"
+                data-aos='fade-up-right'
+                data-aos-duration='1800'
+                className='img1'
                 src={logo}
-                alt="#"
+                alt='#'
               ></img>
             </p>
           </div>
-          <div className="subhead">
-            <p data-aos="fade-left" data-aos-duration="2000">
+          <div className='subhead' style={{ color: "black" }}>
+            <p data-aos='fade-left' data-aos-duration='2000'>
               Code Community of IIIT Una
             </p>
           </div>
         </div>
       </div>
-      <div className="container" style={{ border: "3px white solid" }}></div>
+      <div className='container' style={{ border: "3px black solid" }}></div>
       <br />
-      <div className="upcoming container">
-        <h1 data-aos="fade-right" data-aos-duration="2800">
+      <div className='upcoming container'>
+        <h1 data-aos='fade-right' data-aos-duration='2800'>
           Upcoming Events
         </h1>
       </div>
-      <div className="container landingbannershort">
-        <Link to="/goc">
+      <div className='container landingbannershort'>
+        <Link to='/goc'>
           <img
-            alt=""
+            alt=''
             src={banner}
-            width="100%"
-            height="auto"
+            width='100%'
+            height='auto'
             style={{ marginBottom: "10px" }}
-            data-aos="zoom-out"
+            data-aos='zoom-out'
           ></img>
         </Link>
-        <span className="shortevent" style={{ color: "white" }}>
+        <span className='shortevent' style={{ color: "black" }}>
           {str2}
         </span>
-        <Link id="readmore" to="/goc" style={{ padding: "auto" }}>
+        <Link id='readmore' to='/goc' style={{ padding: "auto" }}>
           ...Readmore
         </Link>
         <div></div>
-        <span className="long">
+        <span className='long'>
           <CountdownTimer />
         </span>
-        <span className="short">
+        <span className='short'>
           <ShortCountdownTimer />
         </span>
       </div>
       <div
-        className="grid-container container landingbannerlong"
-        style={{ color: "white" }}
+        className='grid-container container landingbannerlong'
+        style={{ color: "black" }}
       >
-        <div class="grid-1" data-aos="zoom-out">
-          <Link to="/goc">
-            <img alt="" src={banner}></img>
+        <div class='grid-1' data-aos='zoom-out'>
+          <Link to='/goc'>
+            <img alt='' src={banner}></img>
           </Link>
         </div>
-        <div class="grid-2" data-aos="zoom-in">
-          <span className="longevent">
+        <div class='grid-2' data-aos='zoom-in'>
+          <span className='longevent'>
             {str1}
             {"\n"}
           </span>
-          <span className="shortevent">{str2}</span>
-          <Link id="readmore" to="/goc">
+          <span className='shortevent'>{str2}</span>
+          <Link id='readmore' to='/goc'>
             ...Readmore
           </Link>
-          <span className="long">
+          <span className='long'>
             <CountdownTimer />
           </span>
-          <span className="short">
+          <span className='short'>
             <ShortCountdownTimer />
           </span>
         </div>
       </div>
-      <div className="workshop container">
-        <h1 data-aos-duration="1000">
+      <div className='workshop container'>
+        <h1 data-aos-duration='1000'>
           <span>Work Shops</span>
         </h1>
       </div>
 
       <p
-        data-aos="fade-right"
-        className="workshop-para"
-        className="container"
-        style={{ color: "white", wordSpacing: "5px", fontSize: "20px" }}
+        data-aos='fade-right'
+        className='workshop-para'
+        className='container'
+        style={{ color: "black", wordSpacing: "5px", fontSize: "20px" }}
       >
         "Workshops are the best way to learn and grasp concepts easily.We have
         been organizing workshops on various topics to help club members gain
@@ -133,278 +137,278 @@ const Landing = () => {
         follows strict discipline in all aspects."
       </p>
       <h4
-        data-aos-duration="3000"
-        className="container"
+        data-aos-duration='3000'
+        className='container'
         style={{
           textAlign: "center",
-          color: "white",
+          color: "black",
           fontSize: "30px",
           marginBottom: "20px",
         }}
       >
         <u>Topics Covered So Far</u>
       </h4>
-      <div className="container bigcards" style={{ textAlign: "center" }}>
-        <div className="row">
-          <div className="col-sm-6 col-md-4 col-lg-3">
-            <div className="workevent">
+      <div className='container bigcards' style={{ textAlign: "center" }}>
+        <div className='row'>
+          <div className='col-sm-6 col-md-4 col-lg-3'>
+            <div className='workevent'>
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png"
-                height="120px"
-                width="120px"
-                className="topic"
+                src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png'
+                height='120px'
+                width='120px'
+                className='topic'
               ></img>
               <p
-                data-aos="fade-up"
-                data-aos-duration="800"
-                style={{ color: "white", textAlign: "center" }}
+                data-aos='fade-up'
+                data-aos-duration='800'
+                style={{ color: "black", textAlign: "center" }}
               >
                 Linux
               </p>
             </div>
           </div>
-          <div className="col-sm-6 col-md-4 col-lg-3">
-            <div className="workevent">
+          <div className='col-sm-6 col-md-4 col-lg-3'>
+            <div className='workevent'>
               <img
                 src={git}
-                height="120px"
-                width="120px"
-                className="topic"
+                height='120px'
+                width='120px'
+                className='topic'
               ></img>
               <p
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                style={{ color: "white", textAlign: "center" }}
+                data-aos='fade-up'
+                data-aos-duration='1000'
+                style={{ color: "black", textAlign: "center" }}
               >
                 Git
               </p>
             </div>
           </div>
-          <div className="col-sm-6 col-md-4 col-lg-3">
-            <div className="workevent">
+          <div className='col-sm-6 col-md-4 col-lg-3'>
+            <div className='workevent'>
               <img
-                className="topic"
+                className='topic'
                 src={github}
-                height="120px"
-                width="120px"
+                height='120px'
+                width='120px'
               ></img>
               <p
-                data-aos="fade-up"
-                data-aos-duration="1200"
-                style={{ color: "white", textAlign: "center" }}
+                data-aos='fade-up'
+                data-aos-duration='1200'
+                style={{ color: "black", textAlign: "center" }}
               >
                 Github
               </p>
             </div>
           </div>
-          <div className="col-sm-6 col-md-4 col-lg-3">
-            <div className="workevent">
+          <div className='col-sm-6 col-md-4 col-lg-3'>
+            <div className='workevent'>
               <img
-                className="topic"
+                className='topic'
                 src={se}
-                height="120px"
-                width="120px"
+                height='120px'
+                width='120px'
               ></img>
               <p
-                data-aos="fade-up"
-                data-aos-duration="1400"
-                style={{ color: "white", textAlign: "center" }}
+                data-aos='fade-up'
+                data-aos-duration='1400'
+                style={{ color: "black", textAlign: "center" }}
               >
                 Selenium Automation Testing
               </p>
             </div>
           </div>
-          <div className="col-sm-6 col-md-4 col-lg-3">
-            <div className="workevent">
+          <div className='col-sm-6 col-md-4 col-lg-3'>
+            <div className='workevent'>
               <img
-                className="topic"
+                className='topic'
                 src={java}
-                height="120px"
-                width="120px"
+                height='120px'
+                width='120px'
               ></img>
               <p
-                data-aos="fade-up"
-                data-aos-duration="1600"
-                style={{ color: "white", textAlign: "center" }}
+                data-aos='fade-up'
+                data-aos-duration='1600'
+                style={{ color: "black", textAlign: "center" }}
               >
                 Java
               </p>
             </div>
           </div>
-          <div className="col-sm-6 col-md-4 col-lg-3">
-            <div className="workevent">
+          <div className='col-sm-6 col-md-4 col-lg-3'>
+            <div className='workevent'>
               <img
-                className="topic"
+                className='topic'
                 src={kotlin}
-                height="120px"
-                width="120px"
+                height='120px'
+                width='120px'
               ></img>
               <p
-                data-aos="fade-up"
-                data-aos-duration="1800"
-                style={{ color: "white", textAlign: "center" }}
+                data-aos='fade-up'
+                data-aos-duration='1800'
+                style={{ color: "black", textAlign: "center" }}
               >
                 Kotlin
               </p>
             </div>
           </div>
-          <div className="col-sm-6 col-md-4 col-lg-3">
-            <div className="workevent">
+          <div className='col-sm-6 col-md-4 col-lg-3'>
+            <div className='workevent'>
               <img
-                className="topic"
+                className='topic'
                 src={android}
-                height="120px"
-                width="220px"
+                height='120px'
+                width='220px'
               ></img>
               <p
-                data-aos="fade-up"
-                data-aos-duration="2000"
-                style={{ color: "white", textAlign: "center" }}
+                data-aos='fade-up'
+                data-aos-duration='2000'
+                style={{ color: "black", textAlign: "center" }}
               >
                 Android App Development
               </p>
             </div>
           </div>
-          <div className="col-sm-6 col-md-4 col-lg-3">
-            <div className="workevent">
+          <div className='col-sm-6 col-md-4 col-lg-3'>
+            <div className='workevent'>
               <img
-                className="topic"
+                className='topic'
                 src={chatbot}
-                height="120px"
-                width="120px"
+                height='120px'
+                width='120px'
               ></img>
               <p
-                data-aos="fade-up"
-                data-aos-duration="2200"
-                style={{ color: "white", textAlign: "center" }}
+                data-aos='fade-up'
+                data-aos-duration='2200'
+                style={{ color: "black", textAlign: "center" }}
               >
                 Chatbot
               </p>
             </div>
           </div>
-          <div className="col-sm-6 col-md-4 col-lg-3">
-            <div className="workevent">
+          <div className='col-sm-6 col-md-4 col-lg-3'>
+            <div className='workevent'>
               <img
-                className="topic"
+                className='topic'
                 src={opencv}
-                height="140px"
-                width="120px"
+                height='140px'
+                width='120px'
               ></img>
-              <p style={{ color: "white", textAlign: "center" }}></p>
+              <p style={{ color: "black", textAlign: "center" }}></p>
             </div>
           </div>
         </div>
       </div>
-      <div className="container smallcards grid-cards">
-        <div className="smallcarddiv grid-cards-item">
+      <div className='container smallcards grid-cards'>
+        <div className='smallcarddiv grid-cards-item'>
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png"
-            height="120px"
-            width="120px"
-            className="topic"
+            src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png'
+            height='120px'
+            width='120px'
+            className='topic'
           ></img>
           <p
-            data-aos="fade-up"
-            data-aos-duration="800"
-            style={{ color: "white", textAlign: "center" }}
+            data-aos='fade-up'
+            data-aos-duration='800'
+            style={{ color: "black", textAlign: "center" }}
           >
             Linux
           </p>
         </div>
-        <div className="smallcarddiv grid-cards-item">
-          <img src={git} height="120px" width="120px" className="topic"></img>
+        <div className='smallcarddiv grid-cards-item'>
+          <img src={git} height='120px' width='120px' className='topic'></img>
           <p
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            style={{ color: "white" }}
+            data-aos='fade-up'
+            data-aos-duration='1000'
+            style={{ color: "black" }}
           >
             Git
           </p>
         </div>
-        <div className="smallcarddiv grid-cards-item">
+        <div className='smallcarddiv grid-cards-item'>
           <img
-            className="topic"
+            className='topic'
             src={github}
-            height="120px"
-            width="120px"
+            height='120px'
+            width='120px'
           ></img>
           <p
-            data-aos="fade-up"
-            data-aos-duration="1200"
-            style={{ color: "white", textAlign: "center" }}
+            data-aos='fade-up'
+            data-aos-duration='1200'
+            style={{ color: "black", textAlign: "center" }}
           >
             Github
           </p>
         </div>
-        <div className="smallcarddiv grid-cards-item">
-          <img className="topic" src={se} height="120px" width="120px"></img>
+        <div className='smallcarddiv grid-cards-item'>
+          <img className='topic' src={se} height='120px' width='120px'></img>
           <p
-            data-aos="fade-up"
-            data-aos-duration="1400"
-            style={{ color: "white", textAlign: "center" }}
+            data-aos='fade-up'
+            data-aos-duration='1400'
+            style={{ color: "black", textAlign: "center" }}
           >
             Selenium Automation Testing
           </p>
         </div>
-        <div className="smallcarddiv grid-cards-item">
-          <img className="topic" src={java} height="120px" width="120px"></img>
+        <div className='smallcarddiv grid-cards-item'>
+          <img className='topic' src={java} height='120px' width='120px'></img>
         </div>
-        <div className="smallcarddiv grid-cards-item">
+        <div className='smallcarddiv grid-cards-item'>
           <img
-            className="topic"
+            className='topic'
             src={kotlin}
-            height="120px"
-            width="120px"
+            height='120px'
+            width='120px'
           ></img>
           <p
-            data-aos="fade-up"
-            data-aos-duration="1600"
-            style={{ color: "white", textAlign: "center" }}
+            data-aos='fade-up'
+            data-aos-duration='1600'
+            style={{ color: "black", textAlign: "center" }}
           >
             Kotlin
           </p>
         </div>
-        <div className="smallcarddiv grid-cards-item">
+        <div className='smallcarddiv grid-cards-item'>
           <img
-            className="topic"
+            className='topic'
             src={android}
-            height="100px"
-            width="180px"
+            height='100px'
+            width='180px'
           ></img>
           <p
-            data-aos="fade-up"
-            data-aos-duration="1800"
-            style={{ color: "white", textAlign: "center" }}
+            data-aos='fade-up'
+            data-aos-duration='1800'
+            style={{ color: "black", textAlign: "center" }}
           >
             Android App Development
           </p>
         </div>
-        <div className="smallcarddiv grid-cards-item">
+        <div className='smallcarddiv grid-cards-item'>
           <img
-            className="topic"
+            className='topic'
             src={chatbot}
-            height="120px"
-            width="120px"
+            height='120px'
+            width='120px'
           ></img>
           <p
-            data-aos="fade-up"
-            data-aos-duration="2000"
-            style={{ color: "white", textAlign: "center" }}
+            data-aos='fade-up'
+            data-aos-duration='2000'
+            style={{ color: "black", textAlign: "center" }}
           >
             Chatbot
           </p>
         </div>
-        <div className="smallcarddiv grid-cards-item">
+        <div className='smallcarddiv grid-cards-item'>
           <img
-            className="topic"
+            className='topic'
             src={opencv}
-            height="140px"
-            width="120px"
+            height='140px'
+            width='120px'
           ></img>
           <p
-            data-aos="fade-up"
-            data-aos-duration="2200"
-            style={{ color: "white", textAlign: "center" }}
+            data-aos='fade-up'
+            data-aos-duration='2200'
+            style={{ color: "black", textAlign: "center" }}
           >
             OpenCV
           </p>
@@ -416,7 +420,7 @@ const Landing = () => {
         data-aos-duration='2900'
         className='container'
         style={{
-          color: "white",
+          color: "black",
           wordSpacing: "5px",
           fontSize: "25px",
           textAlign: "center",

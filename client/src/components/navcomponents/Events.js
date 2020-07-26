@@ -17,6 +17,7 @@ import instagram from "../../img/instagram.png";
 import linkedin from "../../img/linkedin.png";
 import facebook from "../../img/facebook.png";
 import gstatic from "../../img/gstatic.png";
+import sky from "../../img/skygoodies.png";
 
 const Events = () => {
   return (
@@ -62,7 +63,7 @@ const Events = () => {
           data-aos='fade-left'
           data-aos-duration='1300'
           style={{
-            color: "#2ecc71",
+            color: "#37626C",
             textAlign: "left",
             marginLeft: "10px",
             marginTop: "20px",
@@ -81,7 +82,7 @@ const Events = () => {
           className='workshop-para'
           className='container'
           style={{
-            color: "white",
+            color: "black",
             wordSpacing: "5px",
             fontSize: "20px",
             textAlign: "left",
@@ -112,7 +113,7 @@ const Events = () => {
           and cross questioned by our judges for the final evaluation.
         </p>
         <div>
-          <h3 style={{ color: "white", marginTop: "30px" }}>
+          <h3 style={{ color: "black", marginTop: "30px" }}>
             Enviornments to be Used
           </h3>
           <div className='enviornment container'>
@@ -122,7 +123,7 @@ const Events = () => {
         <div className='judgement container'>
           <h2
             style={{
-              color: "white",
+              color: "black",
               textAlign: "center",
               marginTop: "15px",
               marginBottom: "20px",
@@ -184,7 +185,7 @@ const Events = () => {
           data-aos='fade-left'
           data-aos-duration='1500'
           style={{
-            color: "white",
+            color: "black",
             textAlign: "left",
             marginLeft: "10px",
             marginTop: "40px",
@@ -198,7 +199,7 @@ const Events = () => {
           data-aos-duration='2000'
           className='container'
           style={{
-            color: "white",
+            color: "black",
             wordSpacing: "5px",
             fontSize: "20px",
             textAlign: "left",
@@ -230,16 +231,14 @@ const Events = () => {
         </p>
       </div>
 
-      <h1 style={{ color: "#2ecc71", marginBottom: "30px" }}>PRIZES</h1>
+      <h1 style={{ color: "#37636F", marginBottom: "30px" }}>PRIZES</h1>
       <div>
         <Prize />
       </div>
-      <h2 style={{ color: "#2ecc71", marginBottom: "30px" }}>
-        Sponsered By -{" "}
-      </h2>
+      <h2 style={{ color: "#37626C", marginBottom: "30px" }}>Sponsered By -</h2>
       <div className='sponsers container'>
         <div style={{ textAlign: "left", marginRight: "180px" }}>
-          <h4 style={{ color: "#2ecc71", margin: "0" }}>Event Sponsor-</h4>
+          <h4 style={{ color: "#37626C", margin: "0" }}>Event Sponsor-</h4>
           <a href='https://www.codingninjas.com/'>
             <img
               data-aos='zoom-in'
@@ -250,7 +249,7 @@ const Events = () => {
           </a>
         </div>
         <div style={{ textAlign: "left" }}>
-          <h4 style={{ color: "#2ecc71", margin: "0" }}>
+          <h4 style={{ color: "#37626C", margin: "0" }}>
             Web Hosting Partner-
           </h4>
           <a href='http://www.gstatic.tech/'>
@@ -263,12 +262,34 @@ const Events = () => {
           </a>
         </div>
       </div>
+      <div className='sponsers container'>
+        <div style={{ textAlign: "left" }}>
+          <h4
+            style={{
+              color: "#37626C",
+              marginBottom: "20px",
+            }}
+          >
+            Gifitng Partner-
+          </h4>
+          <a href='https://www.in.skygoodies.co/'>
+            <img
+              data-aos='zoom-in'
+              src={sky}
+              height='200px'
+              width='300px'
+            ></img>
+          </a>
+        </div>
+      </div>
+
       <div
         style={{
           marginBottom: "50px",
+          marginTop: "30px",
         }}
       >
-        <h3 style={{ color: "white" }}>
+        <h3 style={{ color: "black" }}>
           For more information stay connected to our social handles!
         </h3>
         <a href='https://www.instagram.com/codecops.iiitu/' class='github'>

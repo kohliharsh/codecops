@@ -41,7 +41,7 @@ function CountdownTimer() {
 
   return (
     <div>
-      <h2 style={{ color: "#2ecc71" }}>
+      <h2 style={{ color: "black" }}>
         Registration Starts in:
         <h2 style={{ color: "white" }}>
           {timerComponents.length ? timerComponents : <span>Time's up!</span>}

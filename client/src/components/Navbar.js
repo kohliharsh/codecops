@@ -3,60 +3,58 @@ import { Link } from "react-router-dom";
 import logo from "../img/logo.png";
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav className='navbar navbar-expand-lg'>
       <h3>
-        <Link to="/">
-          <img src={logo} height="30px" width="35px" alt="#"></img> CodeCops
-        </Link>
+        <Link to='/'>CodeCops</Link>
       </h3>
       <button
-        className="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
+        className='navbar-toggler'
+        type='button'
+        data-toggle='collapse'
+        data-target='#navbarNavDropdown'
+        aria-controls='navbarNavDropdown'
+        aria-expanded='false'
+        aria-label='Toggle navigation'
       >
-        <span className="navbar-toggler-icon">
+        <span className='navbar-toggler-icon'>
           <img
-            src="https://img.icons8.com/cotton/2x/menu.png"
-            alt=""
-            width="35px"
-            height="35px"
+            src='https://img.icons8.com/cotton/2x/menu.png'
+            alt=''
+            width='35px'
+            height='35px'
           ></img>
         </span>
       </button>
       <div
-        className="collapse navbar-collapse justify-content-end"
-        id="navbarNavDropdown"
+        className='collapse navbar-collapse justify-content-end'
+        id='navbarNavDropdown'
       >
-        <ul className="navbar-nav">
+        <ul className='navbar-nav'>
           <li
-            className="nav-item active"
-            data-toggle="collapse"
-            data-target=".navbar-collapse"
+            className='nav-item active'
+            data-toggle='collapse'
+            data-target='.navbar-collapse'
           >
-            <Link className="nav-link" to="/">
-              Home <span className="sr-only">(current)</span>
+            <Link className='nav-link' to='/'>
+              Home <span className='sr-only'>(current)</span>
             </Link>
           </li>
           <li
-            className="nav-item"
-            data-toggle="collapse"
-            data-target=".navbar-collapse"
+            className='nav-item'
+            data-toggle='collapse'
+            data-target='.navbar-collapse'
           >
-            <Link className="nav-link" to="/about">
+            <Link className='nav-link' to='/about'>
               About
             </Link>
           </li>
 
           <li
-            className="nav-item"
-            data-toggle="collapse"
-            data-target=".navbar-collapse"
+            className='nav-item'
+            data-toggle='collapse'
+            data-target='.navbar-collapse'
           >
-            <Link className="nav-link" to="/goc">
+            <Link className='nav-link' to='/goc'>
               Game Of Codes
             </Link>
           </li>
@@ -67,11 +65,11 @@ function Navbar() {
             </Link>
           </li> */}
           <li
-            className="nav-item"
-            data-toggle="collapse"
-            data-target=".navbar-collapse"
+            className='nav-item'
+            data-toggle='collapse'
+            data-target='.navbar-collapse'
           >
-            <Link className="nav-link" to="/team">
+            <Link className='nav-link' to='/team'>
               Team
             </Link>
           </li>
@@ -83,11 +81,11 @@ function Navbar() {
             </Link>
           </li> */}
           <li
-            className="nav-item"
-            data-toggle="collapse"
-            data-target=".navbar-collapse"
+            className='nav-item'
+            data-toggle='collapse'
+            data-target='.navbar-collapse'
           >
-            <Link className="nav-link" to="/contact">
+            <Link className='nav-link' to='/contact'>
               Contact
             </Link>
           </li>
