@@ -12,6 +12,7 @@ import logo from "../img/logo.png";
 import mer from "../img/mer.png";
 import car from "../img/car.png";
 import tetris1 from "../img/tetris1.png";
+import { Link } from "react-router-dom";
 
 const ExampleProjects = () => {
   return (
@@ -20,7 +21,9 @@ const ExampleProjects = () => {
       style={{ marginBottom: "20px", marginTop: "130px", overflow: "hidden" }}
     >
       <div className='banner'>
-        <img data-aos='zoom-out' data-aos-duration='500' src={banner} />
+        <Link to='/goc'>
+          <img data-aos='zoom-out' data-aos-duration='500' src={banner} />
+        </Link>
       </div>
       <div
         className='container timer'
@@ -29,11 +32,13 @@ const ExampleProjects = () => {
         id='timer'
         className='longtimerevent'
       ></div>
-
+      <h2 style={{ marginTop: "20px", color: "#36626c", marginBottom: "20px" }}>
+        <a href='https://forms.gle/PkhLsDNwYSWzDjj76' id='readmore'>
+          Click Here to Register!!
+        </a>
+      </h2>
       <div className='upcoming container'>
-        <h1 data-aos='fade-right' data-aos-duration='2800'>
-          Example Projects
-        </h1>
+        <h1>Example Projects</h1>
       </div>
       <div className='container'>
         <div className='row' style={{ marginLeft: "20px" }}>

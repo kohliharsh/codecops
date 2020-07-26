@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7e3b600c21e4e0225a46403aff810466",
+    "revision": "dc91957b955941a56d6d0b0dd4e8e7b3",
     "url": "/index.html"
   },
   {
-    "revision": "660167edf854729b0515",
+    "revision": "7c6e9be53d69f978d1b5",
     "url": "/static/css/2.a33d7f97.chunk.css"
   },
   {
-    "revision": "e48cd7127b05d64d5fb0",
-    "url": "/static/css/main.c97c3f3e.chunk.css"
+    "revision": "62e3fbf109149a8f0890",
+    "url": "/static/css/main.ee599b08.chunk.css"
   },
   {
-    "revision": "660167edf854729b0515",
-    "url": "/static/js/2.3b9bac65.chunk.js"
+    "revision": "7c6e9be53d69f978d1b5",
+    "url": "/static/js/2.e6ad3dc6.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.3b9bac65.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.e6ad3dc6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e48cd7127b05d64d5fb0",
-    "url": "/static/js/main.bda1304c.chunk.js"
+    "revision": "62e3fbf109149a8f0890",
+    "url": "/static/js/main.52459e12.chunk.js"
   },
   {
     "revision": "9b4e396c183e42c1fa5c",
@@ -76,10 +76,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/facebook.0587f70c.svg"
   },
   {
-    "revision": "20287ad386a3418b62a2c54c383205c1",
-    "url": "/static/media/facebook.20287ad3.png"
-  },
-  {
     "revision": "b6b8736c6fa27ca7c23111364839df69",
     "url": "/static/media/git.b6b8736c.png"
   },
@@ -100,10 +96,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/harsh.b2a91382.jpeg"
   },
   {
-    "revision": "097b77494452f9352630bcf79697db4d",
-    "url": "/static/media/instagram.097b7749.png"
-  },
-  {
     "revision": "5b23a837268b09d0efa9e307023c1dae",
     "url": "/static/media/instagram.5b23a837.svg"
   },
@@ -118,10 +110,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "61ab98abc63e38543277787c3e85a38c",
     "url": "/static/media/kotlin.61ab98ab.png"
-  },
-  {
-    "revision": "28c4a8474dc0d5bab0a937a1f0cd5072",
-    "url": "/static/media/linkedin.28c4a847.png"
   },
   {
     "revision": "9e36c8fd15d6f93ed6a45f9484746e8f",

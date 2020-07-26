@@ -50,9 +50,9 @@ const Team = () => {
                 color: "#2ecc71",
               }}
             >
-              Faculty Mentor | School of Computing
+              Faculty Mentor
             </p>
-            <h2>@IIIT Una</h2>
+            <h4 class='title'>@IIIT Una</h4>
           </div>
           <ul class='social'>
             <li>

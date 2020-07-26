@@ -712,8 +712,13 @@ header {
   text-align: center;
 }
 
+@media screen and (min-width: 700px) {
+  .our-team {
+    width: 27vw;
+  }
+}
+
 .our-team {
-  width: 27vw;
   padding: 30px 0 40px;
   margin: 30px;
   background-color: #48717a;

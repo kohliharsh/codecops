@@ -13,9 +13,9 @@ import Prize from "../navcomponents/Prize";
 import ShortCountdownTimerClose from "../../ShortTimerClose";
 import CountdownTimerStops from "../../Timerclose";
 import github from "../../img/github.png";
-import instagram from "../../img/instagram.png";
-import linkedin from "../../img/linkedin.png";
-import facebook from "../../img/facebook.png";
+import instagram from "../../img/instagram.svg";
+import linkedin from "../../img/linkedin.svg";
+import facebook from "../../img/facebook.svg";
 import gstatic from "../../img/gstatic.png";
 import sky from "../../img/skygoodies.png";
 
