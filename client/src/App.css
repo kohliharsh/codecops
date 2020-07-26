@@ -825,3 +825,12 @@ header {
     width: 50vw;
   }
 }
+
+/* Example  */
+.example {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
