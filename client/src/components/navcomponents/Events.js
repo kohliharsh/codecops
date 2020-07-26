@@ -120,6 +120,9 @@ const Events = () => {
             <Ideused />
           </div>
         </div>
+        <Link to='/goc/exampleprojects'>
+          <h3>Click here to see example projects!</h3>
+        </Link>
         <div className='judgement container'>
           <h2
             style={{

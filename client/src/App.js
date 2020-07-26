@@ -12,6 +12,7 @@ import Login from "../src/components/auth/Login";
 import Events from "../src/components/navcomponents/Events";
 import Eventregister from "../src/components/navcomponents/Eventregister";
 import Team from "../src/components/navcomponents/team";
+import ExampleProjects from "../src/components/ExampleProjects";
 
 //redux
 import { Provider } from "react-redux";
@@ -48,6 +49,11 @@ function App() {
                   component={Eventregister}
                 />
                 <Route exact path='/team' component={Team} />
+                <Route
+                  exact
+                  path='/goc/exampleprojects'
+                  component={ExampleProjects}
+                />
               </Switch>
             </section>
             <Footer />

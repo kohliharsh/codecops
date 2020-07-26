@@ -42,9 +42,20 @@ function ShortCountdownTimer() {
   return (
     <div>
       <h4 style={{ color: "black" }}>
-        Registration Starts in:
+        Registration Started:
         <h4 style={{ color: "white" }}>
-          {timerComponents.length ? timerComponents : <span>Time's up!</span>}
+          {timerComponents.length ? (
+            timerComponents
+          ) : (
+            <span style={{ marginTop: "20px" }}>
+              <a
+                href='https://forms.gle/PkhLsDNwYSWzDjj76'
+                style={{ color: "#29a19c" }}
+              >
+                Click Here to Register!
+              </a>
+            </span>
+          )}
         </h4>
       </h4>
     </div>
