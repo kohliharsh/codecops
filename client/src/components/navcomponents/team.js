@@ -121,7 +121,7 @@ const Team = () => {
             </li>
             <li>
               <a
-                href='https://instagram.com/param.git'
+                href='https://instagram.com/https://www.instagram.com/psycho.programmer/'
                 class='fa fa-instagram'
                 aria-hidden='true'
               ></a>

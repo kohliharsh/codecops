@@ -184,6 +184,142 @@ const Events = () => {
           </p>
           <Judgebox />
         </div>
+        <div className='container'>
+          <h1
+            style={{
+              textAlign: "center",
+              marginTop: "35px",
+              marginBottom: "30px",
+            }}
+          >
+            Abstract Submission Guidelines
+          </h1>
+          <p style={{ fontSize: "20px" }}>
+            <span style={{ marginRight: "10px" }}>
+              <b>Last date for submission:</b>
+            </span>
+            3rd August 2020
+          </p>
+          <h3 style={{ marginTop: "10px", marginBottom: "20px" }}>
+            Abstract Format
+          </h3>
+          <p style={{ fontSize: "20px", margin: "10px" }}>
+            <ol
+              style={{
+                textAlign: "left",
+                fontSize: "20px",
+                marginTop: "10px",
+                marginBottom: "10px",
+              }}
+            >
+              <li>Name Of the Project</li>
+              <li>Domain of the Project</li>
+              <li>Project Goal / Purpose and need</li>
+              <li>Detailed Description</li>
+              <ul>
+                <li>Overview</li>
+                <li>
+                  Environment Used (Library / Language / IDE / Frameworks / API
+                  / Engine / Database)
+                  <ul>
+                    <li>Front-end Technology Used</li>
+                    <li>Back-end Technology Used</li>
+                  </ul>
+                  <li>Project Flow (In form of FlowChart)</li>
+                  <li>Key Features of the project</li>
+                </li>
+              </ul>
+              <li>Phases / Timeline (If any)</li>
+              <li>Team Details (names, email)</li>
+              <li>Abstract PDF Naming Convention:</li>
+              <ul>
+                <li>Indivdual: [github_username]-[domain].pdf</li>
+                <li>Team: [team-name]-[domain].pdf</li>
+              </ul>
+            </ol>
+            <h3 style={{ marginTop: "20px", marginBottom: "20px" }}>
+              General Instructions for the Event{" "}
+            </h3>
+            <ol style={{ textAlign: "left" }}>
+              <li>
+                You must commit all of your code changes onto a github repo
+                under your account (Use Leader's Github account if in a team).
+              </li>
+              <li> All the commits must be between 1-7 August.</li>
+              <li>
+                If the project contains less than 15 commits, you will be
+                disqualified.
+              </li>
+              <li>
+                Your project must contain logical comments explaining the
+                functionality of code.
+              </li>
+            </ol>
+            <h3 style={{ marginBottom: "20px", marginTop: "10px" }}>
+              Final Project Submission
+            </h3>
+            <h5 style={{ textAlign: "left" }}>
+              The project submission must contain the following:
+            </h5>
+            <ol style={{ textAlign: "left" }}>
+              <li>
+                APK / Link where the project is hosted / Executable File, from
+                which we can directly run the project
+              </li>
+              <li>Link to Github Repo where source code is hosted</li>
+              <li>
+                Github Repo must have a README which must contain the steps to
+                build and run your project and a list of dependencies to be
+                installed.
+              </li>{" "}
+              <li>
+                Screenshots of the project.
+                <li> ScreenRecorded video of the project*</li>
+              </li>
+            </ol>
+            <p style={{ textAlign: "left", fontSize: "18px" }}>
+              * - The screen recorded video must comply with the following
+            </p>
+            <ul style={{ textAlign: "left", fontSize: "18px" }}>
+              <li>
+                Anyone from the team must execute and explain the functionality
+              </li>
+              <li>Explaination must be in English</li>
+              <li>Video duration must be less than 10 minutes</li>
+            </ul>
+            <div style={{ textAlign: "left", marginBottom: "20px" }}>
+              <strong style={{ textAlign: "left" }}>Note</strong> : All the
+              projects will be made publicly available on our website/github.
+            </div>
+            <div style={{ textAlign: "left" }}>
+              <strong>Rules:</strong>
+              <p>
+                By submitting an Entry in Game Of Codes, you represent: That
+                you, your team and the Entry submitted complies with these
+                Official Rules; That the entirety of the Entry is your/your
+                team’s original work; That the demo submitted is solely the work
+                of you or your team. That you/your team have obtained any and
+                all consents, approvals, or licenses required for you to submit
+                your Entry, and that your Entry will not violate anyone else’s
+                rights or the law. Your project must be developed entirely
+                during the development period (1-7 August). You may use open
+                source libraries and other freely available systems / services
+                such as Google Maps, Facebook Connect, Twitter feeds etc or
+                publicly available commercial libraries. The decision of the
+                Organizers on all matters relating to the event, including the
+                eligibility of Participants and the selection of the winners, is
+                final and no correspondence will be entertained. The Organizers
+                reserve the right to amend these Conditions of Participation at
+                any time at its absolute discretion without any further notice,
+                including but not limited to the eligibility terms and criteria,
+                the selection of winners, the timing of any act to be done and
+                all Participants to this event shall be bound by these
+                amendments. All changes will be posted on our telegram community
+                / Instagram Page / Website.
+              </p>
+            </div>
+          </p>
+        </div>
         <h2
           data-aos='fade-left'
           data-aos-duration='1500'
@@ -238,7 +374,7 @@ const Events = () => {
       <div>
         <Prize />
       </div>
-      <h2 style={{ color: "#37626C", marginBottom: "30px" }}>Sponsered By -</h2>
+      <h2 style={{ color: "#37626C", marginBottom: "30px" }}>Sponsored By -</h2>
       <div className='sponsers container'>
         <div style={{ textAlign: "left", marginRight: "180px" }}>
           <h4 style={{ color: "#37626C", margin: "0" }}>Event Sponsor-</h4>
