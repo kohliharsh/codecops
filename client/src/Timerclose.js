@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 function CountdownTimerStops() {
   const calculateTimeLeft = () => {
-    const difference = +new Date("2020-07-31 12:00") - +new Date();
+    const difference = +new Date("2020-08-03 22:00") - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
@@ -42,12 +42,12 @@ function CountdownTimerStops() {
   return (
     <div>
       <h2 style={{ color: "black", marginTop: "20px" }}>
-        Registration closes in:
+        Abstract Submission Closes in:
         <h3 style={{ color: "#29a19c" }}>
           {timerComponents.length ? (
             timerComponents
           ) : (
-            <span>Registration Closed!</span>
+            <span>Abstract Submission Closed!</span>
           )}
         </h3>
       </h2>

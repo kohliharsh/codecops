@@ -327,8 +327,8 @@ const Events = () => {
         </a>
       </div>
       <h4>
-        <a href='https://forms.gle/PkhLsDNwYSWzDjj76' id='readmore'>
-          Click Here to Register!!
+        <a href='https://forms.gle/kDbQVd3MG712vm988' id='readmore'>
+          Click Here to Submit Abstract!!
         </a>
       </h4>
     </div>

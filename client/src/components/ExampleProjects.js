@@ -33,8 +33,8 @@ const ExampleProjects = () => {
         className='longtimerevent'
       ></div>
       <h2 style={{ marginTop: "20px", color: "#36626c", marginBottom: "20px" }}>
-        <a href='https://forms.gle/PkhLsDNwYSWzDjj76' id='readmore'>
-          Click Here to Register!!
+        <a href='https://forms.gle/kDbQVd3MG712vm988' id='readmore'>
+          Click Here to Submit Abstract!!
         </a>
       </h2>
       <div className='upcoming container'>
