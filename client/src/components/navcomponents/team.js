@@ -7,6 +7,7 @@ import piyush from "../../img/piyush.jpeg";
 import sarthak from "../../img/sarthak.jpeg";
 import harsh from "../../img/harsh.jpeg";
 import avi from "../../img/avi.jpeg";
+import umang from "../../img/umang.jpeg";
 import minakshimaam from "../../img/minakshimaam.jpg";
 
 const Team = () => {
@@ -177,6 +178,48 @@ const Team = () => {
             <li>
               <a
                 href='https://www.linkedin.com/in/abhimanyu-deswal'
+                class='fa fa-linkedin'
+                aria-hidden='true'
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class='our-team' data-aos='zoom-out'>
+          <div class='picture'>
+            <img class='img-fluid' src={umang} />
+          </div>
+          <div class='team-content'>
+            <h2 class='name'>Umang Sharma</h2>
+            <p
+              style={{
+                fontSize: "20px",
+                marginBottom: "5px",
+                fontWeight: "bold",
+                color: "#2ecc71",
+              }}
+            >
+              Volunteer | Event Manager
+            </p>
+            <h4 class='title'>Android Development | Marketing</h4>
+          </div>
+          <ul class='social'>
+            <li>
+              <a
+                href='https://github.com/sharmaumang001'
+                class='fa fa-github'
+                aria-hidden='true'
+              ></a>
+            </li>
+            <li>
+              <a
+                href='https://instagram.com/iumang._'
+                class='fa fa-instagram'
+                aria-hidden='true'
+              ></a>
+            </li>
+            <li>
+              <a
+                href='https://www.linkedin.com/in/0729/'
                 class='fa fa-linkedin'
                 aria-hidden='true'
               ></a>
