@@ -42,7 +42,7 @@ const Team = () => {
             <img class='img-fluid' src={minakshimaam} />
           </div>
           <div class='team-content'>
-            <h2 class='name'>Mrs. Minakshi Shashtri</h2>
+            <h2 class='name'>Minakshi Shastri</h2>
             <p
               style={{
                 fontSize: "20px",
