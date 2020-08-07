@@ -42,15 +42,15 @@ function ShortCountdownTimer() {
   return (
     <div>
       <h4 style={{ color: "black", marginTop: "20px" }}>
-        Submit Extract:
+        Project Submission Started:
         <h4 style={{ color: "white" }}>
           {timerComponents.length ? (
             timerComponents
           ) : (
             <span style={{ marginTop: "40px" }}>
               <a
-                style={{ marginTop: "45px" }}
-                href='https://forms.gle/kDbQVd3MG712vm988'
+                style={{ marginTop: "45px", color: "#29a19c" }}
+                href='https://forms.gle/7vomJ2xQ19c8bLkw8'
               >
                 Click Here to Submit!
               </a>

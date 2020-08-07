@@ -42,14 +42,14 @@ function CountdownTimer() {
   return (
     <div>
       <h2 style={{ color: "black", marginTop: "20px" }}>
-        Submit Abstract:
+        Project Submission Started:
         <h2 style={{ color: "white" }}>
           {timerComponents.length ? (
             timerComponents
           ) : (
             <span style={{ marginTop: "20px" }}>
               <a
-                href='https://forms.gle/kDbQVd3MG712vm988'
+                href='https://forms.gle/7vomJ2xQ19c8bLkw8'
                 style={{ color: "#29a19c" }}
               >
                 Click Here to Submit!

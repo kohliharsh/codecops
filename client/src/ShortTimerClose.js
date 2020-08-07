@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 function ShortCountdownTimerClose() {
   const calculateTimeLeft = () => {
-    const difference = +new Date("2020-08-03 22:00") - +new Date();
+    const difference = +new Date("2020-08-09 00:00") - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
@@ -42,7 +42,7 @@ function ShortCountdownTimerClose() {
   return (
     <div>
       <h4 style={{ color: "black" }}>
-        Abstract Submission Closes in:
+        Project Submission Closes in:
         <h4 style={{ color: "#29a19c" }}>
           {timerComponents.length ? timerComponents : <span>Time's up!</span>}
         </h4>

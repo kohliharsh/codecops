@@ -18,6 +18,7 @@ import linkedin from "../../img/linkedin.svg";
 import facebook from "../../img/facebook.svg";
 import gstatic from "../../img/gstatic.png";
 import sky from "../../img/skygoodies.png";
+import certi from "../../img/certi.png";
 
 const Events = () => {
   return (
@@ -402,7 +403,7 @@ const Events = () => {
         </div>
       </div>
       <div className='sponsers container'>
-        <div style={{ textAlign: "left" }}>
+        <div style={{ textAlign: "left", marginRight: "80px" }}>
           <h4
             style={{
               color: "#37626C",
@@ -415,6 +416,24 @@ const Events = () => {
             <img
               data-aos='zoom-in'
               src={sky}
+              height='200px'
+              width='300px'
+            ></img>
+          </a>
+        </div>
+        <div style={{ textAlign: "left" }}>
+          <h4
+            style={{
+              color: "#37626C",
+              marginBottom: "20px",
+            }}
+          >
+            Certification Partner-
+          </h4>
+          <a href='https://givemycertificate.com/'>
+            <img
+              data-aos='zoom-in'
+              src={certi}
               height='200px'
               width='300px'
             ></img>
@@ -463,8 +482,8 @@ const Events = () => {
         </a>
       </div>
       <h4>
-        <a href='https://forms.gle/kDbQVd3MG712vm988' id='readmore'>
-          Click Here to Submit Abstract!!
+        <a href='https://forms.gle/7vomJ2xQ19c8bLkw8' id='readmore'>
+          Click Here to Submit Project!!
         </a>
       </h4>
     </div>
