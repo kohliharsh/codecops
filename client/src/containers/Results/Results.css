@@ -1,0 +1,49 @@
+.result-cards-div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 1rem 1rem;
+}
+
+.result-heading {
+    font-size: 56px;
+    font-weight: 400;
+}
+
+
+.result-subtitle {
+    text-transform: uppercase;
+    margin: 0px;
+    margin-bottom: 50px;
+}
+
+.result-container {
+    display: flex;
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+    margin-top: 2rem;
+}
+
+.result-container>* {
+    flex: 1;
+}
+
+/* Media Query */
+
+@media (max-width: 1380px) {
+    .result-heading {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .result-heading {
+        font-size: 30px;
+        text-align: center;
+    }
+    .result-subtitle{
+        font-size: 16px;
+        line-height: normal;
+        text-align: center;
+    }
+}

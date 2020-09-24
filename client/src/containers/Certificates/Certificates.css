@@ -1,0 +1,49 @@
+.certificate-cards-div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 1rem 1rem;
+}
+
+.certificate-heading {
+    font-size: 56px;
+    font-weight: 400;
+}
+
+
+.certificate-subtitle {
+    text-transform: uppercase;
+    margin: 0px;
+    margin-bottom: 50px;
+}
+
+.certificate-container {
+    display: flex;
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+    margin-top: 2rem;
+}
+
+.certificate-container>* {
+    flex: 1;
+}
+
+/* Media Query */
+
+@media (max-width: 1380px) {
+    .certificate-heading {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .certificate-heading {
+        font-size: 30px;
+        text-align: center;
+    }
+    .certificate-subtitle{
+        font-size: 16px;
+        line-height: normal;
+        text-align: center;
+    }
+}

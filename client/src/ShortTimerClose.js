@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 function ShortCountdownTimerClose() {
   const calculateTimeLeft = () => {
-    const difference = +new Date("2020-08-09 00:00") - +new Date();
+    const difference = +new Date("2020-08-31 12:00") - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {

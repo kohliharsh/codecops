@@ -29,7 +29,7 @@ const Events = () => {
       <div className='banner'>
         <img data-aos='zoom-out' data-aos-duration='500' src={banner} />
       </div>
-      <div
+      {/*<div
         className='container timer'
         data-aos='fade-left'
         data-aos-duration='1000'
@@ -53,7 +53,11 @@ const Events = () => {
         <div>
           <ShortCountdownTimerClose />
         </div>
-      </div>
+      </div>*/}
+
+      <Link to='/goc/results'>
+        <h3>Click here to view results!</h3>
+      </Link>
       <div className='workshop container'>
         <h1 data-aos-duration='2000' style={{ marginTop: "20px" }}>
           <span>About Event</span>
@@ -124,6 +128,7 @@ const Events = () => {
         <Link to='/goc/exampleprojects'>
           <h3>Click here to see example projects!</h3>
         </Link>
+
         <div className='judgement container'>
           <h2
             style={{

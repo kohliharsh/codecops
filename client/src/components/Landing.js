@@ -61,7 +61,7 @@ const Landing = () => {
       <br />
       <div className='upcoming container'>
         <h1 data-aos='fade-right' data-aos-duration='2800'>
-          Upcoming Events
+          Recent Events
         </h1>
       </div>
       <div className='container landingbannershort'>
@@ -105,14 +105,19 @@ const Landing = () => {
           </span>
           <span className='shortevent'>{str2}</span>
           <Link id='readmore' to='/goc'>
-            ...Readmore
+            ...Read_More
           </Link>
-          <span className='long'>
+          {/*<span className='long'>
             <CountdownTimer />
           </span>
           <span className='short'>
             <ShortCountdownTimer />
-          </span>
+          </span>*/}
+          <div><h2>The Results are out.</h2>
+            <Link to='/goc/results'>
+              <h3>Click here to view results!</h3>
+            </Link>
+          </div>
         </div>
       </div>
       <div className='workshop container'>

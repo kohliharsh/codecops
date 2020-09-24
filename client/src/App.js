@@ -13,6 +13,8 @@ import Events from "../src/components/navcomponents/Events";
 import Eventregister from "../src/components/navcomponents/Eventregister";
 import Team from "../src/components/navcomponents/team";
 import ExampleProjects from "../src/components/ExampleProjects";
+import Results from "../src/containers/Results/Results";
+import Certificates from "./containers/Certificates/Certificates";
 
 //redux
 import { Provider } from "react-redux";
@@ -53,6 +55,16 @@ function App() {
                   exact
                   path='/goc/exampleprojects'
                   component={ExampleProjects}
+                />
+                <Route
+                    exact
+                    path='/goc/results'
+                    component={Results}
+                />
+                <Route
+                    exact
+                    path='/goc/certificates/:id'
+                    component={Certificates}
                 />
               </Switch>
             </section>
